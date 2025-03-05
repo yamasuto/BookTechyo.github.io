@@ -10,7 +10,6 @@ This is an application for managing book impressions and notes.
 
 [English](wpf.en-US.md)
 
-
 ### Windows store application
 
 (now creating)

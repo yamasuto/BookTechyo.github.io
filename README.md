@@ -14,7 +14,6 @@ This software uses icons from [ICOOON MONO](https://icooon-mono.com/)[^1].
 
 [^1]: @ Copyright TopeconHeroes ! all right reserved.
 
-
 <!--
 
 YAMA-SUTOとyamasutoのゆれがある。
