@@ -2,14 +2,10 @@
 
 This is an application for managing book impressions and notes.
 
-## Manuals
+## WPF
 
-### WPF application for Windows desktop
+[WPF app](./wpf/index.md)for Windows Desktop.
 
-[Japanese](wpf.ja-JP.md)
+## .NET MAUI
 
-[English](wpf.en-US.md)
-
-### Maui application for android and Windows desktop
-
-(now creating)
+[.NET MAUI app](./maui/index.md) for Android and Windows Desktop.
