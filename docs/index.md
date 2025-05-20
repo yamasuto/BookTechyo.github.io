@@ -18,8 +18,14 @@ WPF app for Windows Desktop.
 
 ### .NET MAUI app Manuals
 
-[Japanese](./maui/maui.ja-JP.md)
+[Windows, Japanese](./maui/windows/maui.ja-JP.md)
 
-<!-- [English](./maui/wpf.en-US.md) -->
+<!-- 
+[Windows, English](./maui/windows/wpf.en-US.md) 
+
+[Android, Japanese](./maui/android/maui.ja-JP.md)
+
+[Android, English](./maui/android/wpf.en-US.md) 
+-->
 
 ---
