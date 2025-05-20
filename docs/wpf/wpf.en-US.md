@@ -132,3 +132,5 @@ Click **File** / **Exit** to exit **Book Techyo**.
 If you have unsaved changes, a confirmation dialog will appear.
 
 ![Exit](./images/en-US/19.confirmation_dialog.png)
+
+---
