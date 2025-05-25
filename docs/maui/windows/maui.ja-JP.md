@@ -12,13 +12,14 @@
 
 [読書管理ビブリア](https://biblia978.com/)や[ブクログ](https://booklog.jp/)で作成した記録も読み込めます。
 
-### 1-2. 動機
+### 1-2. 作成した理由
 
 iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代えたため同じような広告がなく無料で使えるアプリが必要になり作成しました。
 
-読書管理ビブリアでエクスポートしたCsvファイルを既存のアンドロイドアプリ（）に読み込ませれば済んだのですが、以下機能を追加すべく実装することにしました。
+読書管理ビブリアでエクスポートしたCsvファイルを既存のアンドロイドアプリ（[Yomoo](https://play.google.com/store/apps/details?id=com.nosuke.yomoo&hl=ja)、[bondaviの記録](https://play.google.com/store/apps/details?id=jp.bondavi.likes.global&hl=ja)、[蔵書マネージャー](https://play.google.com/store/apps/details?id=com.bsy_web.bookmanager&hl=ja)、等）に読み込ませれば済んだのですが、以下解消したり、機能を追加すべく実装することにしました。
 
 - 広告が煩わしい
+- 不具合が直らない
 - 青空文庫の本を登録したい
 - 楽天にない本も登録したい
   - なお、楽天ブックスAPIはアプリIDの管理を本アプリ単体で実装できなかったため利用していません
@@ -148,9 +149,43 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![Edited](./images/ja-JP/16.Edited.png)
 
+### 2-5. 本の記録を検索する
+
+文字列検索または状態を対象にして検索できます。
+
+<!-- タグも選択できるようにしたい -->
+
+#### 2-5-1. タイトル等を対象として検索する
+
+タイトル、著者、説明、感想を対象として、指定した文字列を含む本の記録を検索します。
+
+![FilterByText](./images/ja-JP/17-1.FilterByText.png)
+
+検索文字列を指定するテキストボックスに文字列を入力し、ENTERキーを押下するか、![search](../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+
+見つかった記録のみ一覧に表示します。
+
+検索結果の表示をキャンセルする場合は、![Cancel](../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+
+#### 2-5-2. 状態フィルター
+
+**読書の手帖**の右上側にある![Filter](../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、下側に状態フィルターを示します。
+
+チェックありの状態だけを一覧に表示します。
+
+![BottomSheet](./images/ja-JP/17-2-1.FilterByStatus.png)
+
+状態をクリックしてチェックありなしを切り替えると、一覧に表示している本の記録を更新します。
+
+![BottomSheet changed](./images/ja-JP/17-2-2.FilterByStatus.png)
+
+状態フィルターを閉じる場合は、右上の![Cancel](../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+
+![BottomSheet Closed](./images/ja-JP/17-2-3.FilterByStatus.png)
+
 ### 2-6. 読書の手帖を終了する
 
-**読書の手帖**の右上側にある×ボタンをクリックするか、タスクバーの**読書の手帖**を右クリックして表示したメニューから[ウィンドウを閉じる]をクリックします。
+**読書の手帖**の右上側にある![Close](../common/images/close_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックするか、タスクバーの**読書の手帖**を右クリックして表示したメニューから[ウィンドウを閉じる]をクリックします。
 
 ![Exit](./images/ja-JP/18.Exit.png)
 
@@ -193,5 +228,63 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 ![AppSettings](./images/ja-JP/21.AppSettings.png)
 
 ## 4. バックアップと保存
+
+**読書の手帖**の左上にある![menu](../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[バックアップと復元]をクリックすると、バックアップと復元画面を表示します。
+
+![Shell](./images/ja-JP/19.Shell.png)
+
+![BackupRestore](./images/ja-JP/22.backupRestore.png)
+
+バックアップと復元画面には上から
+
+- バックアップボタン
+- 復元ボタン
+- すべて削除ボタン
+- 他のサービス
+  - ビブリア
+    - インポートボタン
+    - エクスポートボタン
+  - ブクログ
+    - インポートボタン
+
+があります。
+
+### 4-1. バックアップボタン
+
+クリックすると指定したファイルに、登録した本の記録をYamlで出力します。
+
+### 4-2. 復元ボタン
+
+クリックすると指定したファイルを読み込み本の記録を**追加**します。
+
+既存の登録をすべて削除してから読み込む場合は、[登録してある記録を空にしてから復元する]チェックボックスをチェックしてからボタンをクリックしてください。
+
+### 4-3. すべて削除ボタン
+
+クリックすると登録している本の記録をすべて削除します。
+
+### 4-4. 他のサービス
+
+### 4-4-1.  ビブリア
+
+- インポート：[読書管理ビブリア](https://biblia978.com/)のバックアップでDropboxに出力した[CSVファイル](https://biblia978.com/support/articles/15/)をインポートします。
+- エクスポート：登録した本の記録を[読書管理ビブリア](https://biblia978.com/)の復元で読み込める[CSVファイル](https://biblia978.com/support/articles/15/)としてエクスポートします。
+
+読書管理ビブリアのバックアップは[Dropbox](https://www.dropbox.com/)にファイルを作成します。復元はDropboxにあるファイルを読み込みます。**読書の手帖**はDropboxにアクセスできないため、私はWindowsにインストールした[Dropbox Lite](https://apps.microsoft.com/detail/9WZDNCRFJ0PK?hl=ja&gl=JP&ocid=pdpshare)アプリを使い以下のように操作しています。
+
+- **読書の手帖**でインポートする
+  1. 読書管理ビブリアでバックアップを行う
+  2. Dropbox Liteを起動する（読書管理ビブリアでのDropboxと同じアカウント）
+  3. Dropbox Liteで「Dropbox/アプリ/Biblia/books.csv」を選択して「名前をつけて保存」でWindowsのローカルフォルダー（ドキュメントフォルダー等）に出力
+  4. **読書の手帖**で、[すべて削除]を行ってのち、先に保存したCSVファイルをインポートする
+
+- **読書の手帖**でエクスポートして、読書管理ビブリアで復元する
+  1. **読書の手帖**の[ビブリア] [エクスポート]でファイル名にbooks.csvを指定して保存する
+  2. Dropbox Liteで「Dropbox/アプリ/Biblia」に上のbooks.csvをアップロードする
+  3. 読書管理ビブリアで「すべてのデータを削除」を行ってのち、復元を実行する
+
+### 4-4-2. ブクログ
+
+- インポート：ウェブ版[ブクログ](https://booklog.jp/)のエクスポートで出力した[CSVファイル](https://booklog.zendesk.com/hc/ja/articles/360048930533-%E4%BB%96%E3%81%AE%E8%AA%AD%E6%9B%B8%E7%AE%A1%E7%90%86%E3%82%B5%E3%82%A4%E3%83%88%E3%81%8B%E3%82%89%E3%83%96%E3%82%AF%E3%83%AD%E3%82%B0%E3%81%B8%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99)をインポートします。
 
 ---
