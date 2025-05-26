@@ -1,4 +1,4 @@
-# **Book Techyo**
+# ![icon](./note.png) **Book Techyo**
 
 This is an application for managing book impressions and notes.
 
