@@ -32,7 +32,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ### 2-1. 読書の手帖を起動する
 
-Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** ![icon](../common/images/note.png)をクリックして起動します。
+Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** ![icon](../../note.png)をクリックして起動します。
 
 ![スタートアップ](./images/ja-JP/01.Start.png)
 
