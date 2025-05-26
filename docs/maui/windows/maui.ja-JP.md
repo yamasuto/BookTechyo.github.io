@@ -12,7 +12,7 @@
 
 [読書管理ビブリア](https://biblia978.com/)や[ブクログ](https://booklog.jp/)で作成した記録も読み込めます。
 
-### 1-2. 作成した理由
+### 1-1. 作成した理由
 
 iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代えたため同じような広告がなく無料で使えるアプリが必要になり作成しました。
 
@@ -36,7 +36,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![スタートアップ](./images/ja-JP/01.Start.png)
 
-### 2-3. 本の記録を登録する
+### 2-2. 本の記録を登録する
 
 **読書の手帖**の![+アイコン](../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
@@ -46,7 +46,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![Add Sub](./images/ja-JP/06-01.Add_sub.png)
 
-#### 2-3-1. バーコード読み取り
+#### 2-2-1. バーコード読み取り
 
 バーコード読み取り ![バーコード読み取り](../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
@@ -75,7 +75,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
-#### 2-3-2. 書籍のタイトルをキーにしてインターネットを検索する
+#### 2-2-2. 書籍のタイトルをキーにしてインターネットを検索する
 
 ![書籍のタイトルで検索](../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
@@ -97,7 +97,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
-#### 2-3-3. 空の記録を追加する
+#### 2-2-3. 空の記録を追加する
 
 ![空の記録を追加](../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
@@ -107,7 +107,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
-### 2-4. 本の記録を編集する
+### 2-3. 本の記録を編集する
 
 **読書の手帖**で編集する記録を選択すると、本の記録を入力する詳細画面を表示します。
 
@@ -121,13 +121,13 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 なお、詳細画面で![Delete](../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると記録を破棄します。
 
-### 2-5. 本の記録を検索する
+### 2-4. 本の記録を検索する
 
 文字列検索または状態を対象にして検索できます。
 
 <!-- タグも選択できるようにしたい -->
 
-#### 2-5-1. タイトル等を対象として検索する
+#### 2-4-1. タイトル等を対象として検索する
 
 タイトル、著者、説明、感想を対象として、指定した文字列を含む本の記録を検索します。
 
@@ -139,7 +139,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 検索結果の表示をキャンセルする場合は、![Cancel](../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
-#### 2-5-2. 状態フィルター
+#### 2-4-2. 状態フィルター
 
 **読書の手帖**の右上側にある![Filter](../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、下側に状態フィルターを示します。
 
@@ -155,7 +155,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![BottomSheet Closed](./images/ja-JP/17-2-3.FilterByStatus.png)
 
-### 2-6. 読書の手帖を終了する
+### 2-5. 読書の手帖を終了する
 
 **読書の手帖**の右上側にある![Close](../common/images/close_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックするか、タスクバーの**読書の手帖**を右クリックして表示したメニューから[ウィンドウを閉じる]をクリックします。
 
