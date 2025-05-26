@@ -12,7 +12,7 @@
 
 [読書管理ビブリア](https://biblia978.com/)や[ブクログ](https://booklog.jp/)で作成した記録も読み込めます。
 
-### 1-2. 作成した理由
+### 1-1. 作成した理由
 
 iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代えたため同じような広告がなく無料で使えるアプリが必要になり作成しました。
 
@@ -36,7 +36,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ![スタートアップ](./images/ja-JP/01.Start.png)
 
-### 2-3. 本の記録を登録する
+### 2-2. 本の記録を登録する
 
 **読書の手帖**の![+アイコン](../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
@@ -46,7 +46,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ![Add Sub](./images/ja-JP/06-01.Add_sub.png)
 
-#### 2-3-1. バーコード読み取り
+#### 2-2-1. バーコード読み取り
 
 バーコード読み取り ![バーコード読み取り](../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
@@ -78,7 +78,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
-#### 2-3-2. 書籍のタイトルをキーにしてインターネットを検索する
+#### 2-2-2. 書籍のタイトルをキーにしてインターネットを検索する
 
 ![書籍のタイトルで検索](../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
@@ -102,7 +102,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
-#### 2-3-3. 空の記録を追加する
+#### 2-2-3. 空の記録を追加する
 
 ![空の記録を追加](../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
@@ -112,7 +112,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
-### 2-4. 本の記録を編集する
+### 2-3. 本の記録を編集する
 
 **読書の手帖**で編集する記録を選択すると、本の記録を入力する詳細画面を表示します。
 
@@ -126,27 +126,25 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 なお、詳細画面で![Delete](../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると記録を破棄します。
 
-**TODO ここまで更新した**
-
-### 2-5. 本の記録を検索する
+### 2-4. 本の記録を検索する
 
 文字列検索または状態を対象にして検索できます。
 
 <!-- タグも選択できるようにしたい -->
 
-#### 2-5-1. タイトル等を対象として検索する
+#### 2-4-1. タイトル等を対象として検索する
 
 タイトル、著者、説明、感想を対象として、指定した文字列を含む本の記録を検索します。
 
 ![FilterByText](./images/ja-JP/17-1.FilterByText.png)
 
-検索文字列を指定するテキストボックスに文字列を入力し、ENTERキーを押下するか、![search](../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+検索文字列を指定するテキストボックスに文字列を入力し、![search](../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 見つかった記録のみ一覧に表示します。
 
 検索結果の表示をキャンセルする場合は、![Cancel](../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
-#### 2-5-2. 状態フィルター
+#### 2-4-2. 状態フィルター
 
 **読書の手帖**の右上側にある![Filter](../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、下側に状態フィルターを示します。
 
@@ -162,9 +160,11 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ![BottomSheet Closed](./images/ja-JP/17-2-3.FilterByStatus.png)
 
-### 2-6. 読書の手帖を終了する
+### 2-5. 読書の手帖を終了する
 
-**読書の手帖**の右上側にある![Close](../common/images/close_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップするか、タスクバーの**読書の手帖**を右タップして表示したメニューから[ウィンドウを閉じる]をタップします。
+ホーム画面下のナビゲーションバーのボタンタップやホーム画面下から上へのスワイプにより起動中のアプリの一覧を表示します。
+
+左右にスワイプして**読書の手帖**を選び、下から上にスワイプします。
 
 ![Exit](./images/ja-JP/18.Exit.png)
 
@@ -249,17 +249,18 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 - インポート：[読書管理ビブリア](https://biblia978.com/)のバックアップでDropboxに出力した[CSVファイル](https://biblia978.com/support/articles/15/)をインポートします。
 - エクスポート：登録した本の記録を[読書管理ビブリア](https://biblia978.com/)の復元で読み込める[CSVファイル](https://biblia978.com/support/articles/15/)としてエクスポートします。
 
-読書管理ビブリアのバックアップは[Dropbox](https://www.dropbox.com/)にファイルを作成します。復元はDropboxにあるファイルを読み込みます。**読書の手帖**はDropboxにアクセスできないため、私はWindowsにインストールした[Dropbox Lite](https://apps.microsoft.com/detail/9WZDNCRFJ0PK?hl=ja&gl=JP&ocid=pdpshare)アプリを使い以下のように操作しています。
+<!-- TODO confirm -->
+読書管理ビブリアのバックアップは[Dropbox](https://www.dropbox.com/)にファイルを作成します。復元はDropboxにあるファイルを読み込みます。**読書の手帖**はDropboxにアクセスできないため、私はAndroidにインストールした[Dropbox](https://play.google.com/store/apps/details?id=com.dropbox.android&pcampaignid=web_share)アプリを使い以下のように操作しています。
 
 - **読書の手帖**でインポートする
   1. 読書管理ビブリアでバックアップを行う
-  2. Dropbox Liteを起動する（読書管理ビブリアでのDropboxと同じアカウント）
-  3. Dropbox Liteで「Dropbox/アプリ/Biblia/books.csv」を選択して「名前をつけて保存」でWindowsのローカルフォルダー（ドキュメントフォルダー等）に出力
+  2. Dropbox アプリを起動する（読書管理ビブリアでのDropboxと同じアカウント）
+  3. Dropbox アプリで「Dropbox/アプリ/Biblia/books.csv」を選択してローカルに出力
   4. **読書の手帖**で、[すべて削除]を行ってのち、先に保存したCSVファイルをインポートする
 
 - **読書の手帖**でエクスポートして、読書管理ビブリアで復元する
   1. **読書の手帖**の[ビブリア] [エクスポート]でファイル名にbooks.csvを指定して保存する
-  2. Dropbox Liteで「Dropbox/アプリ/Biblia」に上のbooks.csvをアップロードする
+  2. Dropbox アプリで「Dropbox/アプリ/Biblia」に上のbooks.csvをアップロードする
   3. 読書管理ビブリアで「すべてのデータを削除」を行ってのち、復元を実行する
 
 ### 4-4-2. ブクログ
