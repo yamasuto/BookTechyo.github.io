@@ -1,6 +1,6 @@
 # Book Techyo (WPF)
 
-![Main](./images/en-US/00.ListWindow.png)
+![Main](./images/00.ListWindow.png)
 
 ## 1. Description
 
@@ -24,65 +24,65 @@ Once you've finished recording, save the file and exit **Book Techyo**.
 
 Click **Book Techyo** from the startup menu or other places to launch the application.
 
-![Startup](./images/en-US/01.Start.png)
+![Startup](./images/01.Start.png)
 
 ### 2-2. Create or Open a Techyo File
 
 To create a new Techyo file, click **File** / **New File** in the menu.
 
-![CreateNew](./images/en-US/02.CreateNew.png)
+![CreateNew](./images/02.CreateNew.png)
 
 This will display a screen with no book records.
 
-![New](./images/en-US/03.New_ListWindow.png)
+![New](./images/03.New_ListWindow.png)
 
 Alternatively, to open a previously created Techyo file, click **File** / **Open** in the menu.
 
-![Open](./images/en-US/04.Open.png)
+![Open](./images/04.Open.png)
 
 This will display the book records from the previously opened Techyo file.
 
-![Opened](./images/en-US/05.Opened_ListWindow.png)
+![Opened](./images/05.Opened_ListWindow.png)
 
 ### 2-3. Registering a Book Record
 
 If there are no existing records, click **Edit** / **Add** / **Add** from the menu.
 
-![Add](./images/en-US/06.Add_add.png)
+![Add](./images/06.Add_add.png)
 
 If there are existing records, click the top record, then click **Edit** / **Add** / **Add Selected Above** or **Add Selected Below** from the menu.
 
-![Add](./images/en-US/07.Add_above.png)
+![Add](./images/07.Add_above.png)
 
 **Book Techyo** will display a screen for entering the book's record. After entering the title, author, etc., click the OK button to complete the record.
 
-![Adding](./images/en-US/08.Adding_DetaiWindow.png)
+![Adding](./images/08.Adding_DetaiWindow.png)
 
 #### Search the Internet Using the Book Title
 
-In the record input screen, enter the title of the book and click the ![Internet Icon](./images/common/インターネットのアイコン3_032.png).
+In the record input screen, enter the title of the book and click the ![Internet Icon](../common/images/インターネットのアイコン3_032.png).
 
-![Search](./images/en-US/09.SearchingByTitle.png)
+![Search](./images/09.SearchingByTitle.png)
 
 If you also input the author, it will search using both the title and author as the search key.
 
 **Book Techyo** will display a book search screen. Choose a search service to use, check the terms of service, and then click the **Start** button. You may only use the service if you agree to the terms.
 
-![SearchWindow](./images/en-US/10.SearchingByTitle_SearchWindow.png)
+![SearchWindow](./images/10.SearchingByTitle_SearchWindow.png)
 
 Once a book is found through the search, it will be listed.
 
 Select a book from the list and click the **OK** button.
 
-![SearchWindow](./images/en-US/11.SearchingByTitle_SearchWindow.png)
+![SearchWindow](./images/11.SearchingByTitle_SearchWindow.png)
 
 The book's record input screen will reflect the search results.
 
-![DetailWindow](./images/en-US/12.SearchedByTitle_DetailWindow.png)
+![DetailWindow](./images/12.SearchedByTitle_DetailWindow.png)
 
 #### Scan a Barcode and Input the ISBN
 
-In the book record input screen, click the ![Barcode Icon](./images/common/バーコードアイコン_032.png).
+In the book record input screen, click the ![Barcode Icon](../common/images/バーコードアイコン_032.png).
 
 **Book Techyo** will display the barcode scanning screen.
 
@@ -92,7 +92,7 @@ Hold the camera over the book's barcode and adjust until the scan is successful.
 
 When the scan is successful, the ISBN will be displayed (search results will also appear if you opted to search the internet).
 
-![CameraRecognizing](./images/en-US/13.CameraRecognizing.png)
+![CameraRecognizing](./images/13.CameraRecognizing.png)
 
 Select a book from the list and click the **OK** button.
 
@@ -102,23 +102,23 @@ The book record input screen will reflect the results.
 
 Once you've selected the record you want to edit, double-click it or click **Edit** from the menu.
 
-![Edit](./images/en-US/14.Edit.png)
+![Edit](./images/14.Edit.png)
 
 **Book Techyo** will display the book's record input screen.
 
 Make any changes and click the **OK** button.
 
-![Editing](./images/en-US/15.Editing.png)
+![Editing](./images/15.Editing.png)
 
 **Book Techyo** will display the updated screen with the changes applied.
 
-![Edited](./images/en-US/16.Edited.png)
+![Edited](./images/16.Edited.png)
 
 ### 2-5. Saving the File
 
 Click **File** / **Save** or **File** / **Save As** to save the changes to the Techyo file.
 
-![Save](./images/en-US/17.Save.png)
+![Save](./images/17.Save.png)
 
 - Clicking **File** / **Save** will overwrite the currently open Techyo file.
 - Clicking **File** / **Save As** will allow you to choose where to save the file.
@@ -127,10 +127,10 @@ Click **File** / **Save** or **File** / **Save As** to save the changes to the T
 
 Click **File** / **Exit** to exit **Book Techyo**.
 
-![Exit](./images/en-US/18.Exit.png)
+![Exit](./images/18.Exit.png)
 
 If you have unsaved changes, a confirmation dialog will appear.
 
-![Exit](./images/en-US/19.confirmation_dialog.png)
+![Exit](./images/19.confirmation_dialog.png)
 
 ---

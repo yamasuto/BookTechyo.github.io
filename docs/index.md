@@ -8,9 +8,9 @@ WPF app for Windows Desktop.
 
 ### WPF app Manuals
 
-[Japanese](./wpf/wpf.ja-JP.md)
+[Japanese](./wpf/ja-JP/wpf.ja-JP.md)
 
-[English](./wpf/wpf.en-US.md)
+[English](./wpf/en-US/wpf.en-US.md)
 
 ## .NET MAUI
 

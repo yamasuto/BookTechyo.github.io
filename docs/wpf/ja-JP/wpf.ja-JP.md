@@ -1,6 +1,6 @@
 # 読書の手帖（WPF版）
 
-![メイン](./images/ja-JP/00.ListWindow.png)
+![メイン](./images/00.ListWindow.png)
 
 ## 1. 説明
 
@@ -24,65 +24,65 @@
 
 Windowsのスタートアップ等から、**読書の手帖**をクリックして起動します。
 
-![スタートアップ](./images/ja-JP/01.Start.png)
+![スタートアップ](./images/01.Start.png)
 
 ### 2-2. 手帖ファイルを新規作成する、もしくは読み込む
 
 **読書の手帖**のメニュー **ファイル** / **新規作成** をクリックし、新しく手帖ファイルを作成します。
 
-![CreateNew](./images/ja-JP/02.CreateNew.png)
+![CreateNew](./images/02.CreateNew.png)
 
 すると**読書の手帖**は本の記録がない画面を表示します。
 
-![New](./images/ja-JP/03.New_ListWindow.png)
+![New](./images/03.New_ListWindow.png)
 
 もしくは、**読書の手帖**のメニュー **ファイル** / **開く** をクリックし、以前に作成した手帖ファイルを読み込みます。
 
-![Open](./images/ja-JP/04.Open.png)
+![Open](./images/04.Open.png)
 
 すると**読書の手帖**は以前に作成した本の記録を表示します。
 
-![Opened](./images/ja-JP/05.Opened_ListWindow.png)
+![Opened](./images/05.Opened_ListWindow.png)
 
 ### 2-3. 本の記録を登録する
 
 本の記録がないがない場合は**読書の手帖**のメニュー **編集** / **追加** / **追加**をクリックします。
 
-![Add](./images/ja-JP/06.Add_add.png)
+![Add](./images/06.Add_add.png)
 
 本の記録がある場合は、一番上の記録をクリックしてから、**読書の手帖**のメニュー **編集** / **追加** / **上に追加** もしくは **下に追加** をクリックします。
 
-![Add](./images/ja-JP/07.Add_above.png)
+![Add](./images/07.Add_above.png)
 
 **読書の手帖**は、本の記録を入力する画面を表示します。タイトルや著者等を入力して、OKボタンを押下すると本の記録を登録完了できます。
 
-![Adding](./images/ja-JP/08.Adding_DetaiWindow.png)
+![Adding](./images/08.Adding_DetaiWindow.png)
 
 #### 書籍のタイトルをキーにしてインターネットを検索する
 
-本の記録を入力する画面でタイトルを入力して、![インターネットのアイコン](./images/common/インターネットのアイコン3_032.png)をクリックします。
+本の記録を入力する画面でタイトルを入力して、![インターネットのアイコン](../common/images/インターネットのアイコン3_032.png)をクリックします。
 
-![Search](./images/ja-JP/09.SearchingByTitle.png)
+![Search](./images/09.SearchingByTitle.png)
 
 なお、著者も入力するとタイトルと著者を検索キーにしてインターネットを検索します。
 
 **読書の手帖**は、書籍検索画面を表示します。利用する検索サービスを選択して、<ins>規約等を確認してから</ins> **開始** ボタンをクリックします。規約等に同意できる場合のみ利用してください。
 
-![SearchWindow](./images/ja-JP/10.SearchingByTitle_SearchWindow.png)
+![SearchWindow](./images/10.SearchingByTitle_SearchWindow.png)
 
 **読書の手帖**は、検索で書籍が見つかると一覧で表示します。
 
 一覧で書籍を選択して **OK** ボタンをクリックしてください。
 
-![SearchWindow](./images/ja-JP/11.SearchingByTitle_SearchWindow.png)
+![SearchWindow](./images/11.SearchingByTitle_SearchWindow.png)
 
 **読書の手帖**は、本の記録を入力する画面に検索結果を反映します。
 
-![DetailWindow](./images/ja-JP/12.SearchedByTitle_DetailWindow.png)
+![DetailWindow](./images/12.SearchedByTitle_DetailWindow.png)
 
 #### バーコードを読み取ってISBNを入力する
 
-本の記録を入力する画面で、![バーコードアイコン](./images/common/バーコードアイコン_032.png)をクリックします。
+本の記録を入力する画面で、![バーコードアイコン](../common/images/バーコードアイコン_032.png)をクリックします。
 
 **読書の手帖**は、バーコード読み取り画面を表示します。
 
@@ -92,7 +92,7 @@ Windowsのスタートアップ等から、**読書の手帖**をクリックし
 
 読み取りが成功すると、読み取ったISBNを表示します（インターネットを検索する場合は検索結果も表示します）。
 
-![CameraRecognizing](./images/ja-JP/13.CameraRecognizing.png)
+![CameraRecognizing](./images/13.CameraRecognizing.png)
 
 一覧で書籍を選択して **OK** ボタンをクリックしてください。
 
@@ -102,23 +102,23 @@ Windowsのスタートアップ等から、**読書の手帖**をクリックし
 
 **読書の手帖**で編集する記録を選択したら、ダブルクリックもしくはメニュー[編集][編集]をクリックします。
 
-![Edit](./images/ja-JP/14.Edit.png)
+![Edit](./images/14.Edit.png)
 
 **読書の手帖**は、本の記録を入力する画面を表示します。
 
 変更などおこない、**OK** ボタンをクリックします。
 
-![Editing](./images/ja-JP/15.Editing.png)
+![Editing](./images/15.Editing.png)
 
 **読書の手帖**は、変更した内容を反映した画面を表示します。
 
-![Edited](./images/ja-JP/16.Edited.png)
+![Edited](./images/16.Edited.png)
 
 ### 2-5. ファイルを保存する
 
 **読書の手帖**のメニュー **ファイル** / **保存** もしくは **名前を付けて保存** をクリックし、変更した内容を手帖ファイルに保存します。
 
-![Save](./images/ja-JP/17.Save.png)
+![Save](./images/17.Save.png)
 
 なお、**ファイル** / **保存** をクリックした場合は、開いている手帖ファイルに上書き保存します。**ファイル** / **名前を付けて保存** をクリックした場合は、指定したファイルに保存します。
 
@@ -126,7 +126,7 @@ Windowsのスタートアップ等から、**読書の手帖**をクリックし
 
 **読書の手帖**のメニュー **ファイル**/ **閉じる** をクリックして、**読書の手帖**を終了します。
 
-![Exit](./images/ja-JP/18.Exit.png)
+![Exit](./images/18.Exit.png)
 
 この時、変更後に保存を行っていない場合には確認ダイアログを表示します。
 
