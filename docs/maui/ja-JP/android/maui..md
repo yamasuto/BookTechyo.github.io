@@ -38,17 +38,17 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ### 2-2. 本の記録を登録する
 
-**読書の手帖**の![+アイコン](../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+**読書の手帖**の![+アイコン](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 ![Add](./images/ja-JP/06.Add_add.png)
 
-![+アイコン](../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、バーコード読み取り ![バーコード読み取り](../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、書籍のタイトルで検索 ![書籍のタイトルで検索](../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、空の記録を追加 ![空の記録を追加](../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)を表示します。
+![+アイコン](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、バーコード読み取り ![バーコード読み取り](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、書籍のタイトルで検索 ![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、空の記録を追加 ![空の記録を追加](../../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)を表示します。
 
 ![Add Sub](./images/ja-JP/06-01.Add_sub.png)
 
 #### 2-2-1. バーコード読み取り
 
-バーコード読み取り ![バーコード読み取り](../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+バーコード読み取り ![バーコード読み取り](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 **読書の手帖**は、バーコード読み取り画面を表示します。
 
@@ -76,17 +76,17 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ![Barcord Scaned Detail](./images/ja-JP/13-04.barcordScanedDetail.png)
 
-項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
+項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
 #### 2-2-2. 書籍のタイトルをキーにしてインターネットを検索する
 
-![書籍のタイトルで検索](../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 **読書の手帖**は、検索画面を表示します。
 
 ![Search](./images/ja-JP/09.SearchingByTitle.png)
 
-テキストボックスに検索する書籍のタイトルを入力して![検索開始ボタン](../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は検索を行い結果を一覧で表示します。
+テキストボックスに検索する書籍のタイトルを入力して![検索開始ボタン](../../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は検索を行い結果を一覧で表示します。
 
 なお、検索で利用するサービスおよびサービスごとの検索結果の上限数は[設定画面](#3-設定)で指定します。
 
@@ -100,17 +100,17 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ![Search Detail](./images/ja-JP/09-2.SearchingByTitleDetail.png)
 
-項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
+項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
 #### 2-2-3. 空の記録を追加する
 
-![空の記録を追加](../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+![空の記録を追加](../../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 **読書の手帖**は、空の本の記録を入力する詳細画面を表示します。
 
 ![Draft](./images/ja-JP/10.Draft.png)
 
-項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
+項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
 ### 2-3. 本の記録を編集する
 
@@ -118,13 +118,13 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ![Editing](./images/ja-JP/15.Editing.png)
 
-変更して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+変更して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 **読書の手帖**は、変更した内容を反映した画面を表示します。
 
 ![Edited](./images/ja-JP/16.Edited.png)
 
-なお、詳細画面で![Delete](../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると記録を破棄します。
+なお、詳細画面で![Delete](../../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると記録を破棄します。
 
 ### 2-4. 本の記録を検索する
 
@@ -138,15 +138,15 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ![FilterByText](./images/ja-JP/17-1.FilterByText.png)
 
-検索文字列を指定するテキストボックスに文字列を入力し、![search](../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+検索文字列を指定するテキストボックスに文字列を入力し、![search](../../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 見つかった記録のみ一覧に表示します。
 
-検索結果の表示をキャンセルする場合は、![Cancel](../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+検索結果の表示をキャンセルする場合は、![Cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 #### 2-4-2. 状態フィルター
 
-**読書の手帖**の右上側にある![Filter](../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、下側に状態フィルターを示します。
+**読書の手帖**の右上側にある![Filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、下側に状態フィルターを示します。
 
 チェックありの状態だけを一覧に表示します。
 
@@ -156,7 +156,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ![BottomSheet changed](./images/ja-JP/17-2-2.FilterByStatus.png)
 
-状態フィルターを閉じる場合は、右上の![Cancel](../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+状態フィルターを閉じる場合は、右上の![Cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 ![BottomSheet Closed](./images/ja-JP/17-2-3.FilterByStatus.png)
 
@@ -172,7 +172,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ## 3. 設定
 
-**読書の手帖**の左上にある![menu](../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[設定]をタップすると、設定画面を表示します。
+**読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[設定]をタップすると、設定画面を表示します。
 
 ![Shell](./images/ja-JP/19.Shell.png)
 
@@ -194,7 +194,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 上にあるサービスから順番に検索を行います。
 
-検索サービスの右側に![バーコード](../common/images/barcode_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていればISBNでの検索時に利用します。![書籍のタイトルで検索](../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていれば書籍タイトルでの検索時に利用します。
+検索サービスの右側に![バーコード](../../common/images/barcode_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていればISBNでの検索時に利用します。![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていれば書籍タイトルでの検索時に利用します。
 
 ### 3-2. 各書籍検索サービスで取得する結果の上限個数
 
@@ -208,7 +208,7 @@ iPhone SEで読書管理ビブリアを使っていましたが、Pixelに代え
 
 ## 4. バックアップと保存
 
-**読書の手帖**の左上にある![menu](../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[バックアップと復元]をタップすると、バックアップと復元画面を表示します。
+**読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[バックアップと復元]をタップすると、バックアップと復元画面を表示します。
 
 ![Shell](./images/ja-JP/19.Shell.png)
 

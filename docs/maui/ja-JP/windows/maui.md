@@ -38,17 +38,17 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ### 2-2. 本の記録を登録する
 
-**読書の手帖**の![+アイコン](../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+**読書の手帖**の![+アイコン](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 ![Add](./images/ja-JP/06.Add_add.png)
 
-![+アイコン](../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、バーコード読み取り ![バーコード読み取り](../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、書籍のタイトルで検索 ![書籍のタイトルで検索](../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、空の記録を追加 ![空の記録を追加](../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)を表示します。
+![+アイコン](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、バーコード読み取り ![バーコード読み取り](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、書籍のタイトルで検索 ![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、空の記録を追加 ![空の記録を追加](../../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)を表示します。
 
 ![Add Sub](./images/ja-JP/06-01.Add_sub.png)
 
 #### 2-2-1. バーコード読み取り
 
-バーコード読み取り ![バーコード読み取り](../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+バーコード読み取り ![バーコード読み取り](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 **読書の手帖**は、バーコード読み取り画面を表示します。
 
@@ -73,17 +73,17 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![Barcord Scaned Detail](./images/ja-JP/13-02.barcordScanedDetail.png)
 
-項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
+項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
 #### 2-2-2. 書籍のタイトルをキーにしてインターネットを検索する
 
-![書籍のタイトルで検索](../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 **読書の手帖**は、検索画面を表示します。
 
 ![Search](./images/ja-JP/09.SearchingByTitle.png)
 
-テキストボックスに検索する書籍のタイトルを入力して![検索開始ボタン](../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は検索を行い結果を一覧で表示します。
+テキストボックスに検索する書籍のタイトルを入力して![検索開始ボタン](../../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は検索を行い結果を一覧で表示します。
 
 なお、検索で利用するサービスおよびサービスごとの検索結果の上限数は[設定画面](#3-設定)で指定します。
 
@@ -95,17 +95,17 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![Search Detail](./images/ja-JP/09-2.SearchingByTitleDetail.png)
 
-項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
+項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
 #### 2-2-3. 空の記録を追加する
 
-![空の記録を追加](../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+![空の記録を追加](../../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 **読書の手帖**は、空の本の記録を入力する詳細画面を表示します。
 
 ![Draft](./images/ja-JP/10.Draft.png)
 
-項目に入力して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
+項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
 ### 2-3. 本の記録を編集する
 
@@ -113,13 +113,13 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![Editing](./images/ja-JP/15.Editing.png)
 
-変更して、![apply](../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+変更して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 **読書の手帖**は、変更した内容を反映した画面を表示します。
 
 ![Edited](./images/ja-JP/16.Edited.png)
 
-なお、詳細画面で![Delete](../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると記録を破棄します。
+なお、詳細画面で![Delete](../../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると記録を破棄します。
 
 ### 2-4. 本の記録を検索する
 
@@ -133,15 +133,15 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![FilterByText](./images/ja-JP/17-1.FilterByText.png)
 
-検索文字列を指定するテキストボックスに文字列を入力し、ENTERキーを押下するか、![search](../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+検索文字列を指定するテキストボックスに文字列を入力し、ENTERキーを押下するか、![search](../../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 見つかった記録のみ一覧に表示します。
 
-検索結果の表示をキャンセルする場合は、![Cancel](../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+検索結果の表示をキャンセルする場合は、![Cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 #### 2-4-2. 状態フィルター
 
-**読書の手帖**の右上側にある![Filter](../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、下側に状態フィルターを示します。
+**読書の手帖**の右上側にある![Filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、下側に状態フィルターを示します。
 
 チェックありの状態だけを一覧に表示します。
 
@@ -151,13 +151,13 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ![BottomSheet changed](./images/ja-JP/17-2-2.FilterByStatus.png)
 
-状態フィルターを閉じる場合は、右上の![Cancel](../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
+状態フィルターを閉じる場合は、右上の![Cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 ![BottomSheet Closed](./images/ja-JP/17-2-3.FilterByStatus.png)
 
 ### 2-5. 読書の手帖を終了する
 
-**読書の手帖**の右上側にある![Close](../common/images/close_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックするか、タスクバーの**読書の手帖**を右クリックして表示したメニューから[ウィンドウを閉じる]をクリックします。
+**読書の手帖**の右上側にある![Close](../../common/images/close_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックするか、タスクバーの**読書の手帖**を右クリックして表示したメニューから[ウィンドウを閉じる]をクリックします。
 
 ![Exit](./images/ja-JP/18.Exit.png)
 
@@ -165,7 +165,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ## 3. 設定
 
-**読書の手帖**の左上にある![menu](../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[設定]をクリックすると、設定画面を表示します。
+**読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[設定]をクリックすると、設定画面を表示します。
 
 ![Shell](./images/ja-JP/19.Shell.png)
 
@@ -187,7 +187,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 上にあるサービスから順番に検索を行います。
 
-検索サービスの右側に![バーコード](../common/images/barcode_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていればISBNでの検索時に利用します。![書籍のタイトルで検索](../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていれば書籍タイトルでの検索時に利用します。
+検索サービスの右側に![バーコード](../../common/images/barcode_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていればISBNでの検索時に利用します。![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていれば書籍タイトルでの検索時に利用します。
 
 ### 3-2. 各書籍検索サービスで取得する結果の上限個数
 
@@ -201,7 +201,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ## 4. バックアップと保存
 
-**読書の手帖**の左上にある![menu](../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[バックアップと復元]をクリックすると、バックアップと復元画面を表示します。
+**読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[バックアップと復元]をクリックすると、バックアップと復元画面を表示します。
 
 ![Shell](./images/ja-JP/19.Shell.png)
 
