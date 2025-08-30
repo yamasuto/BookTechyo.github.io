@@ -21,7 +21,6 @@ entities:
   url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_doujinshi_copybon.html"
   number_of_pages: 158
   issued_date: 1929/01
-  supplementary: ""
 - date_updated: 2025/05/19
   comment: "当たってなかった\r\n#残念 #AI"
   date_registered: 2025/05/19
@@ -40,7 +39,6 @@ entities:
   url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_yogensyo.html"
   number_of_pages: 123
   issued_date: 2019
-  supplementary: ""
 - date_updated: 2025/05/19
   comment: "very difficult #law description"
   date_registered: 2025/05/19
@@ -59,4 +57,3 @@ entities:
   url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_law.html"
   number_of_pages: 9999
   issued_date: 2000/12/23
-  supplementary: ""
