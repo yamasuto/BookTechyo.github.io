@@ -2,15 +2,7 @@
 
 This is an application for managing book impressions and notes.
 
-## WPF
-
-WPF app for Windows Desktop.
-
-### WPF app Manuals
-
-[Japanese](./wpf/ja-JP/wpf.ja-JP.md)
-
-[English](./wpf/en-US/wpf.en-US.md)
+<!-- 画像は、TamaKumaMy\scripts\resize_images.pyでリサイズする 50％ -->
 
 ## .NET MAUI
 
@@ -27,5 +19,15 @@ WPF app for Windows Desktop.
 
 [Android, English](./maui/en-US/android/maui.md) 
 -->
+
+## WPF ... private application
+
+WPF app for Windows Desktop.
+
+### WPF app Manuals
+
+[Japanese](./wpf/ja-JP/wpf.ja-JP.md)
+
+[English](./wpf/en-US/wpf.en-US.md)
 
 ---

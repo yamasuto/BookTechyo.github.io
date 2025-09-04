@@ -1,6 +1,6 @@
 # 読書の手帖（.NET MAUI版）
 
-![メイン](./images/ja-JP/00.ListWindow.png)
+![メイン](./images/resized/00.ListWindow.png)
 
 ## 1. 説明
 
@@ -37,17 +37,17 @@ iPhone SE[^1]で読書管理ビブリアを使っていましたが、Google Pix
 
 Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** ![icon](../../../note.png)をクリックして起動します。
 
-![スタートアップ](./images/ja-JP/01.Start.png)
+![スタートアップ](./images/resized/01.Start.png)
 
 ### 2-2. 本の記録を登録する
 
 **読書の手帖**の![+アイコン](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
-![Add](./images/ja-JP/06.Add_add.png)
+![Add](./images/resized/06.Add_add.png)
 
 ![+アイコン](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、バーコード読み取り ![バーコード読み取り](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、書籍のタイトルで検索 ![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、空の記録を追加 ![空の記録を追加](../../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)を表示します。
 
-![Add Sub](./images/ja-JP/06-01.Add_sub.png)
+![Add Sub](./images/resized/06-01.Add_sub.png)
 
 #### 2-2-1. バーコード読み取り
 
@@ -55,7 +55,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 **読書の手帖**は、バーコード読み取り画面を表示します。
 
-![CameraRecognizing](./images/ja-JP/13.CameraRecognizing.png)
+![CameraRecognizing](./images/resized/13.CameraRecognizing.png)
 
 書籍のバーコード（978で始まる数学が書いてある方）をカメラにかざし、読み取りが成功するまで位置を調整してください。
 
@@ -68,20 +68,21 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 バーコードの読み取りに成功すると、**読書の手帖**は読み取ったISBNを使って検索を行い結果を表示します。
 
-![Barcord Scaned ISBN Search](./images/ja-JP/13-01.barcordScanedSearch.png)
+![Barcord Scaned ISBN Search](./images/resized/13-01.barcordScanedSearch.png)
 
 一覧で書籍を選択して ダブルクリックしてください。
 
 **読書の手帖**は、本の記録を入力する詳細画面に検索結果を反映します。
 
-![Barcord Scaned Detail](./images/ja-JP/13-02.barcordScanedDetail.png)
+![Barcord Scaned Detail](./images/resized/13-02.barcordScanedDetail.png)
 
 項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
 ##### 2-2-1-1. バーコード読み取りの補足
 
 - PCによっては**Windowsのカメラアプリの方が簡単にスムーズにバーコードを読み取れます**。
-  ![Windows Camera App](./images/ja-JP/13-99.WindowsCameraApp.png)
+
+  ![Windows Camera App](./images/resized/13-99.WindowsCameraApp.png)
 
 - **カメラが利用可能**であるときだけバーコード読み取りができます。PCにカメラがついてないとか、他のアプリケーションでカメラを使っているとか、そのような場合バーコード読み取りができません。
 
@@ -91,19 +92,19 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 **読書の手帖**は、検索画面を表示します。
 
-![Search](./images/ja-JP/09.SearchingByTitle.png)
+![Search](./images/resized/09.SearchingByTitle.png)
 
 テキストボックスに検索する書籍のタイトルを入力して![検索開始ボタン](../../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は検索を行い結果を一覧で表示します。
 
 なお、検索で利用するサービスおよびサービスごとの検索結果の上限数は[設定画面](#3-設定)で指定します。
 
-![Search Results](./images/ja-JP/09-1.SearchingByTitleResults.png)
+![Search Results](./images/resized/09-1.SearchingByTitleResults.png)
 
 一覧で書籍を選択して ダブルクリックしてください。
 
 **読書の手帖**は、本の記録を入力する詳細画面に検索結果を反映します。
 
-![Search Detail](./images/ja-JP/09-2.SearchingByTitleDetail.png)
+![Search Detail](./images/resized/09-2.SearchingByTitleDetail.png)
 
 項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
@@ -113,7 +114,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 **読書の手帖**は、空の本の記録を入力する詳細画面を表示します。
 
-![Draft](./images/ja-JP/10.Draft.png)
+![Draft](./images/resized/10.Draft.png)
 
 項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、**読書の手帖**は一覧に登録します。
 
@@ -121,13 +122,13 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 **読書の手帖**で編集する記録を選択すると、本の記録を入力する詳細画面を表示します。
 
-![Editing](./images/ja-JP/15.Editing.png)
+![Editing](./images/resized/15.Editing.png)
 
 変更して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
 **読書の手帖**は、変更した内容を反映した画面を表示します。
 
-![Edited](./images/ja-JP/16.Edited.png)
+![Edited](./images/resized/16.Edited.png)
 
 なお、詳細画面で![Delete](../../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると記録を破棄します。
 
@@ -141,7 +142,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 タイトル、著者、説明、感想を対象として、指定した文字列を含む本の記録を検索します。
 
-![FilterByText](./images/ja-JP/17-1.FilterByText.png)
+![FilterByText](./images/resized/17-1.FilterByText.png)
 
 検索文字列を指定するテキストボックスに文字列を入力し、ENTERキーを押下するか、![search](../../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
@@ -155,21 +156,21 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 チェックありの状態だけを一覧に表示します。
 
-![BottomSheet](./images/ja-JP/17-2-1.FilterByStatus.png)
+![BottomSheet](./images/resized/17-2-1.FilterByStatus.png)
 
 状態をクリックしてチェックありなしを切り替えると、一覧に表示している本の記録を更新します。
 
-![BottomSheet changed](./images/ja-JP/17-2-2.FilterByStatus.png)
+![BottomSheet changed](./images/resized/17-2-2.FilterByStatus.png)
 
 状態フィルターを閉じる場合は、右上の![Cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックします。
 
-![BottomSheet Closed](./images/ja-JP/17-2-3.FilterByStatus.png)
+![BottomSheet Closed](./images/resized/17-2-3.FilterByStatus.png)
 
 ### 2-5. 読書の手帖を終了する
 
 **読書の手帖**の右上側にある![Close](../../common/images/close_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックするか、タスクバーの**読書の手帖**を右クリックして表示したメニューから[ウィンドウを閉じる]をクリックします。
 
-![Exit](./images/ja-JP/18.Exit.png)
+![Exit](./images/resized/18.Exit.png)
 
 この時、**読書の手帖**は**未保存の変更を破棄します**ので注意してください。
 
@@ -177,9 +178,9 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 **読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[設定]をクリックすると、設定画面を表示します。
 
-![Shell](./images/ja-JP/19.Shell.png)
+![Shell](./images/resized/19.Shell.png)
 
-![Configuration](./images/ja-JP/20.Configuration.png)
+![Configuration](./images/resized/20.Configuration.png)
 
 設定画面には上から
 
@@ -207,15 +208,15 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 クリックするとアプリ設定の画面を表示します。
 
-![AppSettings](./images/ja-JP/21.AppSettings.png)
+![AppSettings](./images/resized/21.AppSettings.png)
 
 ## 4. バックアップと保存
 
 **読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[バックアップと復元]をクリックすると、バックアップと復元画面を表示します。
 
-![Shell](./images/ja-JP/19.Shell.png)
+![Shell](./images/resized/19.Shell.png)
 
-![BackupRestore](./images/ja-JP/22.backupRestore.png)
+![BackupRestore](./images/resized/22.backupRestore.png)
 
 バックアップと復元画面には上から
 
