@@ -12,8 +12,12 @@
 
 [読書管理ビブリア](https://biblia978.com/)や[ブクログ](https://booklog.jp/)で作成した記録も読み込めます。
 
+### 1-0. 書影データ
+
 本アプリで提供するのメタデータの一部は、国立国会図書館サーチのAPIから取得した書誌データ（国立国会図書館が運営）に由来します。
 ライセンスは[クリエイティブ・コモンズ 表示 4.0 国際 パブリック・ライセンス](https://creativecommons.org/licenses/by/4.0/legalcode.ja)です。
+
+一部の書影画像（資料の表紙の画像）は [国立国会図書館サーチ（NDLサーチ）](https://ndlsearch.ndl.go.jp/help/api/thumbnail)により[出版情報登録センター（JPRO）](https://jpro2.jpo.or.jp/) から提供されます。
 
 ### 1-1. 作成した理由
 
@@ -240,6 +244,12 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 上にあるサービスから順番に検索を行います。
 
 検索サービスの右側に![バーコード](../../common/images/barcode_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていればISBNでの検索時に利用します。![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていれば書籍タイトルでの検索時に利用します。
+
+|サービス|ホームページ|説明|
+|-|-|-|
+|openDB|<https://openbd.jp/>|ISBNで検索|
+|Open Library|<https://openlibrary.org/>|ISBNおよびタイトルで検索|
+|国立国会図書館サーチ|<https://ndlsearch.ndl.go.jp/>|ISBNおよびタイトルで検索|
 
 ### 3-2. 各書籍検索サービスで取得する結果の上限個数
 
