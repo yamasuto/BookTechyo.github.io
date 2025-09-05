@@ -2,7 +2,7 @@
 
 This is an application for managing book impressions and notes.
 
-<!-- 画像は、TamaKumaMy\scripts\resize_images.pyでリサイズする 0.3 -->
+<!-- 画像は、TamaKumaMy\scripts\resize_images.pyでリサイズする 0.5 -->
 
 ## .NET MAUI
 
