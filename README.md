@@ -1,6 +1,6 @@
 # BookTechyo.github.io
 
-[BookTechyo]() Application Manuals in [Japanese](docs/wpf.ja-JP.md) and [English](docs/wpf.en-US.md).
+[BookTechyo]() Application Manuals.
 
 ## License
 

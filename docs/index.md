@@ -2,13 +2,13 @@
 
 This is an application for managing book impressions and notes.
 
-<!-- 画像は、TamaKumaMy\scripts\resize_images.pyでリサイズする 50％ -->
+<!-- 画像は、TamaKumaMy\scripts\resize_images.pyでリサイズする 0.3 -->
 
 ## .NET MAUI
 
 .NET MAUI app for Android and Windows Desktop.
 
-### .NET MAUI app Manuals
+### [.NET MAUI app Manuals](./maui/maui_windows.md)
 
 [Windows, Japanese](./maui/ja-JP/windows/maui.md)
 
