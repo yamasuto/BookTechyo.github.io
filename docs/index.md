@@ -30,4 +30,8 @@ WPF app for Windows Desktop.
 
 [English](./wpf/en-US/wpf.en-US.md)
 
+## Creator
+
+[yamasuto](https://github.com/yamasuto)
+
 ---
