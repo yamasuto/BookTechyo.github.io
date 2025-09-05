@@ -12,13 +12,6 @@
 
 [読書管理ビブリア](https://biblia978.com/)や[ブクログ](https://booklog.jp/)で作成した記録も読み込めます。
 
-### 1-0. 書影データ
-
-本アプリで提供するのメタデータの一部は、国立国会図書館サーチのAPIから取得した書誌データ（国立国会図書館が運営）に由来します。
-ライセンスは[クリエイティブ・コモンズ 表示 4.0 国際 パブリック・ライセンス](https://creativecommons.org/licenses/by/4.0/legalcode.ja)です。
-
-一部の書影画像（資料の表紙の画像）は [国立国会図書館サーチ（NDLサーチ）](https://ndlsearch.ndl.go.jp/help/api/thumbnail)により[出版情報登録センター（JPRO）](https://jpro2.jpo.or.jp/) から提供されます。
-
 ### 1-1. 作成した理由
 
 iPhone SE[^1]で読書管理ビブリアを使っていましたが、Google Pixel[^2]に代えたため、広告がなく無料で使えるアプリが必要になりました。
@@ -28,6 +21,13 @@ iPhone SE[^1]で読書管理ビブリアを使っていましたが、Google Pix
 - 広告が煩わしい
 - 不具合が直らない
 - 青空文庫の本を登録したい
+
+### 1-2. 書影データ
+
+本アプリで提供するのメタデータの一部は、国立国会図書館サーチのAPIから取得した書誌データ（国立国会図書館が運営）に由来します。
+ライセンスは[クリエイティブ・コモンズ 表示 4.0 国際 パブリック・ライセンス](https://creativecommons.org/licenses/by/4.0/legalcode.ja)です。
+
+一部の書影画像（資料の表紙の画像）は [国立国会図書館サーチ（NDLサーチ）](https://ndlsearch.ndl.go.jp/help/api/thumbnail)により[出版情報登録センター（JPRO）](https://jpro2.jpo.or.jp/) から提供されます。
 
 ## 2. 使い方
 
