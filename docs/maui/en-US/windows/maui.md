@@ -155,7 +155,7 @@ Make changes and click ![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght
 
 To delete a record, click ![Delete](../../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) in the detail screen.
 
-### 2-4. Searching Book Records TODO
+### 2-4. Searching Book Records
 
 You can search by text or by status.
 
@@ -163,7 +163,7 @@ You can search by text or by status.
 
 #### 2-4-1. Searching by Title, etc.
 
-Search book records that contain the specified text in title, author, description, or impressions.
+Search book records that contain the specified text in title, author, description, or comment.
 
 ![FilterByText](./images/resized/17-1.FilterByText.png)
 
@@ -276,7 +276,7 @@ The backup and restore screen contains, from top to bottom:
 - Backup button
 - Restore button
 - Delete all button
-- Other services
+- External services
   - Biblia
     - Import button
     - Export button
@@ -294,23 +294,23 @@ Click to export your registered book records to a specified file in Yaml format.
 
 Click to import book records from the specified file and **add** them to the existing records.
 
-If you want to delete all existing records before restoring, check the [Clear all existing records before restore] checkbox and then click the button.
+If you want to delete all existing records before restoring, check the [Restore after clearing all the registered items] checkbox and then click the button.
 
 ### 4-3. Delete all button
 
 Click to delete all registered book records.
 
-### 4-4. Other services
+### 4-4. External services
 
 #### 4-4-1. Biblia
 
-- **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox by [Reading Management Biblia](https://biblia978.com/).  
-- **Export**: Export registered book records to a [CSV file](https://biblia978.com/support/articles/15/) that can be restored by [Reading Management Biblia](https://biblia978.com/).
+- **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox by [読書管理ビブリア](https://biblia978.com/).  
+- **Export**: Export registered book records to a [CSV file](https://biblia978.com/support/articles/15/) that can be restored by [読書管理ビブリア](https://biblia978.com/).
 
-Biblia backups are created in [Dropbox](https://www.dropbox.com/). Since **Book Techyo** cannot directly access Dropbox, I use the [Dropbox Lite](https://apps.microsoft.com/detail/9WZDNCRFJ0PK?hl=en&gl=JP&ocid=pdpshare) app installed on Windows to perform import and export as follows:
+読書管理ビブリア backups are created in [Dropbox](https://www.dropbox.com/). Since **Book Techyo** cannot directly access Dropbox, I use the [Dropbox Lite](https://apps.microsoft.com/detail/9WZDNCRFJ0PK?hl=en&gl=JP&ocid=pdpshare) app installed on Windows to perform import and export as follows:
 
 - **To import into Book Techyo**
-  1. Perform a backup in Reading Management Biblia.  
+  1. Perform a backup in 読書管理ビブリア.  
   2. Launch Dropbox Lite (using the same Dropbox account as Biblia).  
   3. In Dropbox Lite, select `Dropbox/Apps/Biblia/books.csv` and save it to a local Windows folder (e.g., Documents) using “Save As.”  
   4. In **Book Techyo**, delete all records, then import the previously saved CSV file.
@@ -318,11 +318,11 @@ Biblia backups are created in [Dropbox](https://www.dropbox.com/). Since **Book 
 - **To export from Book Techyo and restore in Biblia**
   1. In **Book Techyo**, use the [Biblia] [Export] option and save the file as `books.csv`.  
   2. Upload the `books.csv` file to `Dropbox/Apps/Biblia` using Dropbox Lite.  
-  3. In Reading Management Biblia, delete all existing data and then perform a restore.
+  3. In 読書管理ビブリア, delete all existing data and then perform a restore.
 
 #### 4-4-2. Booklog
 
-- **Import**: Import the [CSV file](https://booklog.zendesk.com/hc/ja/articles/360048930533-%E4%BB%96%E3%81%AE%E8%AA%AD%E6%9B%B8%E7%AE%A1%E7%90%86%E3%82%B5%E3%82%A4%E3%83%88%E3%81%8B%E3%82%89%E3%83%96%E3%82%AF%E3%83%AD%E3%82%B0%E3%81%B8%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99) exported from the web version of [Booklog](https://booklog.jp/).  
+- **Import**: Import the [CSV file](https://booklog.zendesk.com/hc/ja/articles/360048930533-%E4%BB%96%E3%81%AE%E8%AA%AD%E6%9B%B8%E7%AE%A1%E7%90%86%E3%82%B5%E3%82%A4%E3%83%88%E3%81%8B%E3%82%89%E3%83%96%E3%82%AF%E3%83%AD%E3%82%B0%E3%81%B8%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99) exported from the web version of [ブクログ](https://booklog.jp/).  
 
 ※ Export is not supported.
 

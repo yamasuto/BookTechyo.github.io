@@ -32,6 +32,6 @@ WPF app for Windows Desktop.
 
 ## Creator
 
-[yamasuto](https://github.com/yamasuto)
+[YAMA-SUTO](https://github.com/yamasuto)
 
 ---

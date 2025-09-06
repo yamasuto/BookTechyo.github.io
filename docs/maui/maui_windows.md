@@ -10,7 +10,7 @@ This is a Windows Desktop Application for managing book impressions and notes.
 
 ## Creator
 
-[yamasuto](https://github.com/yamasuto)
+[YAMA-SUTO](https://github.com/yamasuto)
 
 ### Contact
 
