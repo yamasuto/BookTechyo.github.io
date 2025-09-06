@@ -17,11 +17,11 @@ This is an application for managing book impressions and notes.
 [Android, Japanese](./maui/ja-JP/android/maui.md)
 
 <!-- 
-[Windows, English](./maui/en-US/windows/maui.md) 
 
 [Android, English](./maui/en-US/android/maui.md) 
 -->
 
+<!-- 
 ## WPF ... private application
 
 WPF app for Windows Desktop.
@@ -30,7 +30,8 @@ WPF app for Windows Desktop.
 
 [Japanese](./wpf/ja-JP/wpf.ja-JP.md)
 
-[English](./wpf/en-US/wpf.en-US.md)
+[English](./wpf/en-US/wpf.en-US.md) 
+-->
 
 ## Creator
 
