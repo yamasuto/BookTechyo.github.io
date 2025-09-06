@@ -10,6 +10,8 @@ This is an application for managing book impressions and notes.
 
 ### [.NET MAUI app Manuals](./maui/maui_windows.md)
 
+[Windows, English](./maui/en-US/windows/maui.md)
+
 [Windows, Japanese](./maui/ja-JP/windows/maui.md)
 
 [Android, Japanese](./maui/ja-JP/android/maui.md)
