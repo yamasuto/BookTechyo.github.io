@@ -276,16 +276,6 @@ The backup and restore screen contains, from top to bottom:
 - Backup button
 - Restore button
 - Delete all button
-<!-- 
-
-- External services
-  - Biblia
-    - Import button
-    - Export button
-  - Booklog
-    - Import button 
-
--->
 
 ### 4-1. Backup button
 
