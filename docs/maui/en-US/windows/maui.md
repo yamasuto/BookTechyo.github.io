@@ -10,13 +10,13 @@ It works on Windows 11[^0] and Android[^2] smartphones with [.Net 9](https://dot
 
 You can register books by scanning their barcodes with the camera.
 
-You can also import records created with [読書管理ビブリア](https://biblia978.com/) or [ブクログ](https://booklog.jp/).
+<!-- You can also import records created with [読書管理ビブリア](https://biblia978.com/) or [ブクログ](https://booklog.jp/). -->
 
 ### 1-1. Why I Created It
 
-I used to use 読書管理ビブリア on an iPhone SE[^1], but after switching to a Google Pixel[^2], I needed a free, ad-free app.
+I used to use a Reading Tracking App on an iPhone SE[^1], but after switching to a Google Pixel[^2], I needed a free, ad-free app.
 
-I could have simply imported the CSV files exported from Biblia into existing Android apps ([Yomoo](https://play.google.com/store/apps/details?id=com.nosuke.yomoo&hl=ja), [bondavi’s record](https://play.google.com/store/apps/details?id=jp.bondavi.likes.global&hl=ja), [Book Manager](https://play.google.com/store/apps/details?id=com.bsy_web.bookmanager&hl=ja), etc.), but I decided to implement my own app to address the following issues and add features:
+I could have simply imported the CSV files exported from the App into existing Android apps <!--([Yomoo](https://play.google.com/store/apps/details?id=com.nosuke.yomoo&hl=ja), [bondavi’s record](https://play.google.com/store/apps/details?id=jp.bondavi.likes.global&hl=ja), [Book Manager](https://play.google.com/store/apps/details?id=com.bsy_web.bookmanager&hl=ja), etc.)-->, but I decided to implement my own app to address the following issues and add features:
 
 - Annoying advertisements  
 - Bugs that never get fixed  
@@ -276,12 +276,13 @@ The backup and restore screen contains, from top to bottom:
 - Backup button
 - Restore button
 - Delete all button
+<!-- 
 - External services
   - Biblia
     - Import button
     - Export button
   - Booklog
-    - Import button
+    - Import button -->
 
 ### 4-1. Backup button
 
@@ -300,7 +301,7 @@ If you want to delete all existing records before restoring, check the [Restore 
 
 Click to delete all registered book records.
 
-### 4-4. External services
+<!-- ### 4-4. External services
 
 #### 4-4-1. Biblia
 
@@ -324,7 +325,7 @@ Click to delete all registered book records.
 
 - **Import**: Import the [CSV file](https://booklog.zendesk.com/hc/ja/articles/360048930533-%E4%BB%96%E3%81%AE%E8%AA%AD%E6%9B%B8%E7%AE%A1%E7%90%86%E3%82%B5%E3%82%A4%E3%83%88%E3%81%8B%E3%82%89%E3%83%96%E3%82%AF%E3%83%AD%E3%82%B0%E3%81%B8%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99) exported from the web version of [ブクログ](https://booklog.jp/).  
 
-※ Export is not supported.
+※ Export is not supported. -->
 
 ## 5. About Book Techyo
 

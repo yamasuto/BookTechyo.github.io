@@ -10,13 +10,13 @@
 
 本のバーコードをカメラで読み取って登録できます。
 
-[読書管理ビブリア](https://biblia978.com/)や[ブクログ](https://booklog.jp/)で作成した記録も読み込めます。
+<!-- [読書管理ビブリア](https://biblia978.com/)や[ブクログ](https://booklog.jp/)で作成した記録も読み込めます。 -->
 
 ### 1-1. 作成した理由
 
-iPhone SE[^1]で読書管理ビブリアを使っていましたが、Google Pixel[^2]に代えたため、広告がなく無料で使えるアプリが必要になりました。
+iPhone SE[^1]で読書管理アプリを使っていましたが、Google Pixel[^2]に代えたため、広告がなく無料で使えるアプリが必要になりました。
 
-読書管理ビブリアでエクスポートしたCsvファイルを既存のアンドロイドアプリ（[Yomoo](https://play.google.com/store/apps/details?id=com.nosuke.yomoo&hl=ja)、[bondaviの記録](https://play.google.com/store/apps/details?id=jp.bondavi.likes.global&hl=ja)、[蔵書マネージャー](https://play.google.com/store/apps/details?id=com.bsy_web.bookmanager&hl=ja)、等）に読み込ませれば済んだのですが、以下解消したり、機能を追加すべく実装することにしました。
+読書管理アプリでエクスポートしたCsvファイルを既存のアンドロイドアプリ<!-- （[Yomoo](https://play.google.com/store/apps/details?id=com.nosuke.yomoo&hl=ja)、[bondaviの記録](https://play.google.com/store/apps/details?id=jp.bondavi.likes.global&hl=ja)、[蔵書マネージャー](https://play.google.com/store/apps/details?id=com.bsy_web.bookmanager&hl=ja)、等）-->に読み込ませれば済んだのですが、以下解消したり、機能を追加すべく実装することにしました。
 
 - 広告が煩わしい
 - 不具合が直らない
@@ -276,12 +276,13 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 - バックアップボタン
 - 復元ボタン
 - すべて削除ボタン
+<!-- 
 - 他のサービス
   - ビブリア
     - インポートボタン
     - エクスポートボタン
   - ブクログ
-    - インポートボタン
+    - インポートボタン -->
 
 ### 4-1. バックアップボタン
 
@@ -300,7 +301,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 クリックすると登録している本の記録をすべて削除します。
 
-### 4-4. 他のサービス
+<!-- ### 4-4. 他のサービス
 
 ### 4-4-1. 読書管理ビブリア
 
@@ -324,7 +325,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 - インポート：ウェブ版[ブクログ](https://booklog.jp/)のエクスポートで出力した[CSVファイル](https://booklog.zendesk.com/hc/ja/articles/360048930533-%E4%BB%96%E3%81%AE%E8%AA%AD%E6%9B%B8%E7%AE%A1%E7%90%86%E3%82%B5%E3%82%A4%E3%83%88%E3%81%8B%E3%82%89%E3%83%96%E3%82%AF%E3%83%AD%E3%82%B0%E3%81%B8%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99)をインポートします。
 
-※ エクスポート機能はありません。
+※ エクスポート機能はありません。 -->
 
 ## 5. 読書の手帖について
 

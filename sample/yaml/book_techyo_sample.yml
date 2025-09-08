@@ -1,15 +1,16 @@
 magic_value: "1e19854c39e041ff94d02622da8602d6c40bed4620ef4fbd82ff16e75c517098"
 version: "1.0.0"
-date_time_utc: 2025-05-19T13:00:02.5806352Z
+date_time_utc: 2025-09-08T01:16:40.0251152Z
 entities:
 - date_updated: 2025/05/19
-  comment: "面白かった\r\n#ロボット が#地球 を別の#宇宙 に運ぶところが#好い"
+  comment: "面白かった\n#ロボット が#地球 を別の#宇宙 に運ぶところが#好い"
   date_registered: 2025/05/19
   reading_status: "ToRead"
   rating: 5
   read_pages: 
   source: ""
   flags: 0
+  date_completed: 
   title: "ある同人誌"
   authors:
   - "ある著者"
@@ -22,13 +23,14 @@ entities:
   number_of_pages: 158
   issued_date: 1929/01
 - date_updated: 2025/05/19
-  comment: "当たってなかった\r\n#残念 #AI"
+  comment: "当たってなかった\n#残念 #AI"
   date_registered: 2025/05/19
   reading_status: "Completed"
   rating: 3
   read_pages: 
   source: ""
   flags: 0
+  date_completed: 
   title: "予言の書"
   authors:
   - "予言者N"
@@ -47,6 +49,7 @@ entities:
   read_pages: 
   source: ""
   flags: 0
+  date_completed: 
   title: "LAW"
   authors:
   - "some authors"
