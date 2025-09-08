@@ -10,13 +10,13 @@ It works on Windows 11[^0] and Android[^2] smartphones with [.Net 9](https://dot
 
 You can register books by scanning their barcodes with the camera.
 
-<!-- You can also import records created with [読書管理ビブリア](https://biblia978.com/) or [ブクログ](https://booklog.jp/). -->
+You can also import records created with '[読書管理ビブリア](https://biblia978.com/)'.
 
 ### 1-1. Why I Created It
 
-I used to use a Reading Tracking App on an iPhone SE[^1], but after switching to a Google Pixel[^2], I needed a free, ad-free app.
+I used to use '読書管理ビブリア' on an iPhone SE[^1], but after switching to a Google Pixel[^2], I needed a free, ad-free app.
 
-I could have simply imported the CSV files exported from the App into existing Android apps <!--([Yomoo](https://play.google.com/store/apps/details?id=com.nosuke.yomoo&hl=ja), [bondavi’s record](https://play.google.com/store/apps/details?id=jp.bondavi.likes.global&hl=ja), [Book Manager](https://play.google.com/store/apps/details?id=com.bsy_web.bookmanager&hl=ja), etc.)-->, but I decided to implement my own app to address the following issues and add features:
+I could have simply imported the CSV files exported from '読書管理ビブリア' into existing Android apps <!--([Yomoo](https://play.google.com/store/apps/details?id=com.nosuke.yomoo&hl=ja), [bondavi’s record](https://play.google.com/store/apps/details?id=jp.bondavi.likes.global&hl=ja), [Book Manager](https://play.google.com/store/apps/details?id=com.bsy_web.bookmanager&hl=ja), etc.)-->, but I decided to implement my own app to address the following issues and add features:
 
 - Annoying advertisements  
 - Bugs that never get fixed  
@@ -276,6 +276,7 @@ The backup and restore screen contains, from top to bottom:
 - Backup button
 - Restore button
 - Delete all button
+- External services
 
 ### 4-1. Backup button
 
@@ -294,9 +295,9 @@ If you want to delete all existing records before restoring, check the [Restore 
 
 Click to delete all registered book records.
 
-<!-- ### 4-4. External services
+### 4-4. External services
 
-#### 4-4-1. Biblia
+#### 4-4-1. '読書管理ビブリア'
 
 - **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox by [読書管理ビブリア](https://biblia978.com/).  
 - **Export**: Export registered book records to a [CSV file](https://biblia978.com/support/articles/15/) that can be restored by [読書管理ビブリア](https://biblia978.com/).
@@ -309,16 +310,10 @@ Click to delete all registered book records.
   3. In Dropbox Lite, select `Dropbox/Apps/Biblia/books.csv` and save it to a local Windows folder (e.g., Documents) using “Save As.”  
   4. In **Book Techyo**, delete all records, then import the previously saved CSV file.
 
-- **To export from Book Techyo and restore in Biblia**
+- **To export from Book Techyo and restore in '読書管理ビブリア'**
   1. In **Book Techyo**, use the [Biblia] [Export] option and save the file as `books.csv`.  
   2. Upload the `books.csv` file to `Dropbox/Apps/Biblia` using Dropbox Lite.  
   3. In 読書管理ビブリア, delete all existing data and then perform a restore.
-
-#### 4-4-2. Booklog
-
-- **Import**: Import the [CSV file](https://booklog.zendesk.com/hc/ja/articles/360048930533-%E4%BB%96%E3%81%AE%E8%AA%AD%E6%9B%B8%E7%AE%A1%E7%90%86%E3%82%B5%E3%82%A4%E3%83%88%E3%81%8B%E3%82%89%E3%83%96%E3%82%AF%E3%83%AD%E3%82%B0%E3%81%B8%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99) exported from the web version of [ブクログ](https://booklog.jp/).  
-
-※ Export is not supported. -->
 
 ## 5. About Book Techyo
 
