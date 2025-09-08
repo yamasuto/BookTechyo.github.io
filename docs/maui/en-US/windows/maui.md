@@ -282,7 +282,8 @@ The backup and restore screen contains, from top to bottom:
     - Import button
     - Export button
   - Booklog
-    - Import button -->
+    - Import button 
+-->
 
 ### 4-1. Backup button
 
