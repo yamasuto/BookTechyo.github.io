@@ -1,4 +1,4 @@
-# 読書の手帖（.NET MAUI版）
+# 読書の手帖（Windows Store App版）
 
 ![メイン](./images/resized/00.ListWindow.png)
 

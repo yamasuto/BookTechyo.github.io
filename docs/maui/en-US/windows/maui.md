@@ -1,4 +1,4 @@
-# Book Techyo (.NET MAUI Version)
+# Book Techyo (Windows Store App Version)
 
 ![Main](./images/resized/00.ListWindow.png)
 
