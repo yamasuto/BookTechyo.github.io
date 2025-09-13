@@ -14,6 +14,6 @@ This is a Windows Desktop Application for managing book impressions and notes.
 
 ### Contact
 
-Please contact us via [our website](https://yamasuto.github.io/BookTechyo.github.io/contact/en-US/).
+Please contact via [our website](https://yamasuto.github.io/BookTechyo.github.io/contact/en-US/).
 
 ---
