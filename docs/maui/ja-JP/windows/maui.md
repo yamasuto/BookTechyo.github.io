@@ -299,7 +299,7 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 
 ### 4-4-1. 読書管理ビブリア
 
-- インポート：[読書管理ビブリア](https://biblia978.com/)のバックアップでDropboxに出力した[CSVファイル](https://biblia978.com/support/articles/15/)をインポートします。
+- インポート：[読書管理ビブリア](https://biblia978.com/)のバックアップでDropbox[^3]に出力した[CSVファイル](https://biblia978.com/support/articles/15/)をインポートします。
 - エクスポート：登録した本の記録を[読書管理ビブリア](https://biblia978.com/)の復元で読み込める[CSVファイル](https://biblia978.com/support/articles/15/)としてエクスポートします。
 
 読書管理ビブリアのバックアップは[Dropbox](https://www.dropbox.com/)にファイルを作成します。**読書の手帖**はDropboxにアクセスできないため、私はWindowsにインストールした[Dropbox Lite](https://apps.microsoft.com/detail/9WZDNCRFJ0PK?hl=ja&gl=JP&ocid=pdpshare)アプリを使い以下のように操作してインポートやエクスポートをしています。
@@ -340,3 +340,4 @@ Windowsのスタートアップ等から、**読書の手帖（Book Techyo）** 
 [^0]: Windows及び関連する名称並びにそれぞれのロゴは、米国Microsoft Corporationの米国およびその他の国における登録商標です。
 [^1]: iPhoneはApple inc.の登録商標です。iPhone商標は、アイホン株式会社のライセンスに基づき使用されています。
 [^2]: 「Google」「Google Pixel」「Android」は、Google LLCの商標または登録商標です。
+[^3]: DropboxおよびDropboxのロゴはDropbox, Inc.の商標です。

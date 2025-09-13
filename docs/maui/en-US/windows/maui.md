@@ -299,7 +299,7 @@ Click to delete all registered book records.
 
 #### 4-4-1. '読書管理ビブリア'
 
-- **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox by [読書管理ビブリア](https://biblia978.com/).  
+- **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox[^3] by [読書管理ビブリア](https://biblia978.com/).  
 - **Export**: Export registered book records to a [CSV file](https://biblia978.com/support/articles/15/) that can be restored by [読書管理ビブリア](https://biblia978.com/).
 
 読書管理ビブリア backups are created in [Dropbox](https://www.dropbox.com/). Since **Book Techyo** cannot directly access Dropbox, I use the [Dropbox Lite](https://apps.microsoft.com/detail/9WZDNCRFJ0PK?hl=en&gl=JP&ocid=pdpshare) app installed on Windows to perform import and export as follows:
@@ -334,3 +334,4 @@ If you have any questions or inquiries regarding this app, please [contact us vi
 [^0]: Window is registered trademarks of Microsoft Corporation in the United States and/or other contries.  
 [^1]: iPhone is a trademark of Apple Inc., registered in the U.S. and other countries. The iPhone trademark is used under license from Aiphone Co., Ltd (in Japanese only).
 [^2]: "Google," "Google Pixel," and "Android" are trademarks of Google LLC.
+[^3]: Dropbox and the Dropbox logo are trademarks of Dropbox, Inc.
