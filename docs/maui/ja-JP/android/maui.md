@@ -6,7 +6,7 @@
 
 本の感想やメモを管理するアプリケーションです。
 
-[.Net 9](https://dotnet.microsoft.com/ja-jp/)をインストールしたWindows 11[^0]やAndroid[^2]のスマートフォンで動きます。
+Windows 11[^0]やAndroid[^2]のスマートフォンで動きます。
 
 本のバーコードをカメラで読み取って登録できます。
 

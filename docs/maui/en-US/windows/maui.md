@@ -6,7 +6,7 @@
 
 An application for managing book impressions and notes.
 
-It works on Windows 11[^0] and Android[^2] smartphones with [.Net 9](https://dotnet.microsoft.com/ja-jp/) installed.
+It works on Windows 11[^0] and Android[^2] smartphones.
 
 You can register books by scanning their barcodes with the camera.
 
