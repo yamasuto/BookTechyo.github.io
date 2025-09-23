@@ -16,7 +16,8 @@
 |music_gakufu_close   |<https://yamasuto.github.io/BookTechyo.github.io/sample_pages/music_gakufu_close.html>   |
 |book_law_roppouzensyo   |<https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_law_roppouzensyo.html>   |
 
-----
+- いらすとや[^1] [利用規定](https://www.irasutoya.com/p/terms.html)
+    > 以下の場合、有償にて対応させていただきます。素材を21点以上使った商用デザイン（重複はまとめて1点）
 
 ## JP
 
@@ -47,3 +48,6 @@
 ![job_kyuujinshi](job_kyuujinshi.png)
 
 ![music_gakufu_close](music_gakufu_close.png)
+
+----
+[^1]: 株式会社ＭＩＦＵＮＥの商標です。
