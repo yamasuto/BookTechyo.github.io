@@ -1,0 +1,62 @@
+magic_value: "1e19854c39e041ff94d02622da8602d6c40bed4620ef4fbd82ff16e75c517098"
+version: "1.0.0"
+date_time_utc: 2025-09-08T01:16:40.0251152Z
+entities:
+- date_updated: 2025/05/19
+  comment: "面白かった\n#ロボット が#地球 を別の#宇宙 に運ぶところが#好い"
+  date_registered: 2025/05/19
+  reading_status: "ToRead"
+  rating: 5
+  read_pages: 
+  source: ""
+  flags: 0
+  date_completed: 
+  title: "ある同人誌"
+  authors:
+  - "ある著者"
+  - "私"
+  publisher: "私出版"
+  isbn: 9784000000000
+  memo: "私が書いた同人誌"
+  path_to_image: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_doujinshi_copybon.png"
+  url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_doujinshi_copybon.html"
+  number_of_pages: 158
+  issued_date: 1929/01
+- date_updated: 2025/05/19
+  comment: "当たってなかった\n#残念 #AI"
+  date_registered: 2025/05/19
+  reading_status: "Completed"
+  rating: 3
+  read_pages: 
+  source: ""
+  flags: 0
+  date_completed: 2025/05/19
+  title: "予言の書"
+  authors:
+  - "予言者N"
+  publisher: "予言出版"
+  isbn: 9784000000000
+  memo: "コロナ禍の予言"
+  path_to_image: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_yogensyo.png"
+  url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_yogensyo.html"
+  number_of_pages: 123
+  issued_date: 2019
+- date_updated: 2025/05/19
+  comment: "very difficult #law description"
+  date_registered: 2025/05/19
+  reading_status: "Started"
+  rating: 4
+  read_pages: 
+  source: ""
+  flags: 0
+  date_completed: 
+  title: "LAW"
+  authors:
+  - "some authors"
+  publisher: "nnn publisher"
+  isbn: 9784000000000
+  memo: "describes 20th LAW"
+  path_to_image: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_law.png"
+  url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_law.html"
+  number_of_pages: 9999
+  issued_date: 2000/12/23

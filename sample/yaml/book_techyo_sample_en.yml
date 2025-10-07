@@ -1,0 +1,80 @@
+magic_value: "1e19854c39e041ff94d02622da8602d6c40bed4620ef4fbd82ff16e75c517098"
+version: "1.0.0"
+date_time_utc: 2025-09-08T00:51:13.8582067Z
+entities:
+- date_updated: 2025/09/08
+  comment: "Excellent! #big thing"
+  date_registered: 2025/09/08
+  reading_status: "Completed"
+  rating: 5
+  read_pages: 
+  source: ""
+  flags: 0
+  date_completed: 2025/09/08
+  title: "Comic"
+  authors:
+  - "Auther1\rAuther2\rAuther3\rAuther4\rAuther5\rAuther6\rAuther7\rAuther8\rAuther9"
+  publisher: "Comic publisher"
+  isbn: 9780000000002
+  memo: "entertainment comic"
+  path_to_image: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/entertainment_comic.png"
+  url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/entertainment_comic.html"
+  number_of_pages: 456
+  issued_date: 2025/01
+- date_updated: 2025/09/08
+  comment: "toooooooooooooooo #long and very #big"
+  date_registered: 2025/09/08
+  reading_status: "Started"
+  rating: 
+  read_pages: 
+  source: ""
+  flags: 0
+  date_completed: 
+  title: "Document rule book"
+  authors:
+  - "Little Ruler"
+  publisher: ""
+  isbn: ''
+  memo: ""
+  path_to_image: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/document_rule_book.png"
+  url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/document_rule_book.html"
+  number_of_pages: 10000
+  issued_date: ''
+- date_updated: 2025/09/08
+  comment: ""
+  date_registered: 2025/09/08
+  reading_status: "ToRead"
+  rating: 
+  read_pages: 
+  source: ""
+  flags: 0
+  date_completed: 
+  title: "Prophecies"
+  authors:
+  - "Prophet"
+  publisher: "Publisher"
+  isbn: ''
+  memo: ""
+  path_to_image: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_prophecies.png"
+  url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_prophecies.html"
+  number_of_pages: 999
+  issued_date: 1910/10/12
+- date_updated: 2025/09/08
+  comment: "This book carefully explains very complex laws, which impressed me.\r\nP.100 important\r\nP.124 good example\r\nP.687 Generalized System of Preferences"
+  date_registered: 2025/09/08
+  reading_status: "Completed"
+  rating: 4
+  read_pages: 
+  source: ""
+  flags: 0
+  date_completed: 2025/09/08
+  title: "LAW"
+  authors:
+  - "LawyerA\rLawyerB\rLawyerC"
+  publisher: "9Publisher87"
+  isbn: ''
+  memo: ""
+  path_to_image: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_law.png"
+  url_to_web: "https://yamasuto.github.io/BookTechyo.github.io/sample_pages/book_law.html"
+  number_of_pages: 987
+  issued_date: ''
