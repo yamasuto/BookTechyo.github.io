@@ -7,3 +7,24 @@ body {
    margin: 0 5%;   /* 外側の余白を5%にする */
    padding: 0;      /* 内側の余白を消す(念のため) */
 }
+
+footer {
+  padding: 0 10%;
+}
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+.footer-nav li a:hover {
+  text-decoration: underline;
+}
