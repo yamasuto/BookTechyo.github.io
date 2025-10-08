@@ -52,7 +52,7 @@ You can also import records created with '[読書管理ビブリア](https://bib
 
 ### 1-1. Why I Created It
 
-I used to use '読書管理ビブリア' on an iPhone SE[^1], but after switching to a Google Pixel[^2], I needed an app that is free and ad-free..
+I used to use '読書管理ビブリア' on an iPhone SE[^1], but after switching to a Google Pixel[^2], I needed an app that is free and ad-free.
 
 I could have simply imported the CSV files exported from '読書管理ビブリア' into existing Android apps, but I decided to implement my own app to address the following issues and add features:
 
