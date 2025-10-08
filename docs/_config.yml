@@ -1,0 +1,7 @@
+title: 読書の手帖 / Book Techyo
+description: 読書の手帖 / Book Techyo
+github-username: YAMA-SUTO
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+url: https://yamasuto.github.io/BookTechyo.github.io/
