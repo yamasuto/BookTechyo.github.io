@@ -15,6 +15,10 @@ This is an application for managing book impressions and notes.
 
 [Windows, Japanese](./maui/ja-JP/windows/maui.md)
 
+![construction](./maui/common/images/upcoming_32dp_75FBFD_FILL0_wght400_GRAD0_opsz40.png) Android, English
+
+![construction](./maui/common/images/upcoming_32dp_75FBFD_FILL0_wght400_GRAD0_opsz40.png) Android, Japanese
+
 <!-- 
 [Android, Japanese](./maui/ja-JP/android/maui.md)
 
