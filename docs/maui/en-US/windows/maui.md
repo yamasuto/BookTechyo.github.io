@@ -369,9 +369,9 @@ The backup and restore page contains, from top to bottom:
 
 Click to export your registered book records to a specified file.
 
-- The file format is Yaml.
-- The Yaml file can be opened and edited with a text editor such as Windows Notepad. If you edit it, make sure not to change the format, character encoding, or line endings.  
-- The Yaml file uses UTF-8 (without BOM) encoding and CRLF line endings.
+- The file format is YAML.
+- The YAML file can be opened and edited with a text editor such as Windows Notepad. If you edit it, make sure not to change the format, character encoding, or line endings.  
+- The YAML file uses UTF-8 (without BOM) encoding and CRLF line endings.
 
 ### 3-3-2. Restore button
 

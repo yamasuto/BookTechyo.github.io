@@ -25,3 +25,21 @@ footer {
   padding: 0;
   margin: 0;
 }
+
+
+table {
+	width: 95%;
+	/*親要素に対して*/
+	border-collapse: collapse;
+}
+
+table th {
+	border: solid 1px black;
+	/*実線 1px 黒*/
+}
+
+table td {
+	border: solid 1px black;
+	/*実線 1px 黒*/
+	text-align: center;
+}
