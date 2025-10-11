@@ -276,6 +276,8 @@ For sorting, choose target and direction, then click ![Sort](../../common/images
 
 ![BottomSheet changed](./images/resized/01_Records_N240_BooksPageSort.png)
 
+Target
+
 | Target | Description |
 |-|-|
 | None | Default view, ordered by registration. |
@@ -283,6 +285,8 @@ For sorting, choose target and direction, then click ![Sort](../../common/images
 | Publication Date | Sort by publication date. |
 | Update Date | Sort by last updated date. |
 | Registration Date | Sort by registration date. |
+
+Direction
 
 | Direction | Description |
 |-|-|
