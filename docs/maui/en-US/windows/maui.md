@@ -324,6 +324,8 @@ The Configuration page contains, from top to bottom:
 - Background color setting for book cover images
 - Button to open the app settings
 
+Note that `DEBUG_TITLE_WEB_CLIENT` and `DEBUG_ISBN_WEB_CLIENT` in the image are for the development web client. They will not be displayed in **Book Techyo** obtained from the app store.
+
 #### 3-3-1. Enable/disable book search services and set their priority
 
 **Before performing a search, please click the URL of the book search service to review its terms of use. If you do not agree, uncheck the box to disable that service.**
