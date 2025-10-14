@@ -438,7 +438,7 @@ Clicking [OSS License] displays the OSS licenses used by **Book Techyo** on the 
 
 ## 4. Contact
 
-If you have any questions or inquiries regarding this app, please [contact us via the homepage](https://yamasuto.github.io/BookTechyo.github.io/contact/en-US/).
+If you have any questions or inquiries regarding this app, please [contact via the homepage](https://yamasuto.github.io/BookTechyo.github.io/contact/en-US/).
 
 ---
 
