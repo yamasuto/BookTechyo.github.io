@@ -1,0 +1,20 @@
+<!-- 画像は、TamaKumaMy\scripts\resize_images.pyでリサイズする 0.5 -->
+<!-- 画像は、.\scripts\resize_images.pyでリサイズする 0.5 -->
+
+<!-- 
+[Android, Japanese](./maui/ja-JP/android/maui.md)
+
+[Android, English](./maui/en-US/android/maui.md) 
+-->
+
+<!-- 
+## WPF ... private application
+
+WPF app for Windows Desktop.
+
+### WPF app Manuals
+
+[Japanese](./wpf/ja-JP/wpf.ja-JP.md)
+
+[English](./wpf/en-US/wpf.en-US.md) 
+-->
