@@ -8,6 +8,7 @@ Table of contents
   - [1. Description](#1-description)
     - [1-1. Why I Created It](#1-1-why-i-created-it)
     - [1-2. Book Data](#1-2-book-data)
+    - [1-3. Privacy Policy](#1-3-privacy-policy)
   - [2. How to Use](#2-how-to-use)
     - [2-1. Launching Book Techyo](#2-1-launching-book-techyo)
     - [2-2. Before You Start](#2-2-before-you-start)
@@ -68,6 +69,11 @@ This app uses NDL (National Diet Library) Search API.
 Metadata Source: National Diet Library Catalog [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode.en).
 
 Unfortunately, I was *unable* to obtain the cover images. I contacted the image provider but could not confirm use rights.
+
+### 1-3. Privacy Policy
+
+- This app does **not collect or store any personally identifiable information** such as your name, address, email address, or phone number.
+- Microsoft Store does collect some personal data, Please see [Microsoft Privacy Statement](https://www.microsoft.com/en-us/privacy/privacystatement).
 
 ## 2. How to Use
 
