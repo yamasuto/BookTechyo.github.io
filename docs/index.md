@@ -24,4 +24,9 @@ This is an application for managing book impressions and notes.
 
 [YAMA-SUTO](https://github.com/yamasuto)
 
+### Contact
+
+Please contact via [my website](https://yamasuto.github.io/BookTechyo.github.io/contact/en-US/) or [GitHub Issues](https://github.com/yamasuto/BookTechyo.github.io/issues).
+
 ---
+
