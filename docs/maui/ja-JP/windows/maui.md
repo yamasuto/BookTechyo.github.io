@@ -71,8 +71,7 @@ iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使って�
 
 ### 1-3. プライバシーポリシー
 
-- 本アプリは、ユーザーの氏名、住所、メールアドレス、電話番号などの**個人を特定できる情報を一切収集および保存しません**。
-- Microsoft Store は個人データを処理しています。詳細は [Microsoft プライバシー ステートメント](https://www.microsoft.com/ja-JP/privacy/privacystatement)を確認してください。
+本アプリの[プライバシーポリシー](PrivacyPolicy.jaJP.md)
 
 ## 2. 使い方
 
@@ -438,6 +437,8 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 [プライバシーについて]をクリックすると以下の画面を表示します。
 
 ![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
+
+本アプリのプライバシーポリシーは[Webページ](PrivacyPolicy.md)でも確認いただけます.
 
 [OSSライセンス]をクリックすると以下の画面に**読書の手帖**が利用しているOSSのライセンスを表示します。
 

@@ -72,8 +72,7 @@ Unfortunately, I was *unable* to obtain the cover images. I contacted the image 
 
 ### 1-3. Privacy Policy
 
-- This app does **not collect or store any personally identifiable information** such as your name, address, email address, or phone number.
-- Microsoft Store does collect some personal data, Please see [Microsoft Privacy Statement](https://www.microsoft.com/en-us/privacy/privacystatement).
+This app's [Privacy Policy](PrivacyPolicy.md)
 
 ## 2. How to Use
 
@@ -439,6 +438,8 @@ Clicking [Homepage] or [How to Use] will launch your web browser to display the 
 Clicking [Privacy Policy] will display the following page.
 
 ![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
+
+This app's privacy policy can also be viewed on the [webpage](PrivacyPolicy.md).
 
 Clicking [OSS License] displays the OSS licenses used by **Book Techyo** on the following page.
 
