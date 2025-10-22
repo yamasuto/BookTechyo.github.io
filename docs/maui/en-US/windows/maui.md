@@ -32,7 +32,8 @@ Table of contents
       - [3-3-2. Maximum number of results retrieved from each book search service](#3-3-2-maximum-number-of-results-retrieved-from-each-book-search-service)
       - [3-3-3. Whether to show book cover images](#3-3-3-whether-to-show-book-cover-images)
       - [3-3-4. Background color setting for book cover images](#3-3-4-background-color-setting-for-book-cover-images)
-      - [3-3-5. Button to open the app settings](#3-3-5-button-to-open-the-app-settings)
+      - [3-3-5. Whether to Search for books using the copied ISBN](#3-3-5-whether-to-search-for-books-using-the-copied-isbn)
+      - [3-3-6. Button to open the app settings](#3-3-6-button-to-open-the-app-settings)
     - [3-4. Backup and Restore](#3-4-backup-and-restore)
       - [3-4-1. Backup button](#3-4-1-backup-button)
       - [3-4-2. Restore button](#3-4-2-restore-button)
@@ -133,6 +134,10 @@ Clicking ![+ icon](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz4
 
 ![Add Sub](./images/resized/01_Records_N050_BooksPageClickPlus.png)
 
+When you copy an ISBN from other apps, **Book Techyo** will display ![search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in addition to the above.
+Clicking that will prompt to search using the copied ISBN and display the results.
+Note that the function to search using copied ISBNs can be toggled on and off in the [Configuration](#3-3-configuration).
+
 #### 3-1-1-1. Barcode Scanning
 
 Click ![Barcode Scan](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png).
@@ -169,6 +174,13 @@ Enter details and click ![apply](../../common/images/check_32dp_1F1F1F_FILL0_wgh
 - On some PCs, **the Windows Camera app can scan barcodes more easily and smoothly**.  
 
   ![Windows Camera App](./images/resized/13-99.WindowsCameraApp.png)
+
+  When you copy an ISBN from **the Windows Camera app**, **Book Techyo** will display ![search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png).
+  Clicking that will prompt to search using the copied ISBN and display the results.
+
+   ![Retrived ISBN](./images/resized/13-98.WindowsCameraApp_RetrivesIsbn.png)
+
+  Note that the function to search using copied ISBNs can be toggled on and off in the [Configuration](#3-3-configuration).
 
 - Barcode scanning works only when a **camera is available**. If the PC has no camera, or another app is using it, barcode scanning will not work.
 
@@ -327,6 +339,7 @@ The Configuration page contains, from top to bottom:
 - Maximum number of results retrieved from each book search service
 - Whether to show book cover images in listings
 - Background color setting for book cover images
+- Whether to Search for books using the copied ISBN
 - Button to open the app settings
 
 Note that `DEBUG_TITLE_WEB_CLIENT` and `DEBUG_ISBN_WEB_CLIENT` in the image are for the development web client. They will not be displayed in **Book Techyo** obtained from the app store.
@@ -370,7 +383,13 @@ Clicking the button displays the background color selection popup.
 
 ![color chooser](./images/resized/02_Settings_N020_ConfigurationColorChooser.png)
 
-#### 3-3-5. Button to open the app settings
+#### 3-3-5. Whether to Search for books using the copied ISBN
+
+Specify whether to read ISBNs copied from other apps. The default is on, meaning it will read them.
+
+When on, copying an ISBN in other apps will display the [search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in the list page. Clicking that will prompt to search using the copied ISBN and display the results.
+
+#### 3-3-6. Button to open the app settings
 
 Click to open the app settings page.
 
