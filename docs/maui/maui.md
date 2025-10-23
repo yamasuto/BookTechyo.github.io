@@ -8,6 +8,12 @@ This is a Windows Desktop Application for managing book impressions and notes.
 
 [日本語の取扱説明書](./ja-JP/windows/maui.md)
 
+### Microsoft Store
+
+URL: <https://apps.microsoft.com/detail/9N3D6MXN4WGG>
+
+Store ID: 9N3D6MXN4WGG
+
 ## Android
 
 ![construction](../maui/common/images/upcoming_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
