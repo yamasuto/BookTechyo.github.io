@@ -9,6 +9,7 @@ Table of contents
     - [1-1. Why I Created It](#1-1-why-i-created-it)
     - [1-2. Book Data](#1-2-book-data)
     - [1-3. Privacy Policy](#1-3-privacy-policy)
+    - [1-4. Software Dependencies](#1-4-software-dependencies)
   - [2. How to Use](#2-how-to-use)
     - [2-1. Launching Book Techyo](#2-1-launching-book-techyo)
     - [2-2. Before You Start](#2-2-before-you-start)
@@ -73,7 +74,13 @@ Unfortunately, I was *unable* to obtain the cover images. I contacted the image 
 
 ### 1-3. Privacy Policy
 
-This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)](PrivacyPolicy.md)
+This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)](./PrivacyPolicy.md)
+
+### 1-4. Software Dependencies
+
+This app depends on **.NET 9.0**.
+
+If **.NET 9.0** is not installed, please download and install it from <https://dotnet.microsoft.com/download>.
 
 ## 2. How to Use
 
