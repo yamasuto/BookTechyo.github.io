@@ -14,7 +14,7 @@ This is an application for managing book impressions and notes.
 
 [Windows, Japanese](./maui/ja-JP/windows/maui.md)
 
-##### ![Microsoft Store](./maui/common/images/storefront_31dp_000000_FILL0_wght400_GRAD0_opsz24.png)
+##### ![Microsoft Store](./maui/common/images/storefront_31dp_000000_FILL0_wght400_GRAD0_opsz24.png) Microsoft Store
 
 URL: <https://apps.microsoft.com/detail/9N3D6MXN4WGG>
 

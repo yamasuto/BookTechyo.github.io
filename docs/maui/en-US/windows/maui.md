@@ -74,7 +74,7 @@ Unfortunately, I was *unable* to obtain the cover images. I contacted the image 
 
 ### 1-3. Privacy Policy
 
-This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)](./PrivacyPolicy.md)
+This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)](./PrivacyPolicy)
 
 ### 1-4. Software Dependencies
 
