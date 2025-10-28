@@ -78,9 +78,9 @@ This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FI
 
 ### 1-4. Software Dependencies
 
-This app depends on **.NET 9.0**.
+This app depends on **.NET 9.0 runtime**.
 
-If **.NET 9.0** is not installed, please download and install it from <https://dotnet.microsoft.com/download>.
+If **.NET 9.0** is not installed, please download **.NET 9.0 runtime** and install it from <https://dotnet.microsoft.com/download>.
 
 ## 2. How to Use
 

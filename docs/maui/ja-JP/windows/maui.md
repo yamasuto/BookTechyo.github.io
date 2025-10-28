@@ -77,9 +77,9 @@ iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使って�
 
 ### 1-4. 必要なソフトウェア
 
-**.NET 9.0**が必要です。
+**.NET 9.0 ランタイム**が必要です。
 
-PCにインストールしていない場合は、<https://dotnet.microsoft.com/download>からダウンロードしてインストールしてください。
+PCにインストールしていない場合は、<https://dotnet.microsoft.com/download>から**.NET 9.0ランタイム**をダウンロードしてインストールしてください。
 
 ## 2. 使い方
 
