@@ -1,22 +1,27 @@
 # ![icon](../note.png) **Book Techyo**
 
-This is a Windows Desktop Application for managing book impressions and notes.
+This is an Application for managing book impressions and notes.
 
 ## WINDOWS
 
-[English Instruction Manual](./en-US/windows/maui.md), [Release](./en-US/windows/releases.md)
+![English](./common/images/sentiment_satisfied_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [English Instruction Manual](./en-US/windows/maui.md), [Release](./en-US/windows/releases.md)
 
-[日本語の取扱説明書](./ja-JP/windows/maui.md), [リリース履歴](./ja-JP/windows/releases.md)
+![japanese](./common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [日本語の取扱説明書](./ja-JP/windows/maui.md), [リリース履歴](./ja-JP/windows/releases.md)
 
-### ![Microsoft Store](../maui/common/images/storefront_31dp_000000_FILL0_wght400_GRAD0_opsz24.png) Microsoft Store
+## Android
+
+![construction](../maui/common/images/upcoming_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
+
+## Store & Play
+
+<a href="https://apps.microsoft.com/detail/9N3D6MXN4WGG?referrer=appbadge&mode=direct">
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
 
 URL: <https://apps.microsoft.com/detail/9N3D6MXN4WGG>
 
 Store ID: 9N3D6MXN4WGG
 
-## Android
-
-![construction](../maui/common/images/upcoming_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
 ## Creator
 
