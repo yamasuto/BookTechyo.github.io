@@ -10,16 +10,17 @@ This is an application for managing book impressions and notes.
 
 #### ![windows](./maui/common/images/laptop_windows_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
-[Windows, English](./maui/en-US/windows/maui.md)
+![English](./maui/common/images/sentiment_satisfied_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [Windows, English](./maui/en-US/windows/maui.md)
 
-[Windows, Japanese](./maui/ja-JP/windows/maui.md)
+![japanese](./maui/common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)[Windows, Japanese](./maui/ja-JP/windows/maui.md)
 
-##### ![Microsoft Store](./maui/common/images/storefront_31dp_000000_FILL0_wght400_GRAD0_opsz24.png) Microsoft Store
+<a href="https://apps.microsoft.com/detail/9N3D6MXN4WGG?referrer=appbadge&mode=direct">
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
 
-URL: <https://apps.microsoft.com/detail/9N3D6MXN4WGG>
+<!-- URL: <https://apps.microsoft.com/detail/9N3D6MXN4WGG>
 
-Store ID: 9N3D6MXN4WGG
-
+Store ID: 9N3D6MXN4WGG -->
 #### ![android](./maui/common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
 ![construction](./maui/common/images/upcoming_32dp_434343_FILL0_wght400_GRAD0_opsz40.png) Android, English
