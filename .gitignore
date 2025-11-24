@@ -4,4 +4,5 @@ _site
 .jekyll-metadata
 vendor
 
-_*_Suite*Senario/
+_ja-JP_*Senario/
+_en-US_*Senario/
