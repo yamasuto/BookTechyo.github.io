@@ -9,8 +9,11 @@ This is an Application for managing book impressions and notes.
 ![japanese](./common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [日本語の取扱説明書](./ja-JP/windows/maui.md), [リリース履歴](./ja-JP/windows/releases.md)
 
 ## Android
+<!--
+![English](./common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png) [English Instruction Manual](./en-US/android/maui.md), [Release](./en-US/android/releases.md)
+-->
 
-![construction](../maui/common/images/upcoming_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
+![japanese](./common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [日本語の取扱説明書](./ja-JP/android/maui.md), [リリース履歴](./ja-JP/android/releases.md)
 
 ## Store & Play
 
@@ -21,7 +24,6 @@ This is an Application for managing book impressions and notes.
 URL: <https://apps.microsoft.com/detail/9N3D6MXN4WGG>
 
 Store ID: 9N3D6MXN4WGG
-
 
 ## Creator
 
