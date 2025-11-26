@@ -1,6 +1,6 @@
-# 読書の手帖（.NET MAUI版）
+# 読書の手帖（Android版）
 
-![メイン](./images/resized/00.ListWindow.png)
+![メイン](./images/resized/01_Records_N251_BooksPageTagSearch_Clear.png)
 
 ## 1. 説明
 
@@ -12,24 +12,32 @@ Windows 11[^0]やAndroid[^2]のスマートフォンで動きます。
 
 [読書管理ビブリア](https://biblia978.com/)で作成した記録も読み込めます。
 
-本アプリで提供するのメタデータの一部は、国立国会図書館サーチのAPIから取得した書誌データ（国立国会図書館が運営）に由来します。
-ライセンスは[クリエイティブ・コモンズ 表示 4.0 国際 パブリック・ライセンス](https://creativecommons.org/licenses/by/4.0/legalcode.ja)です。
-
 ### 1-1. 作成した理由
 
-iPhone SE[^1]で読書管理ビブリアを使っていましたが、Google Pixel[^2]に代えたため同じような広告がなく無料で使えるアプリが必要になり作成しました。
+iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使っていましたが、Google Pixel[^2]にかえたため、広告がなく無料で使えるアプリが必要になりました。
 
-読書管理ビブリアでエクスポートしたCsvファイルを既存のアンドロイドアプリ（[Yomoo](https://play.google.com/store/apps/details?id=com.nosuke.yomoo&hl=ja)、[bondaviの記録](https://play.google.com/store/apps/details?id=jp.bondavi.likes.global&hl=ja)、[蔵書マネージャー](https://play.google.com/store/apps/details?id=com.bsy_web.bookmanager&hl=ja)、等）に読み込ませれば済んだのですが、以下解消したり、機能を追加すべく実装することにしました。
+読書管理ビブリアでエクスポートしたCsvファイルを既存のアンドロイドアプリに読み込ませれば済んだのですが、以下解消したり、機能を追加すべく実装することにしました。
 
 - 広告が煩わしい
 - 不具合が直らない
-- 青空文庫の本を登録したい
+- [青空文庫](https://www.aozora.gr.jp/index.html)の本を登録したい
+
+### 1-2. 書誌・書影
+
+本アプリで提供するのメタデータの一部は、国立国会図書館サーチのAPIから取得した書誌データ（国立国会図書館が運営）に由来します。
+ライセンスは[クリエイティブ・コモンズ 表示 4.0 国際 パブリック・ライセンス](https://creativecommons.org/licenses/by/4.0/legalcode.ja)です。
+
+なお、**読書の手帖**は、書影画像（資料の表紙の画像）を取得しません（書影提供元に確認しましたが確認できなかったためです）。
+
+### 1-3. プライバシーポリシー
+
+本アプリの[プライバシーポリシー![link](../../common/images/open_in_new_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)](./PrivacyPolicy.jaJP)
 
 ## 2. 使い方
 
-**読書の手帖**を起動したら、本の記録を登録します。
+**読書の手帖**を起動したら、本の記録登録など操作します。
 
-記録が終わったら、**読書の手帖**を終了します。
+終わったら、**読書の手帖**を終了します。
 
 ### 2-1. 読書の手帖を起動する
 
@@ -37,157 +45,257 @@ iPhone SE[^1]で読書管理ビブリアを使っていましたが、Google Pix
 
 ![スタートアップ](./images/resized/01.Start.png)
 
-### 2-2. 本の記録を登録する
+### 2-2. 使い始める前に
+
+アプリインストール後の初回起動時に、書籍検索サービスの利用規約確認をお願いするメッセージを表示します。
+
+![利用規約確認](./images/resized/01_Records_N010_Initial.png)
+
+OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設定)にある書籍検索サービスのURLをタップして利用規約を確認してください。同意できない場合は[チェック]を外して利用しないようにしてください。
+
+### 2-3. 本の記録を登録する
+
+個々に登録する、もしくはファイルを読み込んでまとめて登録します。
+
+- 個々に登録する場合
+  - 本のタイトルで検索して登録できます。
+  - カメラで読み込んだISBNで検索して登録できます。
+  - [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をタップしてコピーすると引用文をもとにして登録できます。
+- ファイルを読み込んでまとめて登録する場合は、バックアップで作成したYaml形式のファイルか読書管理ビブリアでエクスポートしたCsvファイルを使います。
+
+### 2-4. 読書の手帖を終了する
+
+起動中アプリの一覧を表示したら、**読書の手帖**を下から上へスワイプします。
+
+![Exit](./images/resized/18.Exit.png)
+
+この時、**読書の手帖**は**反映していない変更を破棄します**ので注意してください。
+
+## 3. メニュー
+
+**読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップするとメニューを表示します。
+
+![Shell](./images/resized/01_Records_N030_ShowFlyout.png)
+
+- 下部にあるスイッチ[ヒントを表示する]をオンにしている場合は、操作方法などのヒントをトーストで表示します。オフにするとヒントを表示しません。
+
+### 3-1. 記録
+
+本の記録を一覧表示します。
+
+![メイン](./images/resized/01_Records_N210_ReturnToBooksPage.png)
+
+本の記録にはタイトル、著者、状態、更新日、星の数、賞の有無、タグを表示します。
+
+#### 3-1-1. 本の記録を登録する
 
 **読書の手帖**の![+アイコン](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
-![Add](./images/resized/06.Add_add.png)
+![Add](./images/resized/01_Records_N040_ShowEmptyBooksPage.png)
 
 ![+アイコン](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、バーコード読み取り ![バーコード読み取り](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、書籍のタイトルで検索 ![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)、空の記録を追加 ![空の記録を追加](../../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)を表示します。
 
-![Add Sub](./images/resized/06-01.Add_sub.png)
+![Add Sub](./images/resized/01_Records_N050_BooksPageClickPlus.png)
 
-#### 2-2-1. バーコード読み取り
+他のアプリでISBNをコピーした場合には、上に加えてコピーしたISBNで検索 ![コピーしたISBNで検索](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。タップすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示します。
+
+[国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をタップしてコピーすると、![コピーしたISBNで検索](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。タップすると**読書の手帖**は引用文をもとにして登録できます。
+
+なお、コピーしたISBNで検索する機能と引用文を元に登録する機能は[設定画面](#3-3-設定)の[クリップボードから読み取る]でオンとオフを切り替えられます。
+
+#### 3-1-1-1. バーコード読み取り
 
 バーコード読み取り ![バーコード読み取り](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 **読書の手帖**は、バーコード読み取り画面を表示します。
 
-![CameraRecognizing](./images/resized/13.CameraRecognizing.png)
+![CameraRecognizing](./images/resized/01_Records_N061_BarcordReader.png)
 
-書籍のバーコード（978で始まる数学が書いてある方）をカメラにかざし、読み取りが成功するまで位置を調整してください。
+この時、アクセスを許可するか確認する画面を表示することがあります。[アプリの使用時のみ]ボタンもしくは[今回のみ]ボタンをタップして許可してください。
 
-<!-- TODO 許可を表示するかも -->
+![permission](./images/resized/01_Records_N060_BooksPageClickBarcordReaderShowsConfirmation.png)
 
-バーコードの読み取りに成功すると、**読書の手帖**は確認ダイアログを表示します。
+書籍のバーコード（978で始まる数学が書いてある方）をカメラ画像中央のまるの位置にかざし、読み取りが成功するまで位置を調整してください。
 
-正しく読み取れていたら[はい]をタップしてください。
+バーコードの読み取りに成功すると、**読書の手帖**は読み取ったISBNを使って検索を行い結果を表示します。
 
-![Barcord Confirmation](./images/resized/13-1.CameraRecognizing.png)
+![Barcord Scaned ISBN Search](./images/resized/01_Records_N080_BookSearchPageSearchingByIsbn.png)
 
-すると、**読書の手帖**は読み取ったISBNを使って検索を行い結果を表示します。
+一覧で書籍を選択して **右にスワイプして、[選択]をタップ**してください。
 
-![Barcord Scanning ISBN Search](./images/resized/13-01.barcordScanedSearch.png)
+![swiped](./images/resized/01_Records_N090_BookSearchPageSelectResultSelected.png)
 
-一覧で書籍を選択し、右側にスワイプしてください。すると**読書の手帖**は[選択]を表示します。
-
-![swaip](./images/resized/13-03.barcordScanedSwaiped.png)
-
-[選択]をタップすると**読書の手帖**は、本の記録を入力する詳細画面に検索結果を反映します。
-
-![Barcord Scaned Detail](./images/resized/13-04.barcordScanedDetail.png)
+**読書の手帖**は、本の記録を入力する[詳細画面](#3-1-2-本の記録を記入編集削除する)に検索結果を反映します。
 
 項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
-#### 2-2-2. 書籍のタイトルをキーにしてインターネットを検索する
+#### 3-1-1-2. 書籍のタイトルでインターネットを検索する
 
 ![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 **読書の手帖**は、検索画面を表示します。
 
-![Search](./images/resized/09.SearchingByTitle.png)
+![Search](./images/resized/01_Records_N070_BookSearchPage.png)
 
 テキストボックスに検索する書籍のタイトルを入力して![検索開始ボタン](../../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は検索を行い結果を一覧で表示します。
 
-なお、検索で利用するサービスおよびサービスごとの検索結果の上限数は[設定画面](#3-設定)で指定します。
+- テキストボックスに書籍のタイトルを入力するとタイトルをキーにして検索します。
+- テキストボックスにISBNを入力するとISBNをキーにして検索します（例えば`9799999999990`や`979-9-999-99999-0`）。
+- テキストボックスにtitle: (書籍タイトル) author: (書籍著者名)と指定するとタイトルと著者名で検索します。
+  - 例えば`title: 草枕 author: 夏目漱石`です。
+  - タイトルだけ、著者名だけでも検索できます。
+  - 青空文庫で著者の書籍一覧を取得したい場合は、author: (書籍著者名)と入力します。
+- 検索で利用するサービスおよびサービスごとの検索結果の上限数は[設定画面](#3-3- 設定)で指定します。
 
-![Search Results](./images/resized/09-1.SearchingByTitleResults.png)
+![Search Results](./images/resized/01_Records_N110_BookSearchPageSearchingByTitle.png)
 
-一覧で書籍を選択し、右側にスワイプしてください。すると**読書の手帖**は[選択]を表示します。
+一覧で書籍を選択して **右にスワイプして、[選択]をタップ**してください。
 
-![Swiped](./images/resized/09-1-1.SearchingByTitleResultsSwiped.png)
-
-[選択]をタップすると**読書の手帖**は、本の記録を入力する詳細画面に検索結果を反映します。
-
-![Search Detail](./images/resized/09-2.SearchingByTitleDetail.png)
+**読書の手帖**は、本の記録を入力する[詳細画面](#3-1-2-本の記録を記入編集削除する)に検索結果を反映します。
 
 項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
-#### 2-2-3. 空の記録を追加する
+#### 3-1-1-3. 空の記録を追加する
 
 ![空の記録を追加](../../common/images/draft_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
-**読書の手帖**は、空の本の記録を入力する詳細画面を表示します。
+**読書の手帖**は、空の本の記録を入力する[詳細画面](#3-1-2-本の記録を記入編集削除する)を表示します。
 
-![Draft](./images/resized/10.Draft.png)
+![Draft](./images/resized/01_Records_N130_BooksPageAddBlank.png)
 
 項目に入力して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、**読書の手帖**は一覧に登録します。
 
-### 2-3. 本の記録を編集する
+#### 3-1-2. 本の記録を記入・編集・削除する
 
-**読書の手帖**で編集する記録を選択すると、本の記録を入力する詳細画面を表示します。
+**読書の手帖**で本の記録を新規登録したり、登録してある本の記録をタップすると、[詳細画面](#3-1-2-本の記録を記入編集削除する)を表示します。
 
-![Editing](./images/resized/15.Editing.png)
+![Barcord Scaned Detail1](./images/resized/01_Records_N091_BookSearchPageSelectResult_Top.png)
+
+![Barcord Scaned Detail2](./images/resized/01_Records_N092_BookSearchPageSelectResult_Buttom.png)
+
+- 各項目は空、デフォルトのままにもできます。
+
+タイトルおよび著者をタップするとPopupを表示します。タイトル、著者を指定して[反映ボタン]をタップしてください。
+
+![title](./images/resized/01_Records_N150_BookDetailToEditTitle.png)
+
+![authors](./images/resized/01_Records_N160_BookDetailToEditAuthors.png)
+
+説明および感想をタップすると、それぞれ入力ページを表示します。
+
+![説明](./images/resized/01_Records_N180_BookDetailToEditMemo.png)
+
+![感想](./images/resized/01_Records_N200_BookDetailToEditComment.png)
+
+- 画面右上のツールバーで[ページ番号]、[シャープ]を入力できます。
+- 画面右上のツールバーで![more](../../common/images/more_vert_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をタップすると、[今日の日付]、[タイトル]、[著者名]を入力するメニューを表示します。
+- 感想にはシャープ（'#'）を使ってタグを設定できます。後々タグで検索できます。
 
 変更して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
 **読書の手帖**は、変更した内容を反映した画面を表示します。
 
-![Edited](./images/resized/16.Edited.png)
+変更を破棄して元の表示に戻るには、画面左上の![Back](../../common/images/arrow_back_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
-なお、詳細画面で![Delete](../../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると記録を破棄します。
+なお、登録してある本の記録をダブルタップして[詳細画面](#3-1-2-本の記録を記入編集削除する)を表示した場合には、![Delete](../../common/images/delete_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると記録を**削除**します。
 
-### 2-4. 本の記録を検索する
+![Editing](./images/resized/01_Records_N140_BookDetailToEdit.png)
 
-文字列検索または状態を対象にして検索できます。
+#### 3-1-2-1. 賞
 
-<!-- タグも選択できるようにしたい -->
+賞![trophy](../../common/images/trophy_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)は、一年で一番面白かった本を指定するために作りました。
 
-#### 2-4-1. タイトル等を対象として検索する
+- 他の項目（[状態]や[星]など）と関係なく、チェックありなしを切り替えられます。
+- [賞]にチェックすると一覧でも![trophy](../../common/images/trophy_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)を表示します。
+- [賞]ありなしを指定して検索できます。
 
-タイトル、著者、説明、感想を対象として、指定した文字列を含む本の記録を検索します。
+#### 3-1-3. 本の記録を検索する・並び替える
 
-![FilterByText](./images/resized/17-1.FilterByText.png)
+登録してある本の記録を文字列または状態を対象にして検索できます。日付順等で並び替えられます。
+
+##### 3-1-3-1. タイトル等を対象として検索する
+
+タイトル、著者、出版社、説明、感想を対象として、指定した文字列を含む本の記録を検索します。
+
+![FilterByText](./images/resized/01_Records_N211_BooksPageSearch.png)
 
 検索文字列を指定するテキストボックスに文字列を入力し、![search](../../common/images/search_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
-見つかった記録のみ一覧に表示します。
+見つかった本の記録のみ一覧に表示します。
 
 検索結果の表示をキャンセルする場合は、![Cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
-#### 2-4-2. 状態フィルター
+- 検索文字列を指定するテキストボックスに、項目名と検索する文字列を入力すると指定の項目のみを対象として検索します。例えば`title: 探す本のタイトル`です。
+  - 指定できる項目名はtitle、authors、publisher、memo、comment、tagです。それぞれタイトル、著者、出版社、説明、感想、タグだけを対象として検索します。
+  - 指定できる項目名は一つだけです。
 
-**読書の手帖**の右上側にある![Filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、下側に状態フィルターを示します。
+##### 3-1-3-2. フィルターと並び替え
 
-チェックありの状態だけを一覧に表示します。
+右上の![More](../../common/images/more_horiz_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると、フィルターと並び替えのメニューを表示します。
 
-![BottomSheet](./images/resized/17-2-1.FilterByStatus.png)
+![MenuOfFilterByStatus](./images/resized/01_Records_N220_BooksPageOpenToolbar.png)
 
-状態をタップしてチェックありなしを切り替えると、一覧に表示している本の記録を更新します。
+![BottomSheet](./images/resized/01_Records_N230_BooksPageFilter.png)
 
-![BottomSheet changed](./images/resized/17-2-2.FilterByStatus.png)
+- 状態では**チェックあり**の状態だけを一覧に表示します。タップしてチェックありなしを切り替えると、一覧の表示を更新します。
+- [賞]は左側の[スイッチ]でオンにしてから、賞の有り無しを[チェックボックス]で指定します。チェックありなしを切り替えると、一覧の表示を更新します。
 
-状態フィルターを閉じる場合は、右上の![Cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
+[並び替え]で、対象と方向を選び、![Sort](../../common/images/sort_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップすると一覧に表示している本の記録を並び変えて表示します。
 
-![BottomSheet Closed](./images/resized/17-2-3.FilterByStatus.png)
+![BottomSheet changed](./images/resized/01_Records_N240_BooksPageSort.png)
 
-### 2-5. 読書の手帖を終了する
+対象
 
-ホーム画面下のナビゲーションバーのボタンタップやホーム画面下から上へのスワイプにより起動中のアプリの一覧を表示します。
+|対象|説明|
+|-|-|
+|なし|デフォルトの表示です。登録順に表示します。|
+|星|評価の順に並び替えます|
+|出版年月日|出版年月日の順に並び替えます|
+|更新日|本の記録を**更新**した順に並び替えます|
+|登録日|本の記録を**登録**した順に並び替えます|
 
-左右にスワイプして**読書の手帖**を選び、下から上にスワイプします。
+方向
 
-![Exit](./images/resized/18.Exit.png)
+|方向|説明|
+|-|-|
+|降順|大きい値から小さい値、もしくは新しい日付から古い日付|
+|昇順|小さい値から大きい値、もしくは古い日付から新しい日付|
 
-この時、**読書の手帖**は**未保存の変更を破棄します**ので注意してください。
+※[なし]を選択している場合、[方向]を表示しません。
 
-## 3. 設定
+フィルターと並び替えの設定項目を閉じる場合は、右上メニューの[閉じる]をタップするか、一覧部分をタップします。
 
-**読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[設定]をタップすると、設定画面を表示します。
+### 3-2. グラフ
 
-![Shell](./images/resized/19.Shell.png)
+表示したメニューから[グラフ]をタップすると、グラフ画面を表示します。
 
-![Configuration](./images/resized/20.Configuration.png)
+![Chart](./images/resized/02_Settings_N130_Statistics.png)
 
-設定画面には上から
+選択した年に更新した本の記録の数を状態毎に棒グラフで表示します。
+
+グラフの下に一年間に読み終わった本の合計、[賞]を設定した本の合計を表示します。
+
+### 3-3. 設定
+
+表示したメニューから[設定]をタップすると、設定画面を表示します。
+
+![Configuration](./images/resized/02_Settings_N010_ShowConfiguration.png)
+
+設定画面には上から以下の設定があります。
 
 - 書籍検索サービスを利用する・しない、および優先度の指定
 - 各書籍検索サービスで取得する結果の上限個数
+- 書籍一覧等で書影を表示するかどうか
+- 書籍一覧等の書影背景色指定
+- クリップボードから読み取るかどうか
+- バーコード読み取りのカメラ設定
 - アプリ設定を開くボタン
 
-があります。
+なお、画像中の`DEBUG_TITLE_WEB_CLIENT`と`DEBUG_ISBN_WEB_CLIENT`は開発用のWEBサービスです。Google Playから取得した**読書の手帖**では表示しません。
 
-### 3-1. 書籍検索サービスを利用する・しない、および優先度の指定
+#### 3-3-1. 書籍検索サービスを利用する・しない、および優先度の指定
+
+**検索を行う前に書籍検索サービスのURLをタップして利用規約を確認してください。同意できない場合は[チェック]を外して利用しないようにしてください。**
 
 左側のチェックボックスにチェックがある検索サービスを使って書籍検索を行います。
 
@@ -197,74 +305,125 @@ iPhone SE[^1]で読書管理ビブリアを使っていましたが、Google Pix
 
 検索サービスの右側に![バーコード](../../common/images/barcode_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていればISBNでの検索時に利用します。![書籍のタイトルで検索](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)がグレーでない色になっていれば書籍タイトルでの検索時に利用します。
 
-### 3-2. 各書籍検索サービスで取得する結果の上限個数
+|サービス|ホームページ|説明|
+|-|-|-|
+|国立国会図書館サーチ|<https://ndlsearch.ndl.go.jp/>|ISBNおよびタイトルで検索|
+|青空文庫・国立国会図書館サーチ|<https://ndlsearch.ndl.go.jp/>|タイトルで検索|
 
-3以上100以下の整数を指定します。
+- 青空文庫・国立国会図書館サーチは国立国会図書館サーチでデータプロバイダーに青空文庫（リポジトリ番号 R000000014）を指定して検索を実施しています。国立国会図書館サーチでの青空文庫データ更新頻度は[月1回](https://ndlsearch.ndl.go.jp/help/target)です。
 
-### 3-3. アプリ設定を開くボタン
+#### 3-3-2. 各書籍検索サービスで取得する結果の上限個数
+
+3以上120以下の整数を指定します。
+
+#### 3-3-3. 書籍の画像を表示するかどうか
+
+一覧等で書籍の画像を表示するかどうかを指定します。デフォルトは非表示です。
+
+以下は画像を表示をするとした場合（さらに背景色を変更しています）の一覧表示です。
+
+![image on](./images/resized/02_Settings_N040_BooksImageIsDisplay.png)
+
+#### 3-3-4. 書籍の画像背景色指定
+
+書籍の画像の背景色を指定します。デフォルトは透明です。
+
+ボタンをタップすると背景色選択を行う画面を表示します。
+
+![color chooser](./images/resized/02_Settings_N020_ConfigurationColorChooser.png)
+
+#### 3-3-5. クリップボードから読み取る
+
+他のアプリでコピーしたISBNを**読み取り**検索を行うかどうか、[国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)の「引用文（参考文献注）を生成」による引用文を**読み取り**登録するかどうかを指定します。デフォルトはオン、読み取るです。
+
+オンにした場合、ISBNのコピーおよび引用文のコピーを検出すると一覧表示に![クリップボードから読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。これをタップすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示、もしくは引用文をもとにした詳細ページの表示を行います。
+
+#### 3-3-6. バーコード読み取りのカメラ設定
+
+バーコード読み取りに関するカメラの設定を行います。
+
+|項目|説明|
+|-|-|
+|キャプチャー品質|高い精度を求める場合は'最高'を設定し、高速を優先する場合は'低'を設定してください|
+|Aimモード|オンにすると中央にバーコードが位置する場合のみ解析します|
+
+#### 3-3-7. アプリ設定を開くボタン
 
 タップするとアプリ設定の画面を表示します。
 
-![AppSettings](./images/resized/21.AppSettings.png)
+![AppSettings](./images/resized/02_Settings_N140_AppSetting.png)
 
-## 4. バックアップと保存
+### 3-4. バックアップと保存
 
 **読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[バックアップと復元]をタップすると、バックアップと復元画面を表示します。
 
-![Shell](./images/resized/19.Shell.png)
+![BackupRestore](./images/resized/02_Settings_N050_ShowBackupAndRestore.png)
 
-![BackupRestore](./images/resized/22.backupRestore.png)
-
-バックアップと復元画面には上から
+バックアップと復元画面には上から、以下の項目があります。
 
 - バックアップボタン
 - 復元ボタン
 - すべて削除ボタン
 - 他のサービス
-  - ビブリア
-    - インポートボタン
-    - エクスポートボタン
 
-があります。
+#### 3-4-1. バックアップボタン
 
-### 4-1. バックアップボタン
+タップすると指定したファイルに、登録した本の記録を出力します。
 
-タップすると指定したファイルに、登録した本の記録をYamlで出力します。
+- 出力するのはYamlファイルです。
+- Yamlファイルはテキストエディターで開いて編集することもできます。編集する場合は書式や文字コード、改行コードが変わらないように気を付けて保存してください。
+- Yamlファイルの文字コードはUTF-8（BOMなし）、改行コードはCRLFです。
 
-出力したYamlファイルはオンラインストレージなど端末の外部にも保存しておくことをお勧めします。
-
-### 4-2. 復元ボタン
+#### 3-4-2. 復元ボタン
 
 タップすると指定したファイルを読み込み本の記録を**追加**します。
 
 既存の登録をすべて削除してから読み込む場合は、[登録してある記録を空にしてから復元する]チェックボックスをチェックしてからボタンをタップしてください。
 
-### 4-3. すべて削除ボタン
+#### 3-4-3. すべて削除ボタン
 
 タップすると登録している本の記録をすべて削除します。
 
-### 4-4. 他のサービス
+#### 3-4-4. 他のサービス
 
-### 4-4-1.  ビブリア
+##### 3-4-4-1. 読書管理ビブリア
 
-- インポート：[読書管理ビブリア](https://biblia978.com/)のバックアップでDropboxに出力した[CSVファイル](https://biblia978.com/support/articles/15/)をインポートします。
+- インポート：[読書管理ビブリア](https://biblia978.com/)のバックアップでDropbox[^3]に出力した[CSVファイル](https://biblia978.com/support/articles/15/)をインポートします。
 - エクスポート：登録した本の記録を[読書管理ビブリア](https://biblia978.com/)の復元で読み込める[CSVファイル](https://biblia978.com/support/articles/15/)としてエクスポートします。
 
-<!-- TODO confirm -->
-読書管理ビブリアのバックアップは[Dropbox](https://www.dropbox.com/)にファイルを作成します。復元はDropboxにあるファイルを読み込みます。**読書の手帖**はDropboxにアクセスできないため、私はAndroidにインストールした[Dropbox](https://play.google.com/store/apps/details?id=com.dropbox.android&pcampaignid=web_share)アプリを使い以下のように操作しています。
+読書管理ビブリアのバックアップは[Dropbox](https://www.dropbox.com/)にファイルを作成します。**読書の手帖**はDropboxにアクセスできないため、私はインストールした[Dropboxアプリ](https://play.google.com/store/apps/details?id=com.dropbox.android&hl=en)を使い以下のように操作してインポートやエクスポートをしています。
 
 - **読書の手帖**でインポートする
   1. 読書管理ビブリアでバックアップを行う
-  2. Dropbox アプリを起動する（読書管理ビブリアでのDropboxと同じアカウント）
-  3. Dropbox アプリで「Dropbox/アプリ/Biblia/books.csv」を選択してローカルに出力
+  2. Dropboxを起動する（読書管理ビブリアでのDropboxと同じアカウントで）
+  3. Dropboxで「Dropbox/アプリ/Biblia/books.csv」を選択して「デバイスに保存」でローカルフォルダー（ダウンロード等）に出力する
   4. **読書の手帖**で、[すべて削除]を行ってのち、先に保存したCSVファイルをインポートする
 
 - **読書の手帖**でエクスポートして、読書管理ビブリアで復元する
   1. **読書の手帖**の[ビブリア] [エクスポート]でファイル名にbooks.csvを指定して保存する
-  2. Dropbox アプリで「Dropbox/アプリ/Biblia」に上のbooks.csvをアップロードする
-  3. 読書管理ビブリアで「すべてのデータを削除」を行ってのち、復元を実行する
+  2. Dropboxを起動する（読書管理ビブリアでのDropboxと同じアカウントで）
+  3. Dropboxで「Dropbox/アプリ/Biblia」に上のbooks.csvをアップロードする
+  4. 読書管理ビブリアで「すべてのデータを削除」を行ってのち、復元を実行する
 
-## 5. お問い合わせ
+### 3-5. 読書の手帖について
+
+**読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[読書の手帖について]をタップすると、読書の手帖について画面を表示します。
+
+![About](./images/resized/02_Settings_N100_ShowAbout.png)
+
+[ホームページ]と[使い方]はタップすると、Webブラウザーを起動して表示します。
+
+[プライバシーについて]をタップすると以下の画面を表示します。
+
+![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
+
+本アプリのプライバシーポリシーは[Webページ](PrivacyPolicy.md)でも確認いただけます.
+
+[OSSライセンス]をタップすると以下の画面に**読書の手帖**が利用しているOSSのライセンスを表示します。
+
+![OSS license](./images/resized/02_Settings_N120_About_ShowOssLicenses.png)
+
+## 4. お問い合わせ
 
 本アプリに関するご質問やご不明点がございましたら、[ホームページからお問い合わせ](https://yamasuto.github.io/BookTechyo.github.io/contact/ja-JP/)ください。
 
@@ -273,3 +432,4 @@ iPhone SE[^1]で読書管理ビブリアを使っていましたが、Google Pix
 [^0]: Windows及び関連する名称並びにそれぞれのロゴは、米国Microsoft Corporationの米国およびその他の国における登録商標です。
 [^1]: iPhoneはApple inc.の登録商標です。iPhone商標は、アイホン株式会社のライセンスに基づき使用されています。
 [^2]: 「Google」「Google Pixel」「Android」は、Google LLCの商標または登録商標です。
+[^3]: DropboxおよびDropboxのロゴはDropbox, Inc.の商標です。
