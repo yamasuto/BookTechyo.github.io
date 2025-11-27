@@ -138,12 +138,12 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 ![Add Sub](./images/resized/01_Records_N050_BooksPageClickPlus.png)
 
-他のアプリでISBNをコピーした場合には、上に加えてコピーしたISBNで検索 ![コピーしたISBNで検索](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。
+他のアプリでISBNをコピーした場合には、上に加えてクリップボードから読み取る ![クリップボードから読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。
 タップすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示します。
 
 ![Add from clipboard](./images/resized/01_Records_N260_BooksPage_IsbnCopyed.png)
 
-[国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をタップしてコピーすると、上と同様に![コピーしたISBNで検索](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。
+[国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をタップしてコピーすると、上と同様にクリップボードから読み取る![クリップボードから読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。
 タップすると**読書の手帖**は、引用文を取り込み詳細ページに表示します。
 
 なお、コピーしたISBNで検索する機能と引用文を元に登録する機能は[設定画面](#3-3-設定)の[クリップボードから読み取る]でオンとオフを切り替えられます。
@@ -218,9 +218,10 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 ![Barcord Scaned Detail2](./images/resized/01_Records_N092_BookSearchPageSelectResult_Buttom.png)
 
-- 各項目は空、デフォルトのままにもできます。
+- 各項目は空、デフォルトのままにできます。
+- ![epanding](../../common/images/expand_circle_down_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) 詳細をタップすると、エクスパンダー（出版社、ISBN、ページ数、出版年月日、URL、画像、説明、出典を内包する）を展開して表示します。![shrink](../../common/images/expand_circle_up_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をタップすると、エクスパンダーを畳み非表示にします。
 
-タイトルおよび著者をタップするとPopupを表示します。タイトル、著者を指定して[OKボタン]をタップしてください。
+タイトルおよび著者をタップするとPopupを表示します。タイトル、著者を指定して[OK]をタップしてください。
 
 ![title](./images/resized/01_Records_N150_BookDetailToEditTitle.png)
 
@@ -233,8 +234,8 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 ![感想](./images/resized/01_Records_N200_BookDetailToEditComment.png)
 
 - 画面右上のツールバーで[ページ番号]、[シャープ]を入力できます。
+  - 感想にはシャープ（'#'）を使ってタグを設定できます。後々タグで検索できます。
 - 画面右上のツールバーで![more](../../common/images/more_vert_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をタップすると、[今日の日付]、[タイトル]、[著者名]を入力するメニューを表示します。
-- 感想にはシャープ（'#'）を使ってタグを設定できます。後々タグで検索できます。
 
 変更して、![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップします。
 
