@@ -1,4 +1,4 @@
-# 読書の手帖（Android版）
+# 読書の手帖（Android版）![android](../../common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
 ![メイン](./images/resized/01_Records_N251_BooksPageTagSearch_Clear.png)
 
@@ -45,7 +45,7 @@
 
 ## 1. 説明
 
-本の感想やメモを管理するアプリケーションです。
+**読書の手帖**![icon](../../../note.png)は、本の感想やメモを管理するアプリケーションです。
 
 Windows 11[^0]やAndroid[^2]のスマートフォンで動きます。
 
@@ -65,7 +65,7 @@ iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使って�
 
 ### 1-2. 書誌・書影
 
-本アプリで提供するのメタデータの一部は、国立国会図書館サーチのAPIから取得した書誌データ（国立国会図書館が運営）に由来します。
+本アプリで提供するのメタデータの一部は、[国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)のAPIから取得した書誌データ（国立国会図書館が運営）に由来します。
 ライセンスは[クリエイティブ・コモンズ 表示 4.0 国際 パブリック・ライセンス](https://creativecommons.org/licenses/by/4.0/legalcode.ja)です。
 
 なお、**読書の手帖**は、書影画像（資料の表紙の画像）を取得しません（書影提供元に確認しましたが確認できなかったためです）。
@@ -468,7 +468,7 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 ![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
 
-本アプリのプライバシーポリシーは[Webページ](PrivacyPolicy.md)でも確認いただけます.
+本アプリのプライバシーポリシーは[Webページ](./PrivacyPolicy.jaJP)でも確認いただけます.
 
 [OSSライセンス]をタップすると以下の画面に**読書の手帖**が利用しているOSSのライセンスを表示します。
 
