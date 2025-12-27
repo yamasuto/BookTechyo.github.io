@@ -1,6 +1,6 @@
 # 読書の手帖（Windows Store App版）
 
-![メイン](./images/resized/01_Records_N211_ImportBibliaCsvFiles.png)
+![Main](./images/resized/01_Records_N211_ImportBibliaCsvFiles.png)
 
 目次
 
@@ -33,7 +33,7 @@
       - [3-3-2. 各書籍検索サービスで取得する結果の上限個数](#3-3-2-各書籍検索サービスで取得する結果の上限個数)
       - [3-3-3. 書籍の画像を表示するかどうか](#3-3-3-書籍の画像を表示するかどうか)
       - [3-3-4. 書籍の画像背景色指定](#3-3-4-書籍の画像背景色指定)
-      - [3-3-5. コピーしたISBNで書籍を検索する](#3-3-5-コピーしたisbnで書籍を検索する)
+      - [3-3-5. クリップボードから読み取る](#3-3-5-クリップボードから読み取る)
       - [3-3-6. アプリ設定を開くボタン](#3-3-6-アプリ設定を開くボタン)
     - [3-4. バックアップと保存](#3-4-バックアップと保存)
       - [3-4-1. バックアップボタン](#3-4-1-バックアップボタン)
@@ -62,7 +62,7 @@ iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使って�
 
 - 広告が煩わしい
 - 不具合が直らない
-- [青空文庫](https://www.aozora.gr.jp/index.html)の本を登録したい
+- [青空文庫](https://www.aozora.gr.jp/)の本を登録したい
 
 ### 1-2. 書誌・書影
 
@@ -71,19 +71,19 @@ iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使って�
 
 なお、**読書の手帖**は、書影画像（資料の表紙の画像）を取得しません（書影提供元に確認しましたが確認できなかったためです）。
 
+- 国立国会図書館サーチ [書影APIのサービス終了について（2026年3月31日（火））](https://ndlsearch.ndl.go.jp/news/20251217)
+
 ### 1-3. プライバシーポリシー
 
 本アプリの[プライバシーポリシー![link](../../common/images/open_in_new_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)](./PrivacyPolicy.jaJP)
 
 ### 1-4. 必要なソフトウェア
 
-**.NET 9.0 ランタイム**が必要です。
-
-PCにインストールしていない場合は、<https://dotnet.microsoft.com/download>から**.NET 9.0ランタイム**をダウンロードしてインストールしてください。
+**.NET 9.0 ランタイム**が必要です。PCにインストールしていない場合は、<https://dotnet.microsoft.com/download>から **.NET 9.0ランタイム** をダウンロードしてインストールしてください。
 
 ## 2. 使い方
 
-**読書の手帖**を起動したら、本を登録します。
+**読書の手帖**を起動したら、本の記録登録など操作します。
 
 使い終わったら、**読書の手帖**を終了します。
 
@@ -105,7 +105,10 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 個々に登録する、もしくはファイルを読み込んでまとめて登録します。
 
-- 個々に登録する場合は、本のタイトルで検索、もしくはカメラで読み込んだISBNで検索して登録できます。
+- 個々に登録する場合
+  - 本のタイトルで検索して登録できます。
+  - カメラで読み込んだISBNで検索して登録できます。
+  - [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をクリックして、「記載例をコピー」をクリックすると引用文をもとにして登録できます。
 - ファイルを読み込んでまとめて登録する場合は、バックアップで作成したYaml形式のファイルか読書管理ビブリアでエクスポートしたCsvファイルを使います。
 
 ### 2-4. 読書の手帖を終了する
@@ -126,7 +129,7 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 本の記録を一覧表示します。
 
-![メイン](./images/resized/01_Records_N211_ImportBibliaCsvFiles.png)
+![Main](./images/resized/01_Records_N211_ImportBibliaCsvFiles.png)
 
 本の記録にはタイトル、著者、状態、更新日、星の数、賞の有無、タグを表示します。
 
@@ -140,7 +143,14 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 ![Add Sub](./images/resized/01_Records_N050_BooksPageClickPlus.png)
 
-他のアプリでISBNをコピーした場合には、上に加えてコピーしたISBNで検索 ![コピーしたISBNで検索](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。クリックすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示します。なお、コピーしたISBNで検索する機能は[設定画面](#3-3-設定)でオンとオフを切り替えられます。
+他のアプリでISBNや解析可能な書籍の説明をコピーした場合には、上に加えて読み取る ![読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。
+
+![Add from clipboard](./images/resized/01_Records_N260_BooksPage_IsbnCopyed.png)
+
+- 他のアプリでISBNをコピーした場合に、![読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をクリックすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示します。
+- [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をクリックして、「記載例をコピー」をクリックした場合に、![読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をクリックすると**読書の手帖**は、引用文をもとに詳細ページに表示します。
+
+なお、上の機能は[設定画面](#3-3-設定)の[クリップボードから読み取る]でオンとオフを切り替えられます。
 
 #### 3-1-1-1. バーコード読み取り
 
@@ -181,7 +191,7 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
   **Windowsのカメラアプリ**でISBNを読み取った場合には、**読書の手帖**は![コピーしたISBNで検索](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。クリックすると読み取ったISBNを使って検索を行い結果を表示します。
 
-  ![Retrived ISBN](./images/resized/13-98.WindowsCameraApp_RetrivesIsbn.png)
+  ![Retrived ISBN](./images/resized/01_Records_N260_BooksPage_IsbnCopyed.png)
 
   なお、コピーしたISBNで検索する機能は[設定画面](#3-3-設定)でオンとオフを切り替えられます。
 
@@ -239,9 +249,9 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 説明および感想をクリックすると、それぞれ入力ページを表示します。
 
-![説明](./images/resized/01_Records_N180_BookDetailToEditMemo.png)
+![Memo](./images/resized/01_Records_N180_BookDetailToEditMemo.png)
 
-![感想](./images/resized/01_Records_N200_BookDetailToEditComment.png)
+![Comment](./images/resized/01_Records_N200_BookDetailToEditComment.png)
 
 - 画面右上のツールバーで[今日の日付]、[タイトル]、[著者名]を入力できます。
 - 感想にはシャープ（'#'）を使ってタグを設定できます。後々タグで検索できます。
@@ -290,10 +300,11 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 ![MenuOfFilterByStatus](./images/resized/01_Records_N220_BooksPageOpenToolbar.png)
 
+[状態]では**チェックあり**の状態だけを一覧に表示します。クリックしてチェックありなしを切り替えると、一覧の表示を更新します。
+
 ![BottomSheet](./images/resized/01_Records_N230_BooksPageFilter.png)
 
-- 状態では**チェックあり**の状態だけを一覧に表示します。クリックしてチェックありなしを切り替えると、一覧の表示を更新します。
-- [賞]は左側の[スイッチ]でオンにしてから、賞の有り無しを[チェックボックス]で指定します。チェックありなしを切り替えると、一覧の表示を更新します。
+[賞]は左側の[スイッチ]でオンにしてから、賞の有り無しを[チェックボックス]で指定します。チェックありなしを切り替えると、一覧の表示を更新します。
 
 [並び替え]で、対象と方向を選び、![Sort](../../common/images/sort_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックすると一覧に表示している本の記録を並び変えて表示します。
 
@@ -306,8 +317,8 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 |なし|デフォルトの表示です。登録順に表示します。|
 |星|評価の順に並び替えます|
 |出版年月日|出版年月日の順に並び替えます|
-|更新日|本の記録を更新した順に並び替えます|
-|登録日|本の記録を登録した順に並び替えます|
+|更新日|本の記録を**更新**した順に並び替えます|
+|登録日|本の記録を**登録**した順に並び替えます|
 
 方向
 
@@ -324,7 +335,7 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 表示したメニューから[グラフ]をクリックすると、グラフ画面を表示します。
 
-![Chart](./images/resized/02_Settings_N130_Statistics.png)
+![Chart](./images/resized/02_Settings_N140_Statistics.png)
 
 選択した年に更新した本の記録の数を状態毎に棒グラフで表示します。
 
@@ -334,7 +345,7 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 表示したメニューから[設定]をクリックすると、設定画面を表示します。
 
-![Configuration](./images/resized/02_Settings_N010_ShowConfiguration.png)
+![Configuration](./images/resized/02_Settings_N070_ShowConfiguration.png)
 
 設定画面には上から以下の設定があります。
 
@@ -342,10 +353,10 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 - 各書籍検索サービスで取得する結果の上限個数
 - 書籍一覧等で書影を表示するかどうか
 - 書籍一覧等の書影背景色指定
-- コピーしたISBNで書籍を検索する
+- クリップボードから読み取る
 - アプリ設定を開くボタン
 
-なお、画像中の`DEBUG_TITLE_WEB_CLIENT`と`DEBUG_ISBN_WEB_CLIENT`は開発用のWEBサービスです。アプリストアから取得した**読書の手帖**では表示しません。
+<!-- なお、画像中の`DEBUG_TITLE_WEB_CLIENT`と`DEBUG_ISBN_WEB_CLIENT`は開発用のWEBサービスです。アプリストアから取得した**読書の手帖**では表示しません。 -->
 
 #### 3-3-1. 書籍検索サービスを利用する・しない、および優先度の指定
 
@@ -376,7 +387,7 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 以下は画像を表示をするとした場合（さらに背景色を変更しています）の一覧表示です。
 
-![image on](./images/resized/02_Settings_N040_BooksImageIsDisplay.png)
+![image on](./images/resized/02_Settings_N100_BooksImageIsDisplay.png)
 
 #### 3-3-4. 書籍の画像背景色指定
 
@@ -384,13 +395,18 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 ボタンをクリックすると背景色選択を行う画面を表示します。
 
-![color chooser](./images/resized/02_Settings_N020_ConfigurationColorChooser.png)
+![color chooser](./images/resized/02_Settings_N080_ConfigurationColorChooser.png)
 
-#### 3-3-5. コピーしたISBNで書籍を検索する
+#### 3-3-5. クリップボードから読み取る
 
-他のアプリでコピーしたISBNを読み取るかどうかを指定します。デフォルトはオン、読み取るです。
+他のアプリでISBNや解析可能な書籍の説明をコピーした場合に、クリップボードから読み取るかどうかを指定します。デフォルトはオン、読み取るです。
 
-オンにした場合、他のアプリでISBNをコピーすると一覧表示に![コピーしたISBNで検索](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。これをクリックすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示します。
+以下読み取りできます。
+
+- ISBN
+- [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)の「引用文（参考文献注）を生成」による「記載例」
+
+オンにした場合、コピーを検出すると一覧表示に![読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。これをクリックすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示、もしくは引用文をもとにした詳細ページの表示を行います。
 
 #### 3-3-6. アプリ設定を開くボタン
 
@@ -402,7 +418,7 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 **読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[バックアップと復元]をクリックすると、バックアップと復元画面を表示します。
 
-![BackupRestore](./images/resized/02_Settings_N050_ShowBackupAndRestore.png)
+![BackupRestore](./images/resized/02_Settings_N010_ShowBackupAndRestore.png)
 
 バックアップと復元画面には上から、以下の項目があります。
 
@@ -440,32 +456,35 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 - **読書の手帖**でインポートする
   1. 読書管理ビブリアでバックアップを行う
-  2. Dropbox Liteを起動する（読書管理ビブリアでのDropboxと同じアカウントで）
-  3. Dropbox Liteで「Dropbox/アプリ/Biblia/books.csv」を選択して「名前をつけて保存」でWindowsのローカルフォルダー（ドキュメントフォルダー等）に出力する
-  4. **読書の手帖**で、[すべて削除]を行ってのち、先に保存したCSVファイルをインポートする
+  2. 失敗に備えて**読書の手帖**でバックアップを行う
+  3. Dropbox Liteを起動する（読書管理ビブリアでのDropboxと同じアカウントで）
+  4. Dropbox Liteで「Dropbox/アプリ/Biblia/books.csv」を選択して「名前をつけて保存」でWindowsのローカルフォルダー（ドキュメントフォルダー等）に出力する
+  5. **読書の手帖**で、[すべて削除]を行ってのち、先に保存したCSVファイルをインポートする
 
 - **読書の手帖**でエクスポートして、読書管理ビブリアで復元する
   1. **読書の手帖**の[ビブリア] [エクスポート]でファイル名にbooks.csvを指定して保存する
-  2. Dropbox Liteで「Dropbox/アプリ/Biblia」に上のbooks.csvをアップロードする
-  3. 読書管理ビブリアで「すべてのデータを削除」を行ってのち、復元を実行する
+  2. 失敗に備えて読書管理ビブリアでバックアップを行う
+  3. Dropbox Liteを起動する（読書管理ビブリアでのDropboxと同じアカウントで）
+  4. Dropbox Liteで「Dropbox/アプリ/Biblia」に上のbooks.csvをアップロードする、この時失敗に備えて既存ファイルはリネームしておく
+  5. 読書管理ビブリアで「すべてのデータを削除」を行ってのち、復元を実行する
 
 ### 3-5. 読書の手帖について
 
 **読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をクリックして、表示したメニューから[読書の手帖について]をクリックすると、読書の手帖について画面を表示します。
 
-![About](./images/resized/02_Settings_N100_ShowAbout.png)
+![About](./images/resized/02_Settings_N110_ShowAbout.png)
 
 [ホームページ]と[使い方]はクリックすると、Webブラウザーを起動して表示します。
 
 [プライバシーについて]をクリックすると以下の画面を表示します。
 
-![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
+![Privacy Policy](./images/resized/02_Settings_N120_About_ShowAppPrivacy.png)
 
 本アプリのプライバシーポリシーは[Webページ](PrivacyPolicy.md)でも確認いただけます.
 
 [OSSライセンス]をクリックすると以下の画面に**読書の手帖**が利用しているOSSのライセンスを表示します。
 
-![OSS license](./images/resized/02_Settings_N120_About_ShowOssLicenses.png)
+![OSS license](./images/resized/02_Settings_N130_About_ShowOssLicenses.png)
 
 ## 4. お問い合わせ
 

@@ -33,7 +33,7 @@ Table of contents
       - [3-3-2. Maximum number of results retrieved from each book search service](#3-3-2-maximum-number-of-results-retrieved-from-each-book-search-service)
       - [3-3-3. Whether to show book cover images](#3-3-3-whether-to-show-book-cover-images)
       - [3-3-4. Background color setting for book cover images](#3-3-4-background-color-setting-for-book-cover-images)
-      - [3-3-5. Whether to Search for books using the copied ISBN](#3-3-5-whether-to-search-for-books-using-the-copied-isbn)
+      - [3-3-5. Whether to read from the clipboard](#3-3-5-whether-to-read-from-the-clipboard)
       - [3-3-6. Button to open the app settings](#3-3-6-button-to-open-the-app-settings)
     - [3-4. Backup and Restore](#3-4-backup-and-restore)
       - [3-4-1. Backup button](#3-4-1-backup-button)
@@ -67,10 +67,11 @@ I could have simply imported the CSV files exported from '読書管理ビブリ�
 ### 1-2. Book Data
 
 This app uses NDL (National Diet Library) Search API.
-
 Metadata Source: National Diet Library Catalog [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode.en).
 
 Unfortunately, I was *unable* to obtain the cover images. I contacted the image provider but could not confirm use rights.
+
+- National Diet Library [Regarding the Termination of the Book Image API Service（2026/Mar/31）in Japanese only](https://ndlsearch.ndl.go.jp/news/20251217)
 
 ### 1-3. Privacy Policy
 
@@ -78,9 +79,7 @@ This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FI
 
 ### 1-4. Software Dependencies
 
-This app depends on **.NET 9.0 runtime**.
-
-If **.NET 9.0** is not installed, please download **.NET 9.0 runtime** and install it from <https://dotnet.microsoft.com/download>.
+This app depends on **.NET 9.0 runtime**. If **.NET 9.0** is not installed, please download **.NET 9.0 runtime** and install it from <https://dotnet.microsoft.com/download>.
 
 ## 2. How to Use
 
@@ -106,7 +105,10 @@ Click the OK button to close the message, then click the book search service URL
 
 You can register books individually or import a file to register them in bulk.
 
-- To register books individually, search by book title or scan the book’s barcode (ISBN) using the camera.
+- To register books individually
+  - search by book title
+  - scan the book’s barcode (ISBN) using the camera.
+  - search for books using the [NDL Search](https://ndlsearch.ndl.go.jp/en/). Click `Generate citations (bibliographic notes)` on the found book's page and click `Copy example description` to register based on the citation.
 - To register books in bulk via file import, use either a YAML file created from a backup or a CSV file exported from '読書管理ビブリア'.
 
 ### 2-4. Exiting Book Techyo
@@ -141,9 +143,14 @@ Clicking ![+ icon](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz4
 
 ![Add Sub](./images/resized/01_Records_N050_BooksPageClickPlus.png)
 
-When you copy an ISBN from other apps, **Book Techyo** will display ![search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in addition to the above.
-Clicking that will prompt to search using the copied ISBN and display the results.
-Note that the function to search using copied ISBNs can be toggled on and off in the [Configuration](#3-3-configuration).
+When you copy an ISBN or a book description that can be parsed in another app, **Book Techyo** will display ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in addition to the usual options.
+
+![Add from clipboard](./images/resized/01_Records_N260_BooksPage_IsbnCopyed.png)
+
+- When you copy an ISBN in another app and click ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png), **Book Techyo** will search using the copied ISBN and show the results.
+- When you search for a book on the National Diet Library Search, open the page of a book you found, click `Generate citations (bibliographic notes)`, and then click `Copy example description`, click ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) will make **Book Techyo** open the book’s detail page based on the copied citation.
+
+Note that this feature can be toggled on and off in the [Configuration](#3-3-configuration).
 
 #### 3-1-1-1. Barcode Scanning
 
@@ -155,7 +162,7 @@ Click ![Barcode Scan](../../common/images/barcode_scanner_32dp_1F1F1F_FILL0_wght
 
 At this point, a confirmation may appear asking whether to allow access to the camera and microphone. Click [Yes] to allow.
 
-![permission](./images/resized/13-02.CameraRecognizing_permission.png)  
+![permission](./images/resized/13-02.CameraRecognizing_permission.png)
 
 ![permission](./images/resized/13-01.CameraRecognizing_permission.png)
 
@@ -182,10 +189,9 @@ Enter details and click ![apply](../../common/images/check_32dp_1F1F1F_FILL0_wgh
 
   ![Windows Camera App](./images/resized/13-99.WindowsCameraApp.png)
 
-  When you copy an ISBN from **the Windows Camera app**, **Book Techyo** will display ![search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png).
-  Clicking that will prompt to search using the copied ISBN and display the results.
+  When you copy an ISBN from **the Windows Camera app**, **Book Techyo** will display ![search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png). Clicking that will prompt to search using the copied ISBN and display the results.
 
-   ![Retrived ISBN](./images/resized/13-98.WindowsCameraApp_RetrivesIsbn.png)
+  ![Retrived ISBN](./images/resized/01_Records_N260_BooksPage_IsbnCopyed.png)
 
   Note that the function to search using copied ISBNs can be toggled on and off in the [Configuration](#3-3-configuration).
 
@@ -294,10 +300,11 @@ Click ![More](../../common/images/more_horiz_32dp_1F1F1F_FILL0_wght400_GRAD0_ops
 
 ![MenuOfFilterByStatus](./images/resized/01_Records_N220_BooksPageOpenToolbar.png)
 
+Only items with the **checkbox selected** will be displayed in the list. Clicking to toggle the checkbox will update the list display.
+
 ![BottomSheet](./images/resized/01_Records_N230_BooksPageFilter.png)
 
-- Only items with the **checkbox selected** will be displayed in the list. Clicking to toggle the checkbox will update the list display.
-- For the [Trophy] feature, first turn on the [switch] on the left, then use the [Checkbox] to choose whether the trophy is on or off. Toggling the checkbox will update the list display.
+For the [Trophy] feature, first turn on the [switch] on the left, then use the [Checkbox] to choose whether the trophy is on or off. Toggling the checkbox will update the list display.
 
 For sorting, choose target and direction, then click ![Sort](../../common/images/sort_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to reorder the list.
 
@@ -306,7 +313,7 @@ For sorting, choose target and direction, then click ![Sort](../../common/images
 Target
 
 | Target | Description |
-|-|-|
+| ------ | ----------- |
 | None | Default view, ordered by registration. |
 | Stars | Sort by rating. |
 | Publication Date | Sort by publication date. |
@@ -316,7 +323,7 @@ Target
 Direction
 
 | Direction | Description |
-|-|-|
+| - | - |
 | Descending | From larger to smaller values, or newer to older dates. |
 | Ascending | From smaller to larger values, or older to newer dates. |
 
@@ -328,7 +335,7 @@ To close the filter/sort panel, click [Close] in the top-right or click the list
 
 Click the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Chart] from the displayed menu to open the Chart page.
 
-![Chart](./images/resized/02_Settings_N130_Statistics.png)
+![Chart](./images/resized/02_Settings_N140_Statistics.png)
 
 Displays the number of books registered in the selected year by status in a Column chart.
 
@@ -338,7 +345,7 @@ Below the chart, displays the total number of books finished reading in the year
 
 Click the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Configuration] from the displayed menu to open the Configuration page.
 
-![Configuration](./images/resized/02_Settings_N010_ShowConfiguration.png)
+![Configuration](./images/resized/02_Settings_N070_ShowConfiguration.png)
 
 The Configuration page contains, from top to bottom:
 
@@ -346,10 +353,10 @@ The Configuration page contains, from top to bottom:
 - Maximum number of results retrieved from each book search service
 - Whether to show book cover images in listings
 - Background color setting for book cover images
-- Whether to Search for books using the copied ISBN
+- Whether to read from the clipboard
 - Button to open the app settings
 
-Note that `DEBUG_TITLE_WEB_CLIENT` and `DEBUG_ISBN_WEB_CLIENT` in the image are for the development web client. They will not be displayed in **Book Techyo** obtained from the app store.
+<!-- Note that `DEBUG_TITLE_WEB_CLIENT` and `DEBUG_ISBN_WEB_CLIENT` in the image are for the development web client. They will not be displayed in **Book Techyo** obtained from the app store. -->
 
 #### 3-3-1. Enable/disable book search services and set their priority
 
@@ -364,7 +371,7 @@ Searches are performed in the order that the services are listed, from top to bo
 If the service’s icon ![barcode](../../common/images/barcode_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) appears in color (not gray), it will be used for ISBN searches. If its icon ![title search](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) appears in color (not gray), it will be used for title searches.
 
 | Service | Homepage | Description |
-|-|-|-|
+| - | - | - |
 | National Diet Library Search | <https://ndlsearch.ndl.go.jp/> | Search by ISBN and title |
 | Aozora Bunko, National Diet Library Search | <https://ndlsearch.ndl.go.jp/> | Search by title |
 
@@ -380,7 +387,7 @@ Specifies whether to show book cover images in the books page and similar pages.
 
 Below is a books page showing images when displayed (with the background color also changed).
 
-![image on](./images/resized/02_Settings_N040_BooksImageIsDisplay.png)
+![image on](./images/resized/02_Settings_N100_BooksImageIsDisplay.png)
 
 #### 3-3-4. Background color setting for book cover images
 
@@ -388,13 +395,18 @@ Specify the background color for book cover images. The default is transparent.
 
 Clicking the button displays the background color selection popup.
 
-![color chooser](./images/resized/02_Settings_N020_ConfigurationColorChooser.png)
+![color chooser](./images/resized/02_Settings_N080_ConfigurationColorChooser.png)
 
-#### 3-3-5. Whether to Search for books using the copied ISBN
+#### 3-3-5. Whether to read from the clipboard
 
-Specify whether to read ISBNs copied from other apps. The default is on, meaning it will read them.
+Specify whether read from the clipboard when you copy an ISBN or a book description that can be parsed in another app. The default is on, meaning it will read them.
 
-When on, copying an ISBN in other apps will display the [search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in the list page. Clicking that will prompt to search using the copied ISBN and display the results.
+The following content can be read:
+
+- ISBN
+- `Copy example description` generated by `Generate citations (bibliographic notes)` on the National Diet Library Search
+
+When this option is turned on, **Book Techyo** detects copied text and shows a ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in the list page. Clicking it makes **Book Techyo** search using the copied ISBN and display the results, or open a detail page based on the copied citation.
 
 #### 3-3-6. Button to open the app settings
 
@@ -406,7 +418,7 @@ Click to open the app settings page.
 
 Click the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Backup and Restore] from the displayed menu to open the backup and restore page.
 
-![BackupRestore](./images/resized/02_Settings_N050_ShowBackupAndRestore.png)
+![BackupRestore](./images/resized/02_Settings_N010_ShowBackupAndRestore.png)
 
 The backup and restore page contains, from top to bottom:
 
@@ -443,33 +455,36 @@ Click to delete all registered book records.
 読書管理ビブリア backups are created in [Dropbox](https://www.dropbox.com/). Since **Book Techyo** cannot directly access Dropbox, I use the [Dropbox Lite](https://apps.microsoft.com/detail/9WZDNCRFJ0PK?hl=en&gl=JP&ocid=pdpshare) app installed on Windows to perform import and export as follows:
 
 - **To import into Book Techyo**
-  1. Perform a backup in 読書管理ビブリア.  
-  2. Launch Dropbox Lite (using the same Dropbox account as Biblia).  
-  3. In Dropbox Lite, select `Dropbox/Apps/Biblia/books.csv` and save it to a local folder on your Windows computer (e.g., Documents) using “Save As.”  
-  4. In **Book Techyo**, delete all records, then import the previously saved CSV file.
+  1. Perform a backup in 読書管理ビブリア.
+  2. Back up your data using **Book Techyo** in case of failure.
+  3. Launch Dropbox Lite (using the same Dropbox account as Biblia).
+  4. In Dropbox Lite, select `Dropbox/Apps/Biblia/books.csv` (or `Dropbox/アプリ/Biblia/books.csv`) and save it to a local folder on your Windows computer (e.g., Documents) using “Save As.”  
+  5. In **Book Techyo**, delete all records, then import the previously saved CSV file.
 
 - **To export from Book Techyo and restore in '読書管理ビブリア'**
-  1. In **Book Techyo**, use the [Biblia] [Export] option and save the file as `books.csv`.  
-  2. Upload the `books.csv` file to `Dropbox/Apps/Biblia` using Dropbox Lite.  
-  3. In 読書管理ビブリア, delete all existing data and then perform a restore.
+  1. In **Book Techyo**, use the [Biblia] [Export] option and save the file as `books.csv`.
+  2. Back up your data using **Book Techyo** in case of failure.
+  3. Launch Dropbox Lite (using the same Dropbox account as Biblia).
+  4. Upload the `books.csv` file to `Dropbox/Apps/Biblia` (or `Dropbox/アプリ/Biblia`) using Dropbox Lite.
+  5. In 読書管理ビブリア, delete all existing data and then perform a restore.
 
 ### 3-5. About Book Techyo
 
 Click the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [About Book Techyo] from the displayed menu to open the about page.
 
-![About](./images/resized/02_Settings_N100_ShowAbout.png)
+![About](./images/resized/02_Settings_N110_ShowAbout.png)
 
 Clicking [Homepage] or [How to Use] will launch your web browser to display the page.
 
 Clicking [Privacy Policy] will display the following page.
 
-![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
+![Privacy Policy](./images/resized/02_Settings_N120_About_ShowAppPrivacy.png)
 
 This app's privacy policy can also be viewed on the [webpage](PrivacyPolicy).
 
 Clicking [OSS License] displays the OSS licenses used by **Book Techyo** on the following page.
 
-![OSS license](./images/resized/02_Settings_N120_About_ShowOssLicenses.png)
+![OSS license](./images/resized/02_Settings_N130_About_ShowOssLicenses.png)
 
 ## 4. Contact
 
