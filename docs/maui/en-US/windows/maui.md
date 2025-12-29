@@ -46,7 +46,7 @@ Table of contents
 
 ## 1. Description
 
-An application for managing book reviews and notes.
+**Book Techyo** ![icon](../../../note.png) is an application for managing book reviews and notes.
 
 It works on Windows 11[^0] computers and Android[^2] smartphones.
 
@@ -66,7 +66,7 @@ I could have simply imported the CSV files exported from '読書管理ビブリ�
 
 ### 1-2. Book Data
 
-This app uses NDL (National Diet Library) Search API.
+This app uses [NDL (National Diet Library) Search](https://ndlsearch.ndl.go.jp/en/) API.
 Metadata Source: National Diet Library Catalog [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode.en).
 
 Unfortunately, I was *unable* to obtain the cover images. I contacted the image provider but could not confirm use rights.
@@ -241,7 +241,7 @@ When you create or open a book record in **Book Techyo**, the [book detail](#3-1
 
 - Each field can be left empty or as default.
 
-Click the title or authors field to open a popup. Enter the title and author(s), then click the [Apply] button.
+Click the title or authors field to open a popup. Enter the title and author(s), then click the [OK] button.
 
 ![title](./images/resized/01_Records_N150_BookDetailToEditTitle.png)
 
@@ -280,7 +280,7 @@ You can search your registered book records by title or status. You can also sor
 
 ##### 3-1-3-1. Searching by Title, etc
 
-Search book records that contain the specified text in title, author, Memo, or comment.
+Search book records that contain the specified text in title, author, memo, or comment.
 
 ![FilterByText](./images/resized/01_Records_N210_BooksPageSearch.png)
 
@@ -313,7 +313,7 @@ For sorting, choose target and direction, then click ![Sort](../../common/images
 Target
 
 | Target | Description |
-| ------ | ----------- |
+| - | - |
 | None | Default view, ordered by registration. |
 | Stars | Sort by rating. |
 | Publication Date | Sort by publication date. |
@@ -458,7 +458,7 @@ Click to delete all registered book records.
   1. Perform a backup in 読書管理ビブリア.
   2. Back up your data using **Book Techyo** in case of failure.
   3. Launch Dropbox Lite (using the same Dropbox account as Biblia).
-  4. In Dropbox Lite, select `Dropbox/Apps/Biblia/books.csv` (or `Dropbox/アプリ/Biblia/books.csv`) and save it to a local folder on your Windows computer (e.g., Documents) using “Save As.”  
+  4. In Dropbox Lite, select `Dropbox/Apps/Biblia/books.csv` (or `Dropbox/アプリ/Biblia/books.csv`) and save it to a local folder on your Windows computer (e.g., Documents) using “Save As.”
   5. In **Book Techyo**, delete all records, then import the previously saved CSV file.
 
 - **To export from Book Techyo and restore in '読書管理ビブリア'**

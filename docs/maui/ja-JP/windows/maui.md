@@ -240,8 +240,9 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 ![Barcord Scaned Detail](./images/resized/01_Records_N090_BookSearchPageSelectResult.png)
 
 - 各項目は空、デフォルトのままにもできます。
+- ![epanding](../../common/images/expand_circle_down_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) 詳細をクリックすると、エクスパンダー（出版社、ISBN、ページ数、出版年月日、URL、画像、説明、出典を内包する）を展開して表示します。![shrink](../../common/images/expand_circle_up_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をクリックすると、エクスパンダーを畳み非表示にします。
 
-タイトルおよび著者をクリックするとPopupを表示します。タイトル、著者を指定して[反映ボタン]をクリックしてください。
+タイトルおよび著者をクリックするとPopupを表示します。タイトル、著者を指定して[OK]をクリックしてください。
 
 ![title](./images/resized/01_Records_N150_BookDetailToEditTitle.png)
 
@@ -480,7 +481,7 @@ OKボタンをクリックしてメッセージを閉じ、[設定画面](#3-3-�
 
 ![Privacy Policy](./images/resized/02_Settings_N120_About_ShowAppPrivacy.png)
 
-本アプリのプライバシーポリシーは[Webページ](PrivacyPolicy.md)でも確認いただけます.
+本アプリのプライバシーポリシーは[Webページ](./PrivacyPolicy.md)でも確認いただけます.
 
 [OSSライセンス]をクリックすると以下の画面に**読書の手帖**が利用しているOSSのライセンスを表示します。
 
