@@ -1,5 +1,11 @@
 # Releases
 
+## 1.2.0
+
+- Performance improvements
+- Typo fixes
+- Upgraded dependency packages (CommunityToolkit, FluentValidation, Syncfusion)
+
 ## 1.1.0
 
 - Limited file extensions in the file picker for restore and import.
