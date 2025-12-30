@@ -23,9 +23,9 @@ This is an application for managing book impressions and notes.
 Store ID: 9N3D6MXN4WGG -->
 #### ![android](./maui/common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
-![construction](./maui/common/images/upcoming_32dp_434343_FILL0_wght400_GRAD0_opsz40.png) Android, English
+![English](./maui/common/images/sentiment_satisfied_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [Android, English](./maui/en-US/android/maui.md)
 
-![construction](./maui/common/images/upcoming_32dp_434343_FILL0_wght400_GRAD0_opsz40.png) Android, Japanese
+![japanese](./maui/common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)[Android, Japanese](./maui/ja-JP/android/maui.md)
 
 ## Creator
 

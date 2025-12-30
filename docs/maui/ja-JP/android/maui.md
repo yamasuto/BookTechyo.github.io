@@ -1,6 +1,8 @@
-# 読書の手帖（Android版）![android](../../common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
+# 読書の手帖（Android版）
 
-![メイン](./images/resized/01_Records_N251_BooksPageTagSearch_Clear.png)
+![android](../../common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
+
+![Main](./images/resized/01_Records_N251_BooksPageTagSearch_Clear.png)
 
 目次
 
@@ -31,9 +33,8 @@
       - [3-3-2. 各書籍検索サービスで取得する結果の上限個数](#3-3-2-各書籍検索サービスで取得する結果の上限個数)
       - [3-3-3. 書籍の画像を表示するかどうか](#3-3-3-書籍の画像を表示するかどうか)
       - [3-3-4. 書籍の画像背景色指定](#3-3-4-書籍の画像背景色指定)
-      - [3-3-5. クリップボードから読み取る](#3-3-5-クリップボードから読み取る)
-      - [3-3-6. バーコード読み取りのカメラ設定](#3-3-6-バーコード読み取りのカメラ設定)
-      - [3-3-7. アプリ設定を開くボタン](#3-3-7-アプリ設定を開くボタン)
+      - [3-3-5. バーコード読み取りのカメラ設定](#3-3-5-バーコード読み取りのカメラ設定)
+      - [3-3-6. アプリ設定を開くボタン](#3-3-6-アプリ設定を開くボタン)
     - [3-4. バックアップと保存](#3-4-バックアップと保存)
       - [3-4-1. バックアップボタン](#3-4-1-バックアップボタン)
       - [3-4-2. 復元ボタン](#3-4-2-復元ボタン)
@@ -61,7 +62,7 @@ iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使って�
 
 - 広告が煩わしい
 - 不具合が直らない
-- [青空文庫](https://www.aozora.gr.jp/index.html)の本を登録したい
+- [青空文庫](https://www.aozora.gr.jp/)の本を登録したい
 
 ### 1-2. 書誌・書影
 
@@ -69,6 +70,8 @@ iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使って�
 ライセンスは[クリエイティブ・コモンズ 表示 4.0 国際 パブリック・ライセンス](https://creativecommons.org/licenses/by/4.0/legalcode.ja)です。
 
 なお、**読書の手帖**は、書影画像（資料の表紙の画像）を取得しません（書影提供元に確認しましたが確認できなかったためです）。
+
+- 国立国会図書館サーチ [書影APIのサービス終了について（2026年3月31日（火））](https://ndlsearch.ndl.go.jp/news/20251217)
 
 ### 1-3. プライバシーポリシー
 
@@ -78,7 +81,7 @@ iPhone SE[^1]で[読書管理ビブリア](https://biblia978.com/)を使って�
 
 **読書の手帖**を起動したら、本の記録登録など操作します。
 
-終わったら、**読書の手帖**を終了します。
+使い終わったら、**読書の手帖**を終了します。
 
 ### 2-1. 読書の手帖を起動する
 
@@ -101,7 +104,7 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 - 個々に登録する場合
   - 本のタイトルで検索して登録できます。
   - カメラで読み込んだISBNで検索して登録できます。
-  - [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をタップしてコピーすると引用文をもとにして登録できます。
+  - [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をタップして、「出典の記載例」を選択して共有すると引用文をもとにして登録できます。
 - ファイルを読み込んでまとめて登録する場合は、バックアップで作成したYaml形式のファイルか読書管理ビブリアでエクスポートしたCsvファイルを使います。
 
 ### 2-4. 読書の手帖を終了する
@@ -124,7 +127,7 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 本の記録を一覧表示します。
 
-![メイン](./images/resized/01_Records_N210_ReturnToBooksPage.png)
+![Main](./images/resized/01_Records_N210_ReturnToBooksPage.png)
 
 本の記録にはタイトル、著者、状態、更新日、星の数、賞の有無、タグを表示します。
 
@@ -138,15 +141,25 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 ![Add Sub](./images/resized/01_Records_N050_BooksPageClickPlus.png)
 
-他のアプリでISBNをコピーした場合には、上に加えてクリップボードから読み取る ![クリップボードから読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。
-タップすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示します。
+他のアプリでISBNや解析可能な書籍の説明を共有した場合には、上に加えて読み取る ![読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。
 
-![Add from clipboard](./images/resized/01_Records_N260_BooksPage_IsbnCopyed.png)
+- 他のアプリでISBNを共有した場合に、![読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をクリックすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示します。
 
-[国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をタップしてコピーすると、上と同様にクリップボードから読み取る![クリップボードから読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。
-タップすると**読書の手帖**は、引用文を取り込み詳細ページに表示します。
+  ![shared_isbn1](./images/resized/99_shared_010_isbn.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_isbn2](./images/resized/99_shared_020_isbn.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_isbn3](./images/resized/99_shared_030_isbn.png)
 
-なお、コピーしたISBNで検索する機能と引用文を元に登録する機能は[設定画面](#3-3-設定)の[クリップボードから読み取る]でオンとオフを切り替えられます。
+- [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をクリックして、「出典の記載例」を全て選択して共有した場合に、![読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をタップすると**読書の手帖**は、引用文をもとに詳細ページに表示します。
+
+  ![shared_NDL1](./images/resized/99_shared_030_NDL.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_NDL2](./images/resized/99_shared_040_NDL.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_NDL3](./images/resized/99_shared_050_NDL.png)
+
+なお、上の機能は[設定画面](#3-3-設定)の[クリップボードから読み取る]でオンとオフを切り替えられます。
 
 #### 3-1-1-1. バーコード読み取り
 
@@ -218,7 +231,7 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 ![Barcord Scaned Detail2](./images/resized/01_Records_N092_BookSearchPageSelectResult_Buttom.png)
 
-- 各項目は空、デフォルトのままにできます。
+- 各項目は空、デフォルトのままにもできます。
 - ![epanding](../../common/images/expand_circle_down_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) 詳細をタップすると、エクスパンダー（出版社、ISBN、ページ数、出版年月日、URL、画像、説明、出典を内包する）を展開して表示します。![shrink](../../common/images/expand_circle_up_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をタップすると、エクスパンダーを畳み非表示にします。
 
 タイトルおよび著者をタップするとPopupを表示します。タイトル、著者を指定して[OK]をタップしてください。
@@ -229,9 +242,9 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 説明および感想をタップすると、それぞれ入力ページを表示します。
 
-![説明](./images/resized/01_Records_N180_BookDetailToEditMemo.png)
+![Memo](./images/resized/01_Records_N180_BookDetailToEditMemo.png)
 
-![感想](./images/resized/01_Records_N200_BookDetailToEditComment.png)
+![Comment](./images/resized/01_Records_N200_BookDetailToEditComment.png)
 
 - 画面右上のツールバーで[ページ番号]、[シャープ]を入力できます。
   - 感想にはシャープ（'#'）を使ってタグを設定できます。後々タグで検索できます。
@@ -318,7 +331,7 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 表示したメニューから[グラフ]をタップすると、グラフ画面を表示します。
 
-![Chart](./images/resized/02_Settings_N130_Statistics.png)
+![Chart](./images/resized/02_Settings_N140_Statistics.png)
 
 選択した年に更新した本の記録の数を状態毎に棒グラフで表示します。
 
@@ -328,7 +341,7 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 表示したメニューから[設定]をタップすると、設定画面を表示します。
 
-![Configuration](./images/resized/02_Settings_N010_ShowConfiguration.png)
+![Configuration](./images/resized/02_Settings_N070_ShowConfiguration.png)
 
 設定画面には上から以下の設定があります。
 
@@ -336,7 +349,6 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 - 各書籍検索サービスで取得する結果の上限個数
 - 書籍一覧等で書影を表示するかどうか
 - 書籍一覧等の書影背景色指定
-- クリップボードから読み取るかどうか
 - バーコード読み取りのカメラ設定
 - アプリ設定を開くボタン
 
@@ -371,7 +383,7 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 以下は画像を表示をするとした場合（さらに背景色を変更しています）の一覧表示です。
 
-![image on](./images/resized/02_Settings_N040_BooksImageIsDisplay.png)
+![image on](./images/resized/02_Settings_N090_ConfigurationImageIsDisplay.png)
 
 #### 3-3-4. 書籍の画像背景色指定
 
@@ -379,15 +391,9 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 ボタンをタップすると背景色選択を行う画面を表示します。
 
-![color chooser](./images/resized/02_Settings_N020_ConfigurationColorChooser.png)
+![color chooser](./images/resized/02_Settings_N080_ConfigurationColorChooser.png)
 
-#### 3-3-5. クリップボードから読み取る
-
-他のアプリでコピーしたISBNを**読み取り**検索を行うかどうか、[国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)の「引用文（参考文献注）を生成」による引用文を**読み取り**登録するかどうかを指定します。デフォルトはオン、読み取るです。
-
-オンにした場合、ISBNのコピーおよび引用文のコピーを検出すると一覧表示に![クリップボードから読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)を表示します。これをタップすると**読書の手帖**はコピーしたISBNを使って検索を行い結果を表示、もしくは引用文をもとにした詳細ページの表示を行います。
-
-#### 3-3-6. バーコード読み取りのカメラ設定
+#### 3-3-5. バーコード読み取りのカメラ設定
 
 バーコード読み取りに関するカメラの設定を行います。
 
@@ -396,17 +402,17 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 |キャプチャー品質|高い精度を求める場合は'最高'を設定し、高速を優先する場合は'低'を設定してください|
 |Aimモード|オンにすると中央にバーコードが位置する場合のみ解析します|
 
-#### 3-3-7. アプリ設定を開くボタン
+#### 3-3-6. アプリ設定を開くボタン
 
 タップするとアプリ設定の画面を表示します。
 
-![AppSettings](./images/resized/02_Settings_N140_AppSetting.png)
+![AppSettings](./images/resized/02_Settings_N150_AppSetting.png)
 
 ### 3-4. バックアップと保存
 
 **読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[バックアップと復元]をタップすると、バックアップと復元画面を表示します。
 
-![BackupRestore](./images/resized/02_Settings_N050_ShowBackupAndRestore.png)
+![BackupRestore](./images/resized/02_Settings_N010_ShowBackupAndRestore.png)
 
 バックアップと復元画面には上から、以下の項目があります。
 
@@ -417,15 +423,26 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 #### 3-4-1. バックアップボタン
 
-タップすると指定したファイルに、登録した本の記録を出力します。
+[バックアップボタン]をタップすると出力するファイルの名前を指定するPromptを表示します。
+
+![Backup filename](./images/resized/02_Settings_N050_ShowBackupAndRestore_Backup_OK.png)
+
+[OK]ボタンをタップすると、登録した本の記録をファイルに出力します。
 
 - 出力するのはYamlファイルです。
+- Yamlファイルの出力先は`ドキュメント>Book Techyo`（**機種によっては他の出力先になる場合があります**）です。
 - Yamlファイルはテキストエディターで開いて編集することもできます。編集する場合は書式や文字コード、改行コードが変わらないように気を付けて保存してください。
 - Yamlファイルの文字コードはUTF-8（BOMなし）、改行コードはCRLFです。
 
+![share](../../common/images/share_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をタップすると、バックアップで作成したYamlファイルを共有できます。
+
+![Backup share](./images/resized/02_Settings_N051_ShowBackupAndRestore_BackupShare.png)
+
+Googleの**ドライブ**などを選択するとクラウドにアップロードできます。
+
 #### 3-4-2. 復元ボタン
 
-タップすると指定したファイルを読み込み本の記録を**追加**します。
+[復元ボタン]をタップすると指定したファイルを読み込み本の記録を**追加**します。
 
 既存の登録をすべて削除してから読み込む場合は、[登録してある記録を空にしてから復元する]チェックボックスをチェックしてからボタンをタップしてください。
 
@@ -439,6 +456,14 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 - インポート：[読書管理ビブリア](https://biblia978.com/)のバックアップでDropbox[^3]に出力した[CSVファイル](https://biblia978.com/support/articles/15/)をインポートします。
 - エクスポート：登録した本の記録を[読書管理ビブリア](https://biblia978.com/)の復元で読み込める[CSVファイル](https://biblia978.com/support/articles/15/)としてエクスポートします。
+
+  ![Backup filename](./images/resized/02_Settings_N060_ShowBackupAndRestore_Export_OK.png)
+
+  - 出力するのはCSVファイルです。
+  - CSVファイルの出力先は`ドキュメント>Book Techyo`（**機種によっては他の出力先になる場合があります**）です。
+  - CSVファイルはテキストエディターで開いて編集することもできます。編集する場合は書式や文字コード、改行コードが変わらないように気を付けて保存してください。
+  - CSVファイルの文字コードはUTF-8（BOMなし）、改行コードはLFです。
+  - ![backup share](../../common/images/share_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をタップすると、エクスポートで作成したCSVファイルを共有できます。
 
 読書管理ビブリアのバックアップは[Dropbox](https://www.dropbox.com/)にファイルを作成します。**読書の手帖**はDropboxにアクセスできないため、私はインストールした[Dropboxアプリ](https://play.google.com/store/apps/details?id=com.dropbox.android&hl=en)を使い以下のように操作してインポートやエクスポートをしています。
 
@@ -460,19 +485,19 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 **読書の手帖**の左上にある![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png)をタップして、表示したメニューから[読書の手帖について]をタップすると、読書の手帖について画面を表示します。
 
-![About](./images/resized/02_Settings_N100_ShowAbout.png)
+![About](./images/resized/02_Settings_N110_ShowAbout.png)
 
 [ホームページ]と[使い方]はタップすると、Webブラウザーを起動して表示します。
 
 [プライバシーについて]をタップすると以下の画面を表示します。
 
-![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
+![Privacy Policy](./images/resized/02_Settings_N120_About_ShowAppPrivacy.png)
 
 本アプリのプライバシーポリシーは[Webページ](./PrivacyPolicy.jaJP)でも確認いただけます.
 
 [OSSライセンス]をタップすると以下の画面に**読書の手帖**が利用しているOSSのライセンスを表示します。
 
-![OSS license](./images/resized/02_Settings_N120_About_ShowOssLicenses.png)
+![OSS license](./images/resized/02_Settings_N130_About_ShowOssLicenses.png)
 
 ## 4. お問い合わせ
 
