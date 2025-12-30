@@ -76,15 +76,14 @@ if __name__ == "__main__":
 
     input_folder = args.input_folder
     output_folder = args.output_folder
-    rate = args.rate   
 
     if args.recursive:
         directories = find_directories(args.input_folder)
         # 出力フォルダーが存在しない場合は作成
         os.makedirs(output_folder, exist_ok=True)
         for input_directory in directories:
-            resize_images(input_directory, output_folder, rate)
+            resize_images(input_directory, output_folder, args.rate)
     else:
         # 出力フォルダーが存在しない場合は作成
         os.makedirs(output_folder, exist_ok=True)
-        resize_images(input_folder, output_folder, rate)
+        resize_images(input_folder, output_folder, args.rate)
