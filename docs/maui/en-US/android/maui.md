@@ -1,6 +1,6 @@
 # Book Techyo (Android Version)
 
-![android](../../common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png) <!-- screen vs view vs window vs page => Page -->
+![android](../../common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
 ![Main](./images/resized/01_Records_N251_BooksPageTagSearch_Clear.png)
 
@@ -143,10 +143,21 @@ Tapping ![+ icon](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40
 
 When you share an ISBN or a book description that can be parsed in another app, **Book Techyo** will display ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in addition to the usual options.
 
-![Add from clipboard](./images/resized/01_Records_N260_BooksPage_IsbnCopyed.png)
-
 - When you copy an ISBN in another app and tap ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png), **Book Techyo** will search using the copied ISBN and show the results.
+
+  ![shared_isbn1](./images/resized/99_shared_010_isbn.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_isbn2](./images/resized/99_shared_020_isbn.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_isbn3](./images/resized/99_shared_030_isbn.png)
+
 - When you search for a book on the National Diet Library Search, open the page of a book you found, tap `Generate citations (bibliographic notes)`, and then share the whole `Example of source description` and tap ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) will make **Book Techyo** open the book’s detail page based on the copied citation.
+
+  ![shared_NDL1](./images/resized/99_shared_030_NDL.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_NDL2](./images/resized/99_shared_040_NDL.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_NDL3](./images/resized/99_shared_050_NDL.png)
 
 Note that this feature can be toggled on and off in the [Configuration](#3-3-configuration).
 
@@ -320,7 +331,7 @@ To close the filter/sort panel, tap [Close] in the top-right or tap the list are
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Chart] from the displayed menu to open the Chart page.
 
-![Chart](./images/resized/02_Settings_N130_Statistics.png)
+![Chart](./images/resized/02_Settings_N140_Statistics.png)
 
 Displays the number of books registered in the selected year by status in a Column chart.
 
@@ -330,7 +341,7 @@ Below the chart, displays the total number of books finished reading in the year
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Configuration] from the displayed menu to open the Configuration page.
 
-![Configuration](./images/resized/02_Settings_N010_ShowConfiguration.png)
+![Configuration](./images/resized/02_Settings_N070_ShowConfiguration.png)
 
 The Configuration page contains, from top to bottom:
 
@@ -338,7 +349,6 @@ The Configuration page contains, from top to bottom:
 - Maximum number of results retrieved from each book search service
 - Whether to show book cover images in listings
 - Background color setting for book cover images
-- Whether to read from the clipboard
 - Camera Settings for Barcode Scanning
 - Button to open the app settings
 
@@ -373,7 +383,7 @@ Specifies whether to show book cover images in the books page and similar pages.
 
 Below is a books page showing images when displayed (with the background color also changed).
 
-![image on](./images/resized/02_Settings_N040_BooksImageIsDisplay.png)
+![image on](./images/resized/02_Settings_N090_ConfigurationImageIsDisplay.png)
 
 #### 3-3-4. Background color setting for book cover images
 
@@ -381,7 +391,7 @@ Specify the background color for book cover images. The default is transparent.
 
 Tapping the button displays the background color selection popup.
 
-![color chooser](./images/resized/02_Settings_N020_ConfigurationColorChooser.png)
+![color chooser](./images/resized/02_Settings_N080_ConfigurationColorChooser.png)
 
 #### 3-3-5. Camera Settings for Barcode Scanning
 
@@ -396,13 +406,13 @@ Configure the camera settings for barcode scanning.
 
 Tap to open the app settings page.
 
-![AppSettings](./images/resized/02_Settings_N140_AppSetting.png)
+![AppSettings](./images/resized/02_Settings_N150_AppSetting.png)
 
 ### 3-4. Backup and Restore
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Backup and Restore] from the displayed menu to open the backup and restore page.
 
-![BackupRestore](./images/resized/02_Settings_N050_ShowBackupAndRestore.png)
+![BackupRestore](./images/resized/02_Settings_N010_ShowBackupAndRestore.png)
 
 The backup and restore page contains, from top to bottom:
 
@@ -413,11 +423,22 @@ The backup and restore page contains, from top to bottom:
 
 #### 3-4-1. Backup button
 
-Tap to export your registered book records to a specified file.
+Tapping the [Backup Button] displays a prompt for specifying the name of the output file.
+
+![Backup filename](./images/resized/02_Settings_N050_ShowBackupAndRestore_Backup_OK.png)
+
+Tap the [OK] button to export the registered book records to a file.
 
 - The file format is YAML.
-- The YAML file can be opened and edited with a text editor such as Windows Notepad. If you edit it, make sure not to change the format, character encoding, or line endings.  
+- The output location for YAML files is `Documents>Book Techyo` (**may be different depending on the device model**).
+- The YAML file can be opened and edited with a text edito. If you edit it, make sure not to change the format, character encoding, or line endings.
 - The YAML file uses UTF-8 (without BOM) encoding and CRLF line endings.
+
+Tap ![share](../../common/images/share_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) to share the YAML file.
+
+![Backup share](./images/resized/02_Settings_N051_ShowBackupAndRestore_BackupShare.png)
+
+Selecting Google **Drive** or similar services allows you to upload to the cloud.
 
 #### 3-4-2. Restore button
 
@@ -433,8 +454,16 @@ Tap to delete all registered book records.
 
 ##### 3-4-4-1. '読書管理ビブリア'
 
-- **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox[^3] by [読書管理ビブリア](https://biblia978.com/).  
+- **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox[^3] by [読書管理ビブリア](https://biblia978.com/).
 - **Export**: Export registered book records to a [CSV file](https://biblia978.com/support/articles/15/) that can be restored by [読書管理ビブリア](https://biblia978.com/).
+
+  ![Backup filename](./images/resized/02_Settings_N060_ShowBackupAndRestore_Export_OK.png)
+
+  - The file format is CSV.
+  - The output location for CSV files is `Documents>Book Techyo` (**may be different depending on the device model**).  
+  - The CSV file can be opened and edited with a text editor. If you edit it, make sure not to change the format, character encoding, or line endings.
+  - The CSV file uses UTF-8 (without BOM) encoding and LF line endings.
+  - Tap ![backup share](../../common/images/share_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) to share the CSV file.
 
 読書管理ビブリア backups are created in [Dropbox](https://www.dropbox.com/). Since **Book Techyo** cannot directly access Dropbox, I use the [Dropbox App](https://play.google.com/store/apps/details?id=com.dropbox.android&hl=en) installed to perform import and export as follows:
 
@@ -456,19 +485,19 @@ Tap to delete all registered book records.
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [About Book Techyo] from the displayed menu to open the about page.
 
-![About](./images/resized/02_Settings_N100_ShowAbout.png)
+![About](./images/resized/02_Settings_N110_ShowAbout.png)
 
 Tapping [Homepage] or [How to Use] will launch your web browser to display the page.
 
 Tapping [Privacy Policy] will display the following page.
 
-![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
+![Privacy Policy](./images/resized/02_Settings_N120_About_ShowAppPrivacy.png)
 
 This app's privacy policy can also be viewed on the [webpage](PrivacyPolicy.md).
 
 Tapping [OSS License] displays the OSS licenses used by **Book Techyo** on the following page.
 
-![OSS license](./images/resized/02_Settings_N120_About_ShowOssLicenses.png)
+![OSS license](./images/resized/02_Settings_N130_About_ShowOssLicenses.png)
 
 ## 4. Contact
 

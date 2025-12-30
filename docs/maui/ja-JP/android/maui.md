@@ -148,6 +148,8 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
   ![shared_isbn1](./images/resized/99_shared_010_isbn.png)
   ![arrow](../../common/images/arrow_right_64.png)
   ![shared_isbn2](./images/resized/99_shared_020_isbn.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_isbn3](./images/resized/99_shared_030_isbn.png)
 
 - [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/)で本を検索して、見つかった本のページにある「引用文（参考文献注）を生成」をクリックして、「出典の記載例」を全て選択して共有した場合に、![読み取る](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)をタップすると**読書の手帖**は、引用文をもとに詳細ページに表示します。
 
@@ -404,7 +406,7 @@ OKボタンをタップしてメッセージを閉じ、[設定画面](#3-3-設�
 
 タップするとアプリ設定の画面を表示します。
 
-![AppSettings](./images/resized/02_Settings_N140_AppSetting.png)
+![AppSettings](./images/resized/02_Settings_N150_AppSetting.png)
 
 ### 3-4. バックアップと保存
 
