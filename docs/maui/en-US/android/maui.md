@@ -1,10 +1,12 @@
-# Book Techyo (Android Version)　![android](../../common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png) <!-- screen vs view vs window vs page => Page -->
+# Book Techyo (Android Version)
+
+![android](../../common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
 ![Main](./images/resized/01_Records_N251_BooksPageTagSearch_Clear.png)
 
 Table of contents
 
-- [Book Techyo (Android Version)　 ](#book-techyo-android-version-)
+- [Book Techyo (Android Version)](#book-techyo-android-version)
   - [1. Description](#1-description)
     - [1-1. Why I Created It](#1-1-why-i-created-it)
     - [1-2. Book Data](#1-2-book-data)
@@ -31,9 +33,8 @@ Table of contents
       - [3-3-2. Maximum number of results retrieved from each book search service](#3-3-2-maximum-number-of-results-retrieved-from-each-book-search-service)
       - [3-3-3. Whether to show book cover images](#3-3-3-whether-to-show-book-cover-images)
       - [3-3-4. Background color setting for book cover images](#3-3-4-background-color-setting-for-book-cover-images)
-      - [3-3-5. Whether to read from the clipboard](#3-3-5-whether-to-read-from-the-clipboard)
-      - [3-3-6. Camera Settings for Barcode Scanning](#3-3-6-camera-settings-for-barcode-scanning)
-      - [3-3-7. Button to open the app settings](#3-3-7-button-to-open-the-app-settings)
+      - [3-3-5. Camera Settings for Barcode Scanning](#3-3-5-camera-settings-for-barcode-scanning)
+      - [3-3-6. Button to open the app settings](#3-3-6-button-to-open-the-app-settings)
     - [3-4. Backup and Restore](#3-4-backup-and-restore)
       - [3-4-1. Backup button](#3-4-1-backup-button)
       - [3-4-2. Restore button](#3-4-2-restore-button)
@@ -61,7 +62,7 @@ I could have simply imported the CSV files exported from '読書管理ビブリ�
 
 - Annoying advertisements  
 - Bugs that never get fixed  
-- Want to register books from [Aozora Bunko](https://www.aozora.gr.jp/index.html)
+- Want to register books from [Aozora Bunko](https://www.aozora.gr.jp/)
 
 ### 1-2. Book Data
 
@@ -70,13 +71,15 @@ Metadata Source: National Diet Library Catalog [Creative Commons Attribution 4.0
 
 Unfortunately, I was *unable* to obtain the cover images. I contacted the image provider but could not confirm use rights.
 
+- National Diet Library [Regarding the Termination of the Book Image API Service（2026/Mar/31）in Japanese only](https://ndlsearch.ndl.go.jp/news/20251217)
+
 ### 1-3. Privacy Policy
 
 This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)](./PrivacyPolicy)
 
 ## 2. How to Use
 
-After launching **Book Techyo**, you can perform operations such as registering book records.
+After launching **Book Techyo**, register your book records.
 
 When you are finished, close **Book Techyo**.
 
@@ -101,7 +104,7 @@ You can register books individually or import a file to register them in bulk.
 - To register books individually
   - search by book title
   - scan the book’s barcode (ISBN) using the camera.
-  - Search for books using the [NDL Search](https://ndlsearch.ndl.go.jp/en/). Tap `Generate citations (bibliographic notes)` on the found book's page and copy it to register based on the citation.
+  - Search for books using the [NDL Search](https://ndlsearch.ndl.go.jp/en/). Tap `Generate citations (bibliographic notes)` on the found book's page, select the whole text and share it to register based on the citation.
 - To register books in bulk via file import, use either a YAML file created from a backup or a CSV file exported from '読書管理ビブリア'.
 
 ### 2-4. Exiting Book Techyo
@@ -138,15 +141,25 @@ Tapping ![+ icon](../../common/images/add_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40
 
 ![Add Sub](./images/resized/01_Records_N050_BooksPageClickPlus.png)
 
-When you copy an ISBN from other apps, **Book Techyo** will display ![search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in addition to the above.
-Tapping that will prompt to search using the copied ISBN and display the results.
+When you share an ISBN or a book description that can be parsed in another app, **Book Techyo** will display ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in addition to the usual options.
 
-![Add from clipboard](./images/resized/01_Records_N260_BooksPage_IsbnCopyed.png)
+- When you copy an ISBN in another app and tap ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png), **Book Techyo** will search using the copied ISBN and show the results.
 
-Search for books using the [National Diet Library Search](https://ndlsearch.ndl.go.jp/en/). Tap `Generate citations (bibliographic notes)` on the found book's page and copy it to display  ![search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) as described above.
-Tapping it will import the citation into **Book Techyo** and display it on the details page.
+  ![shared_isbn1](./images/resized/99_shared_010_isbn.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_isbn2](./images/resized/99_shared_020_isbn.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_isbn3](./images/resized/99_shared_030_isbn.png)
 
-Note that the function can be toggled on and off under [Read from Clipboard] in the [Configuration](#3-3-configuration).
+- When you search for a book on the National Diet Library Search, open the page of a book you found, tap `Generate citations (bibliographic notes)`, and then share the whole `Example of source description` and tap ![Interpret](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) will make **Book Techyo** open the book’s detail page based on the copied citation.
+
+  ![shared_NDL1](./images/resized/99_shared_030_NDL.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_NDL2](./images/resized/99_shared_040_NDL.png)
+  ![arrow](../../common/images/arrow_right_64.png)
+  ![shared_NDL3](./images/resized/99_shared_050_NDL.png)
+
+Note that this feature can be toggled on and off in the [Configuration](#3-3-configuration).
 
 #### 3-1-1-1. Barcode Scanning
 
@@ -296,7 +309,7 @@ For sorting, choose target and direction, then tap ![Sort](../../common/images/s
 Target
 
 | Target | Description |
-|-|-|
+| - | - |
 | None | Default view, ordered by registration. |
 | Stars | Sort by rating. |
 | Publication Date | Sort by publication date. |
@@ -306,7 +319,7 @@ Target
 Direction
 
 | Direction | Description |
-|-|-|
+| - | - |
 | Descending | From larger to smaller values, or newer to older dates. |
 | Ascending | From smaller to larger values, or older to newer dates. |
 
@@ -318,7 +331,7 @@ To close the filter/sort panel, tap [Close] in the top-right or tap the list are
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Chart] from the displayed menu to open the Chart page.
 
-![Chart](./images/resized/02_Settings_N130_Statistics.png)
+![Chart](./images/resized/02_Settings_N140_Statistics.png)
 
 Displays the number of books registered in the selected year by status in a Column chart.
 
@@ -328,7 +341,7 @@ Below the chart, displays the total number of books finished reading in the year
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Configuration] from the displayed menu to open the Configuration page.
 
-![Configuration](./images/resized/02_Settings_N010_ShowConfiguration.png)
+![Configuration](./images/resized/02_Settings_N070_ShowConfiguration.png)
 
 The Configuration page contains, from top to bottom:
 
@@ -336,7 +349,6 @@ The Configuration page contains, from top to bottom:
 - Maximum number of results retrieved from each book search service
 - Whether to show book cover images in listings
 - Background color setting for book cover images
-- Whether to read from the clipboard
 - Camera Settings for Barcode Scanning
 - Button to open the app settings
 
@@ -355,7 +367,7 @@ Searches are performed in the order that the services are listed, from top to bo
 If the service’s icon ![barcode](../../common/images/barcode_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) appears in color (not gray), it will be used for ISBN searches. If its icon ![title search](../../common/images/title_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) appears in color (not gray), it will be used for title searches.
 
 | Service | Homepage | Description |
-|-|-|-|
+| - | - | - |
 | National Diet Library Search | <https://ndlsearch.ndl.go.jp/> | Search by ISBN and title |
 | Aozora Bunko, National Diet Library Search | <https://ndlsearch.ndl.go.jp/> | Search by title |
 
@@ -371,7 +383,7 @@ Specifies whether to show book cover images in the books page and similar pages.
 
 Below is a books page showing images when displayed (with the background color also changed).
 
-![image on](./images/resized/02_Settings_N040_BooksImageIsDisplay.png)
+![image on](./images/resized/02_Settings_N090_ConfigurationImageIsDisplay.png)
 
 #### 3-3-4. Background color setting for book cover images
 
@@ -379,34 +391,28 @@ Specify the background color for book cover images. The default is transparent.
 
 Tapping the button displays the background color selection popup.
 
-![color chooser](./images/resized/02_Settings_N020_ConfigurationColorChooser.png)
+![color chooser](./images/resized/02_Settings_N080_ConfigurationColorChooser.png)
 
-#### 3-3-5. Whether to read from the clipboard
-
- Specify whether to read ISBNs copied from other apps and search, and whether to read and register citations generated by [National Diet Library Search](https://ndlsearch.ndl.go.jp/en)'s `Generate citations (bibliographic notes)` feature. The default is on, meaning it reads them.
-
- When on, copying an ISBN or `Generate citations` will display the ![search by copied ISBN](../../common/images/content_paste_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) in the list page. Tapping that will prompt to search using the copied ISBN and display the results or display it on the details page.
-
-#### 3-3-6. Camera Settings for Barcode Scanning
+#### 3-3-5. Camera Settings for Barcode Scanning
 
 Configure the camera settings for barcode scanning.
 
 |item|description|
-|-|-|
+| - | - |
 |the capture quality|Use highest values for more precision or lower for fast scanning|
 |Aim mode|When enabled only barcode that is in the center of the preview will be detected|
 
-#### 3-3-7. Button to open the app settings
+#### 3-3-6. Button to open the app settings
 
 Tap to open the app settings page.
 
-![AppSettings](./images/resized/02_Settings_N140_AppSetting.png)
+![AppSettings](./images/resized/02_Settings_N150_AppSetting.png)
 
 ### 3-4. Backup and Restore
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [Backup and Restore] from the displayed menu to open the backup and restore page.
 
-![BackupRestore](./images/resized/02_Settings_N050_ShowBackupAndRestore.png)
+![BackupRestore](./images/resized/02_Settings_N010_ShowBackupAndRestore.png)
 
 The backup and restore page contains, from top to bottom:
 
@@ -417,11 +423,22 @@ The backup and restore page contains, from top to bottom:
 
 #### 3-4-1. Backup button
 
-Tap to export your registered book records to a specified file.
+Tapping the [Backup Button] displays a prompt for specifying the name of the output file.
+
+![Backup filename](./images/resized/02_Settings_N050_ShowBackupAndRestore_Backup_OK.png)
+
+Tap the [OK] button to export the registered book records to a file.
 
 - The file format is YAML.
-- The YAML file can be opened and edited with a text editor such as Windows Notepad. If you edit it, make sure not to change the format, character encoding, or line endings.  
+- The output location for YAML files is `Documents>Book Techyo` (**may be different depending on the device model**).
+- The YAML file can be opened and edited with a text edito. If you edit it, make sure not to change the format, character encoding, or line endings.
 - The YAML file uses UTF-8 (without BOM) encoding and CRLF line endings.
+
+Tap ![share](../../common/images/share_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) to share the YAML file.
+
+![Backup share](./images/resized/02_Settings_N051_ShowBackupAndRestore_BackupShare.png)
+
+Selecting Google **Drive** or similar services allows you to upload to the cloud.
 
 #### 3-4-2. Restore button
 
@@ -437,42 +454,50 @@ Tap to delete all registered book records.
 
 ##### 3-4-4-1. '読書管理ビブリア'
 
-- **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox[^3] by [読書管理ビブリア](https://biblia978.com/).  
+- **Import**: Import the [CSV file](https://biblia978.com/support/articles/15/) exported to Dropbox[^3] by [読書管理ビブリア](https://biblia978.com/).
 - **Export**: Export registered book records to a [CSV file](https://biblia978.com/support/articles/15/) that can be restored by [読書管理ビブリア](https://biblia978.com/).
+
+  ![Backup filename](./images/resized/02_Settings_N060_ShowBackupAndRestore_Export_OK.png)
+
+  - The file format is CSV.
+  - The output location for CSV files is `Documents>Book Techyo` (**may be different depending on the device model**).  
+  - The CSV file can be opened and edited with a text editor. If you edit it, make sure not to change the format, character encoding, or line endings.
+  - The CSV file uses UTF-8 (without BOM) encoding and LF line endings.
+  - Tap ![backup share](../../common/images/share_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) to share the CSV file.
 
 読書管理ビブリア backups are created in [Dropbox](https://www.dropbox.com/). Since **Book Techyo** cannot directly access Dropbox, I use the [Dropbox App](https://play.google.com/store/apps/details?id=com.dropbox.android&hl=en) installed to perform import and export as follows:
 
 - **To import into Book Techyo**
   1. Perform a backup in 読書管理ビブリア.
   2. Back up your data using **Book Techyo** in case of failure.
-  3. Launch Dropbox App (using the same Dropbox account as Biblia).  
-  4. In Dropbox App, select `Dropbox/Apps/Biblia/books.csv` and save it to a local folder (e.g., Download) using “Save As.”  
+  3. Launch Dropbox App (using the same Dropbox account as Biblia).
+  4. In Dropbox App, select `Dropbox/Apps/Biblia/books.csv` and save it to a local folder (e.g., Download) using “Save As.”
   5. In **Book Techyo**, delete all records, then import the previously saved CSV file.
 
 - **To export from Book Techyo and restore in '読書管理ビブリア'**
-  1. In **Book Techyo**, use the [Biblia] [Export] option and save the file as `books.csv`.  
+  1. In **Book Techyo**, use the [Biblia] [Export] option and save the file as `books.csv`.
   2. Back up your data using **Book Techyo** in case of failure.
-  3. Launch Dropbox App (using the same Dropbox account as Biblia). 
-  4. Upload the `books.csv` file to `Dropbox/Apps/Biblia` using Dropbox Lite.  
+  3. Launch Dropbox App (using the same Dropbox account as Biblia).
+  4. Upload the `books.csv` file to `Dropbox/Apps/Biblia` using Dropbox Lite.
   5. In 読書管理ビブリア, delete all existing data and then perform a restore.
 
 ### 3-5. About Book Techyo
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo**, then select [About Book Techyo] from the displayed menu to open the about page.
 
-![About](./images/resized/02_Settings_N100_ShowAbout.png)
+![About](./images/resized/02_Settings_N110_ShowAbout.png)
 
 Tapping [Homepage] or [How to Use] will launch your web browser to display the page.
 
 Tapping [Privacy Policy] will display the following page.
 
-![Privacy Policy](./images/resized/02_Settings_N110_About_ShowAppPrivacy.png)
+![Privacy Policy](./images/resized/02_Settings_N120_About_ShowAppPrivacy.png)
 
 This app's privacy policy can also be viewed on the [webpage](PrivacyPolicy.md).
 
 Tapping [OSS License] displays the OSS licenses used by **Book Techyo** on the following page.
 
-![OSS license](./images/resized/02_Settings_N120_About_ShowOssLicenses.png)
+![OSS license](./images/resized/02_Settings_N130_About_ShowOssLicenses.png)
 
 ## 4. Contact
 
