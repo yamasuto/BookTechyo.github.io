@@ -4,6 +4,7 @@
 
 - パフォーマンス改善
 - 誤字訂正
+- ISBN検索・タイトル検索の検索方法の判定を変更しました。
 - 参照パッケージのアップグレード（CommunityToolkit, FluentValidation, Syncfusion）
 
 ## 1.1.0

@@ -4,6 +4,7 @@
 
 - Performance improvements
 - Typo fixes
+- Changed the search method determination for ISBN Search and Title Search
 - Upgraded dependency packages (CommunityToolkit, FluentValidation, Syncfusion)
 
 ## 1.1.0
