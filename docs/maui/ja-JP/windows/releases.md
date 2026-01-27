@@ -2,10 +2,11 @@
 
 ## 1.2.0
 
+- .NET 10
 - パフォーマンス改善
 - 誤字訂正
 - ISBN検索・タイトル検索の検索方法の判定を変更しました。
-- 参照パッケージのアップグレード（CommunityToolkit, FluentValidation, Syncfusion）
+- 参照パッケージのアップグレード
 
 ## 1.1.0
 
