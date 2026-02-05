@@ -10,9 +10,9 @@ This is an application for managing book impressions and notes.
 
 #### ![windows](./maui/common/images/laptop_windows_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
-![English](./maui/common/images/sentiment_satisfied_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [Windows, English](./maui/en-US/windows/maui.md), [Release](./en-US/windows/releases.md)
+![English](./maui/common/images/sentiment_satisfied_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [Windows, English](./maui/en-US/windows/maui.md) [Release](./maui/en-US/windows/releases.md)
 
-![japanese](./maui/common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)[Windows, Japanese](./maui/ja-JP/windows/maui.md), [リリース履歴](./ja-JP/windows/releases.md)
+![japanese](./maui/common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)[Windows, Japanese](./maui/ja-JP/windows/maui.md) [リリース履歴](./maui/ja-JP/windows/releases.md)
 
 <a href="https://apps.microsoft.com/detail/9N3D6MXN4WGG?referrer=appbadge&mode=direct">
 	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
@@ -21,11 +21,12 @@ This is an application for managing book impressions and notes.
 <!-- URL: <https://apps.microsoft.com/detail/9N3D6MXN4WGG>
 
 Store ID: 9N3D6MXN4WGG -->
+
 #### ![android](./maui/common/images/android_32dp_434343_FILL0_wght400_GRAD0_opsz40.png)
 
-![English](./maui/common/images/sentiment_satisfied_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [Android, English](./maui/en-US/android/maui.md), [Release](./en-US/android/releases.md)
+![English](./maui/common/images/sentiment_satisfied_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [Android, English](./maui/en-US/android/maui.md) [Release](./maui/en-US/android/releases.md)
 
-![japanese](./maui/common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)[Android, Japanese](./maui/ja-JP/android/maui.md), [リリース履歴](./ja-JP/android/releases.md)
+![japanese](./maui/common/images/japanese_flag_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)[Android, Japanese](./maui/ja-JP/android/maui.md) [リリース履歴](./maui/ja-JP/android/releases.md)
 
 ## Creator
 
@@ -36,3 +37,4 @@ Store ID: 9N3D6MXN4WGG -->
 Please contact via [my website](https://yamasuto.github.io/BookTechyo.github.io/contact/en-US/) or [GitHub Issues](https://github.com/yamasuto/BookTechyo.github.io/issues).
 
 ---
+
