@@ -7,6 +7,7 @@
 - Typo fixes
 - Changed the search method determination for ISBN Search and Title Search
 - Upgraded dependency packages
+- Added the NDL data provider 'NDL newly acquired bibliographic data' (iss-ndl-opac-inprocess)
 
 ## 1.1.0
 
