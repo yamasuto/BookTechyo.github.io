@@ -6,6 +6,7 @@
 - Upgraded dependency packages
 - Performance improvements
 - Typo fixes
+- The barcode reading function also uses Windows OCR (Windows.Media.Ocr API).
 - Changed the search method determination for ISBN Search and Title Search
 - Added the NDL data provider 'NDL newly acquired bibliographic data' (iss-ndl-opac-inprocess)
 
