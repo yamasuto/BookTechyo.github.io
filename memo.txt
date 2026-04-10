@@ -1,4 +1,8 @@
 - 画像は、.\scripts\resize_images.pyでリサイズする
- - Windows 0.5
+ - Windows 0.6
  - android 0.2 
+
+BookTechyo.github.io> python .\scripts\resize_images.py 
+ (...)\BookTechyo.github.io\docs\maui\ja-JP\windows\images\.senario\working 
+ (...)\BookTechyo.github.io\docs\maui\ja-JP\windows\images\resized 0.6
 

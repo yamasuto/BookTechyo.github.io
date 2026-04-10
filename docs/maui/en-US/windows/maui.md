@@ -1,6 +1,6 @@
 # Book Techyo (Windows Store App Version)<!-- screen vs view vs window vs page => Page -->
 
-![Main](./images/resized/01_Records_N211_ImportBibliaCsvFiles.png)
+![Main](./images/resized/02_Settings_N035_ShowBooks_DefaultFilterAndSort.png)
 
 Table of contents
 
@@ -69,7 +69,7 @@ I could have simply imported the CSV files exported from '読書管理ビブリ�
 This app uses [NDL (National Diet Library) Search](https://ndlsearch.ndl.go.jp/en/) API.
 Metadata Source: National Diet Library Catalog [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode.en).
 
-Unfortunately, I was *unable* to obtain the cover images. I contacted the image provider but could not confirm use rights.
+Unfortunately, **Book Techyo** does not obtain the cover images.
 
 - National Diet Library [Regarding the Termination of the Book Image API Service（2026/Mar/31）in Japanese only](https://ndlsearch.ndl.go.jp/news/20251217)
 
@@ -79,7 +79,11 @@ This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FI
 
 ### 1-4. Software Dependencies
 
-This app depends on **.NET 9.0 runtime**. If **.NET 9.0** is not installed, please download **.NET 9.0 runtime** and install it from <https://dotnet.microsoft.com/download>.
+~~This app depends on **.NET 10.0 runtime**. If **.NET 10.0** is not installed, please download **.NET 10.0 runtime** and install it from <https://dotnet.microsoft.com/download>.~~
+
+### 1-5. Application Version
+
+1.2.0
 
 ## 2. How to Use
 
@@ -106,7 +110,7 @@ Click the OK button to close the message, then click the book search service URL
 You can register books individually or import a file to register them in bulk.
 
 - To register books individually
-  - search by book title
+  - search by book title or author
   - scan the book’s barcode (ISBN) using the camera.
   - search for books using the [NDL Search](https://ndlsearch.ndl.go.jp/en/). Click `Generate citations (bibliographic notes)` on the found book's page and click `Copy example description` to register based on the citation.
 - To register books in bulk via file import, use either a YAML file created from a backup or a CSV file exported from '読書管理ビブリア'.
@@ -123,13 +127,13 @@ At this time, **Book Techyo discards any unsaved changes**, so please be careful
 
 Click the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo** to display the menu.
 
-![Shell](./images/resized/01_Records_N030_ShowFlyout.png)
+![Shell](./images/resized/02_Settings_N005_OpenFlyout.png)
 
 ### 3-1. Books
 
 Display a list of book records.
 
-![Main](./images/resized/01_Records_N211_ImportBibliaCsvFiles.png)
+![Main](./images/resized/02_Settings_N035_ShowBooks_DefaultFilterAndSort.png)
 
 A book record displays the title, authors, status, update date, rating, trophy status, and tags.
 
@@ -240,8 +244,9 @@ When you create or open a book record in **Book Techyo**, the [book detail](#3-1
 ![Barcord Scaned Detail](./images/resized/01_Records_N090_BookSearchPageSelectResult.png)
 
 - Each field can be left empty or as default.
+- Clicking ![expanding](../../common/images/expand_circle_down_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) will expand and display the expander (which includes the publisher, ISBN, number of pages, publication date, URL, image, description, and source). Click the ![shrink](../../common/images/expand_circle_up_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) to collapse and hide the expander.
 
-Click the title or authors field to open a popup. Enter the title and author(s), then click the [OK] button.
+Click the title or authors field to open a popup. Enter the title and author(s), then click the ![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png). To discard the changes and return to the previous, click the ![cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png).
 
 ![title](./images/resized/01_Records_N150_BookDetailToEditTitle.png)
 
@@ -272,7 +277,7 @@ The Trophy![trophy](../../common/images/trophy_32dp_1F1F1F_FILL0_wght400_GRAD0_o
 
 - You can toggle the checkbox on or off independently of other items (such as [Status] or [Stars]).
 - Check the [Trophy] to display the [trophy](../../common/images/trophy_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) in the list as well.
-- You can search by specifying whether [Trophy] is on or off.
+- You can search by specifying whether [Trophy] is on.
 
 #### 3-1-3. Search and sort book records
 
@@ -300,15 +305,19 @@ Click ![More](../../common/images/more_horiz_32dp_1F1F1F_FILL0_wght400_GRAD0_ops
 
 ![MenuOfFilterByStatus](./images/resized/01_Records_N220_BooksPageOpenToolbar.png)
 
-Only items with the **checkbox selected** will be displayed in the list. Clicking to toggle the checkbox will update the list display.
+###### Filter
+
+Only items with the **checkbox selected** will be displayed in the list. Clicking to toggle the checkbox and click the ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) will update the list display.
 
 ![BottomSheet](./images/resized/01_Records_N230_BooksPageFilter.png)
 
-For the [Trophy] feature, first turn on the [switch] on the left, then use the [Checkbox] to choose whether the trophy is on or off. Toggling the checkbox will update the list display.
+Select [Year Finished] and click ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to display only the records of books you finished reading in the specified year. I designed this feature so that you can view only the books you read in a given year when considering which was the most interesting.
+
+Turning on the [Trophy][Switch] and click ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png), the list will display only entries with [Trophy].
+
+###### Sort
 
 For sorting, choose target and direction, then click ![Sort](../../common/images/sort_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to reorder the list.
-
-![BottomSheet changed](./images/resized/01_Records_N240_BooksPageSort.png)
 
 Target
 
@@ -319,6 +328,7 @@ Target
 | Publication Date | Sort by publication date. |
 | Update Date | Sort by last updated date. |
 | Registration Date | Sort by registration date. |
+| Finished Date | Sort by finished date. |
 
 Direction
 
@@ -330,6 +340,10 @@ Direction
 ※ When [None] is selected, [Direction] is hidden.
 
 To close the filter/sort panel, click [Close] in the top-right or click the list area.
+
+###### Restore Default
+
+Click [Restore default] in the [Menu] at the top right or ![Restore](../../common/images/reset_settings_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to reset the filters and sorting to their default settings and refresh the list.
 
 ### 3-2. Chart
 

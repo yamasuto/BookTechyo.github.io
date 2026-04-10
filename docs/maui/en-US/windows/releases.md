@@ -9,6 +9,9 @@
 - The barcode reading function also uses Windows OCR (Windows.Media.Ocr API).
 - Changed the search method determination for ISBN Search and Title Search
 - Added the NDL data provider 'NDL newly acquired bibliographic data' (iss-ndl-opac-inprocess)
+- added the finished year filter
+- Revised the Trophy filter setting
+- Save and restore search words, filters, and sorting criteria
 
 ## 1.1.0
 

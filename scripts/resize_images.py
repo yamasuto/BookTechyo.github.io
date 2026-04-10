@@ -72,6 +72,8 @@ def find_directories(input_folder: Path) -> List[Path]:
 
 if __name__ == "__main__":
 
+    # usage: resize_images.py [-h] [--recursive] input_folder output_folder [rate]
+
     args = parse_args()
 
     input_folder = args.input_folder
