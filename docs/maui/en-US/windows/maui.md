@@ -339,11 +339,13 @@ Direction
 
 ※ When [None] is selected, [Direction] is hidden.
 
-To close the filter/sort panel, click [Close] in the top-right or click the list area.
-
 ###### Restore Default
 
 Click [Restore default] in the [Menu] at the top right or ![Restore](../../common/images/reset_settings_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to reset the filters and sorting to their default settings and refresh the list.
+
+###### Close
+
+To close the filter/sort panel, click [Close] in the top-right or click the list area.
 
 ### 3-2. Chart
 
