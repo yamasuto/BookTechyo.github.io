@@ -305,7 +305,7 @@ Click ![More](../../common/images/more_horiz_32dp_1F1F1F_FILL0_wght400_GRAD0_ops
 
 ![MenuOfFilterByStatus](./images/resized/01_Records_N220_BooksPageOpenToolbar.png)
 
-###### Filter
+###### Filtering
 
 Only items with the **checkbox selected** will be displayed in the list. Clicking to toggle the checkbox and click the ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) will update the list display.
 
@@ -313,9 +313,9 @@ Only items with the **checkbox selected** will be displayed in the list. Clickin
 
 Select [Year Finished] and click ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to display only the records of books you finished reading in the specified year. I designed this feature so that you can view only the books you read in a given year when considering which was the most interesting.
 
-Turning on the [Trophy][Switch] and click ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png), the list will display only entries with [Trophy].
+Turning on the [Trophy] [Switch] and click ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png), the list will display only entries with [Trophy].
 
-###### Sort
+###### Sorting
 
 For sorting, choose target and direction, then click ![Sort](../../common/images/sort_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to reorder the list.
 
