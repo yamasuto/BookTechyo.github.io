@@ -11,6 +11,7 @@ Table of contents
     - [1-1. Why I Created It](#1-1-why-i-created-it)
     - [1-2. Book Data](#1-2-book-data)
     - [1-3. Privacy Policy](#1-3-privacy-policy)
+    - [1-4. Application Version](#1-4-application-version)
   - [2. How to Use](#2-how-to-use)
     - [2-1. Launching Book Techyo](#2-1-launching-book-techyo)
     - [2-2. Before You Start](#2-2-before-you-start)
@@ -69,13 +70,17 @@ I could have simply imported the CSV files exported from '読書管理ビブリ�
 This app uses [NDL (National Diet Library) Search](https://ndlsearch.ndl.go.jp/en/) API.
 Metadata Source: National Diet Library Catalog [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode.en).
 
-Unfortunately, I was *unable* to obtain the cover images. I contacted the image provider but could not confirm use rights.
+Unfortunately, **Book Techyo** does not obtain the cover images.
 
 - National Diet Library [Regarding the Termination of the Book Image API Service（2026/Mar/31）in Japanese only](https://ndlsearch.ndl.go.jp/news/20251217)
 
 ### 1-3. Privacy Policy
 
 This app's [Privacy Policy![link](../../common/images/open_in_new_32dp_000000_FILL0_wght400_GRAD0_opsz40.png)](./PrivacyPolicy)
+
+### 1-4. Application Version
+
+1.2.0
 
 ## 2. How to Use
 
@@ -102,7 +107,7 @@ Tap the OK button to close the message, then tap the book search service URL on 
 You can register books individually or import a file to register them in bulk.
 
 - To register books individually
-  - search by book title
+  - search by book title or author
   - scan the book’s barcode (ISBN) using the camera.
   - Search for books using the [NDL Search](https://ndlsearch.ndl.go.jp/en/). Tap `Generate citations (bibliographic notes)` on the found book's page, select the whole text and share it to register based on the citation.
 - To register books in bulk via file import, use either a YAML file created from a backup or a CSV file exported from '読書管理ビブリア'.
@@ -119,7 +124,7 @@ At this time, **Book Techyo discards any unsaved changes**, so please be careful
 
 Tap the ![menu](../../common/images/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) icon at the top left of **Book Techyo** to display the menu.
 
-![Shell](./images/resized/01_Records_N030_ShowFlyout.png)
+![Shell](./images/resized/02_Settings_N010_ShowBackupAndRestore_OpenFlyout.png)
 
 - If the [Display operation hits] switch at the bottom is turned on, operation hints will be displayed as toast notifications. If turned off, hints will not be displayed.
 
@@ -235,6 +240,7 @@ When you create or open a book record in **Book Techyo**, the [book detail](#3-1
 - Tap ![expanding](../../common/images/expand_circle_down_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) [Detail] to expand and display the expander (containing publisher, ISBN, page count, publication date, URL, image, memo, and source). Tap ![shrink](../../common/images/expand_circle_up_32dp_000000_FILL0_wght400_GRAD0_opsz40.png) to collapse and hide the expander.
 
 Tap the title or authors field to open a popup. Enter the title and author(s), then tap the [OK] button.
+Tap the title or authors field to open a popup. Enter the title and author(s), then tap the ![apply](../../common/images/check_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png). To discard the changes and return to the previous, tap the ![cancel](../../common/images/cancel_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png).
 
 ![title](./images/resized/01_Records_N150_BookDetailToEditTitle.png)
 
@@ -266,7 +272,7 @@ The Trophy![trophy](../../common/images/trophy_32dp_1F1F1F_FILL0_wght400_GRAD0_o
 
 - You can toggle the checkbox on or off independently of other items (such as [Status] or [Stars]).
 - Check the [Trophy] to display the [trophy](../../common/images/trophy_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) in the list as well.
-- You can search by specifying whether [Trophy] is on or off.
+- You can search by specifying whether [Trophy] is on.
 
 #### 3-1-3. Search and sort book records
 
@@ -294,13 +300,19 @@ Tap ![More](../../common/images/more_horiz_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz4
 
 ![MenuOfFilterByStatus](./images/resized/01_Records_N220_BooksPageOpenToolbar.png)
 
-Only items with the **checkbox selected** will be displayed in the list. Tapping to toggle the checkbox will update the list display.
+###### Filtering
+
+Only items with the **checkbox selected** will be displayed in the list. Tapping to toggle the checkbox and tap the ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) will update the list display.
 
 ![BottomSheet](./images/resized/01_Records_N230_BooksPageFilter.png)
 
-For the [Trophy] feature, first turn on the [switch] on the left, then use the [Checkbox] to choose whether the trophy is on or off. Toggling the checkbox will update the list display.
+Select [Year Finished] and tap ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to display only the records of books you finished reading in the specified year. I designed this feature so that you can view only the books you read in a given year when considering which was the most interesting.
+
+Turning on the [Trophy] [Switch] and tap ![filter](../../common/images/filter_alt_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png), the list will display only entries with [Trophy].
 
 ![Award](./images/resized/01_Records_N231_BooksPageFilter_Award.png)
+
+###### Sorting
 
 For sorting, choose target and direction, then tap ![Sort](../../common/images/sort_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to reorder the list.
 
@@ -315,6 +327,7 @@ Target
 | Publication Date | Sort by publication date. |
 | Update Date | Sort by last updated date. |
 | Registration Date | Sort by registration date. |
+| Finished Date | Sort by finished date. |
 
 Direction
 
@@ -324,6 +337,14 @@ Direction
 | Ascending | From smaller to larger values, or older to newer dates. |
 
 ※ When [None] is selected, [Direction] is hidden.
+
+To close the filter/sort panel, tap [Close] in the top-right or tap the list area.
+
+###### Restore Default
+
+Tap [Restore default] in the [Menu] at the top right or ![Restore](../../common/images/reset_settings_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.png) to reset the filters and sorting to their default settings and refresh the list.
+
+###### Close
 
 To close the filter/sort panel, tap [Close] in the top-right or tap the list area.
 
