@@ -1,8 +1,15 @@
 - 画像は、.\scripts\resize_images.pyでリサイズする
  - Windows 0.6
  - android 0.2 
+ - remarks : `resized` directory is ignored
+ - ディレクトリー名を昇順で処理して、ファイルを上書きする
 
 BookTechyo.github.io> python .\scripts\resize_images.py 
- (...)\BookTechyo.github.io\docs\maui\ja-JP\windows\images\.senario\working 
+ --recursive
+ (...)\BookTechyo.github.io\docs\maui\ja-JP\windows\images\.working
  (...)\BookTechyo.github.io\docs\maui\ja-JP\windows\images\resized 0.6
 
+BookTechyo.github.io> python .\scripts\resize_images.py 
+ --recursive 
+ (...)\BookTechyo.github.io\docs\maui\en-US\android\images\.working
+ (...)\BookTechyo.github.io\docs\maui\en-US\android\images\resized 0.2

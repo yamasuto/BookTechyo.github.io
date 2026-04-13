@@ -25,7 +25,7 @@ def resize_images(input_folder, output_folder, rate):
                 resized_img.save(output_file, format="PNG")
             print("リサイズ完了:", output_file)
             count = count + 1
-    print(f"{count} files were resized.")
+    print(f"{count} files were resized in {input_folder}.")
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -67,12 +67,13 @@ def find_directories(input_folder: Path) -> List[Path]:
         ):
             directories.append(p.resolve())
 
+    directories.sort() # 昇順に並び替え
     return directories
 
 
 if __name__ == "__main__":
 
-    # usage: resize_images.py [-h] [--recursive] input_folder output_folder [rate]
+    # usage: resize_images.py [--recursive] input_folder output_folder [rate]
 
     args = parse_args()
 
