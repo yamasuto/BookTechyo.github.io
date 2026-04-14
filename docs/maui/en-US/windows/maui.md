@@ -10,6 +10,7 @@ Table of contents
     - [1-2. Book Data](#1-2-book-data)
     - [1-3. Privacy Policy](#1-3-privacy-policy)
     - [1-4. Software Dependencies](#1-4-software-dependencies)
+    - [1-5. Application Version](#1-5-application-version)
   - [2. How to Use](#2-how-to-use)
     - [2-1. Launching Book Techyo](#2-1-launching-book-techyo)
     - [2-2. Before You Start](#2-2-before-you-start)
