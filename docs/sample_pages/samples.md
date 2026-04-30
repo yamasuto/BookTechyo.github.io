@@ -49,5 +49,9 @@
 
 ![music_gakufu_close](music_gakufu_close.png)
 
+## common
+
+![large image](4800x3000(1MByte).jpg)
+
 ----
 [^1]: 株式会社ＭＩＦＵＮＥの商標です。
