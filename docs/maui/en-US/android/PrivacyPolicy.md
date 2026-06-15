@@ -6,6 +6,8 @@ This application (hereinafter referred to as "the App") respects user privacy an
 
 The App does **not collect or store any personally identifiable information** such as your name, address, email address, or phone number.
 
+The ML Kit API used for barcode scanning may connect to Google's servers from time to time to obtain bug fixes, model updates, and hardware accelerator compatibility information.In addition, the ML Kit API sends metrics data to Google regarding the API's performance and usage within your app.Google uses this metrics data to measure, debug, maintain, and improve API performance, as well as to detect misuse and abuse, as detailed in [Google’s Privacy Policy](https://policies.google.com/privacy).
+
 ## 2. User Input and Reading History Management
 
 The App allows users to input book titles, authors or ISBNs to retrieve and display book information. The acquired book information and the user's reading history are **stored only locally on the user’s device** and are **never transmitted externally**.
