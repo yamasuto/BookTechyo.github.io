@@ -392,6 +392,7 @@ If the service’s icon ![barcode](../../common/images/barcode_32dp_1F1F1F_FILL0
 | National Diet Library Search | <https://ndlsearch.ndl.go.jp/> | Search by ISBN and title |
 | Aozora Bunko, National Diet Library Search | <https://ndlsearch.ndl.go.jp/> | Search by title |
 
+- `National Diet Library Search` and `Aozora Bunko, National Diet Library Search`, The maximum number of records that can be acquired at a time is 500.
 - Aozora Bunko, National Diet Library Search performs searches by specifying Aozora Bunko (repository number R000000014) as the data provider in the National Diet Library Search.
 
 #### 3-3-2. Maximum number of results retrieved from each book search service
